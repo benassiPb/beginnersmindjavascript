@@ -139,20 +139,9 @@ a {
   width: 250px;
 }
 
-.connect-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.connect-box {
-  width: 100px;
-  padding: 10px;
-  align-items: center;
-}
-
 .connect-image {
-  max-width: 50px;
+  width: 25px;
+  align-items: left;
 }
 
 .grid-post-box {
@@ -163,16 +152,16 @@ a {
   margin: 2px;
 }
 
+.grid-page-container {
+  display: flex;
+}
+
 .grid-post-container {
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.grid-page-container {
-  display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 .postslist-container {

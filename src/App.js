@@ -17,7 +17,6 @@ function App() {
 
       {view === "Writing" ? <Writing /> : null}
       {view === "About" ? <About /> : null}
-      {view === "Connect" ? <Connect /> : null}
       {view === "Projects" ? <Projects /> : null}
     </div>
   );

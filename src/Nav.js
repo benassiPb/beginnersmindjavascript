@@ -41,15 +41,7 @@ function Nav(props) {
             </div>
           </li>
 
-          <li className="nav-link">
-            <div className="inline" onClick={() => setView("Connect")}>
-              {view === "Connect" ? (
-                <span className="bold">connect</span>
-              ) : (
-                <span>connect</span>
-              )}
-            </div>
-          </li>
+          
         </nav>
       </div>
     </div>

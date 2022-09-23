@@ -1,6 +1,7 @@
 import React from "react";
 import bmjlogo from "./images/bmjlogo.jpg";
 import bitmoji from "./images/bitmoji.png";
+import linkedIn from "./images/linkedin.png";
 
 function About() {
   return (
@@ -26,8 +27,8 @@ function About() {
 
         <p className="about-p">
           What drew me into tech was the vision of a career that was creative,
-          collaborative, intellectually engaging, culturally important and
-          impactful, and full of new and constantly evolving opportunities.
+          collaborative, intellectually engaging, impactful, and full of new and
+          evolving opportunities.
         </p>
 
         <p className="about-p">
@@ -37,18 +38,24 @@ function About() {
           technologies, but I also reflect on growth, challenges, change, and
           purpose.
         </p>
-        <p className="about-p">
-          Here's to the endless journey and always growing mountain ahead.
-        </p>
+
         <p className="about-p">Thanks for stopping by,</p>
         <div className="about-name-photo-container">
-          <p className="about-p bold">Peter Benassi</p>
-          <img
-            className="pb-image"
-            src={bitmoji}
-            alt="pile of stacked stones"
-          />
+          <div>
+            <p className="about-p bold">Peter Benassi</p>
+          </div>
+          <img className="pb-image" src={bitmoji} alt="author" />
         </div>
+      </div>
+      <span>Connect on LinkedIn</span>
+      <div className="connect-box">
+        <a
+          href="https://www.linkedin.com/in/pb-benassi/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="connect-image" src={linkedIn} alt="logo" />
+        </a>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ let frontEndProjectData = [
   {
     id: 1,
     projecttNumber: 1,
-    title: "TBD",
+    title: "Tao",
     stack: "Figma, CSS",
     description: "tbd",
   },
