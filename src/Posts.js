@@ -10,6 +10,8 @@ import {
 
 function Posts() {
   const [postView, setPostView] = useState("grid");
+  const [currentPost, setCurrentPost] = useState(1);
+
   return (
     <div className="Writing-page-container">
       <div>
@@ -52,7 +54,12 @@ function Posts() {
         </div>
 
         {postView === "list" ? <PostsList /> : null}
-        {postView === "single" ? <SinglePost /> : null}
+        {postView === "single" ? (
+          <SinglePost
+            currentPost={currentPost}
+            setCurrentPost={setCurrentPost}
+          />
+        ) : null}
         {postView === "grid" ? <PostsGrid /> : null}
       </div>
     </div>
