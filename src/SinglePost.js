@@ -12,8 +12,8 @@ function SinglePost(props) {
         )}
       </div>
       <div className="previous-next-container">
-        <p>prev</p>
-        <p>next</p>
+        <p className="previous-next-text">prev</p>
+        <p className="previous-next-text">next</p>
       </div>
     </div>
   );

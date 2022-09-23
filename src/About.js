@@ -12,7 +12,7 @@ function About() {
           src={bmjlogo}
           alt="pile of stacked stones"
         />
-        <h2>Welcome</h2>
+        <h2 className="font-size-3rem">Welcome</h2>
 
         <p className="about-p">
           A little background: I spent nearly a decade working for international
@@ -42,15 +42,21 @@ function About() {
         <p className="about-p">Thanks for stopping by,</p>
         <div className="about-name-photo-container">
           <div>
-            <p className="about-p bold">Peter Benassi</p>
-            <div className="connect-box">
+            <p className="about-p bold font-size-1-5rem cursive">
+              Peter Benassi
+            </p>
+            <div className="connect-box margin-top-minus-20">
               <div>
                 <a
                   href="https://www.linkedin.com/in/pb-benassi/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="connect-image" src={linkedIn} alt="logo" />
+                  <img
+                    className="connect-image padding-left-10 "
+                    src={linkedIn}
+                    alt="logo"
+                  />
                 </a>
               </div>
             </div>

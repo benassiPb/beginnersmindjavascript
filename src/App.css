@@ -30,6 +30,24 @@ a {
   color: black;
 }
 
+.font-size-3rem {
+  font-size: 3rem;
+}
+.font-size-2rem {
+  font-size: 2rem;
+}
+.font-size-1-5rem {
+  font-size: 1.5rem;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.margin-top-minus-20 {
+  margin-top: -20px;
+}
+
 .title {
   font-size: 22px;
   padding-left: 10px;
@@ -247,8 +265,15 @@ a {
 
 .previous-next-container {
   display: flex;
+  justify-content: center;
 }
 
 .previous-next-text {
-  padding: 10px;
+  padding: 20px;
+}
+
+.previous-next-text:hover {
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
