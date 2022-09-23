@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .App-logo {
@@ -7,32 +14,147 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: white;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-size: 22px;
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cursive {
+  font-family: Arizonia;
+}
+
+.nav-top-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bottom-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.nav-link {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+}
+
+.inline {
+  display: inline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.project-container {
+  max-width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 20px;
+  align-content: center;
+  min-width: 200px;
+}
+
+.projects-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-tags {
+  font-size: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.writing-toggle-view,
+.project-toggle-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-page {
+  max-width: 400px;
+}
+
+.about-p {
+  margin-top: 10px;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.stones-image {
+  max-width: 90%;
+  border-radius: 100%;
+}
+
+.about-name-photo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pb-image {
+  width: 250px;
+}
+
+.connect-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.connect-box {
+  width: 100px;
+  padding: 10px;
+  align-items: center;
+}
+
+.connect-image {
+  max-width: 50px;
+}
+
+.grid-post-box {
+  border: 1px solid black;
 }

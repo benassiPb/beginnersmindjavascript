@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Writing from "./Writing.js";
+import About from "./About.js";
+import Connect from "./Connect.js";
+import Nav from "./Nav.js";
+import Projects from "./Projects.js";
+import React, { useState } from "react";
 
 function App() {
+  const [view, setView] = useState("Writing");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Nav view={view} setView={setView} />
+      </div>
+
+      {view === "Writing" ? <Writing /> : null}
+      {view === "About" ? <About /> : null}
+      {view === "Connect" ? <Connect /> : null}
+      {view === "Projects" ? <Projects /> : null}
     </div>
   );
 }
