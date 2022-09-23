@@ -3,8 +3,8 @@ import samplePostsData from "./postData";
 
 function PostsGrid() {
   return (
-    <div>
-      <div>
+    <div className="grid-page-container">
+      <div className="grid-post-container">
         {samplePostsData.map((post) => {
           return (
             <div className="grid-post-box">

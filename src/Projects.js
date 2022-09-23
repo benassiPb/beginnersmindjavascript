@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sampleProjectData from "./projectData";
+import sampleProjectData from "./fullStackProjectData";
 import FrontEndProjects from "./FrontEndProjects";
 import FullStackProjects from "./FullStackProjects";
 

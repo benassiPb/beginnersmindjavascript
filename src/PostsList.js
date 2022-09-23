@@ -4,11 +4,11 @@ import samplePostsData from "./postData";
 function PostsList() {
   return (
     <div>
-      <div>
+      <div className="postslist-container">
         {samplePostsData.map((post) => {
           return (
-            <div>
-              <h4>
+            <div key={post.id}>
+              <h4 className="postslist-title">
                 {post.postNumber}. {post.title}
               </h4>
             </div>

@@ -157,4 +157,28 @@ a {
 
 .grid-post-box {
   border: 1px solid black;
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 2px;
+}
+
+.grid-post-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-page-container {
+  display: flex;
+  justify-content: right;
+}
+
+.postslist-container {
+  margin-top: 50px;
+}
+
+.postslist-title {
+  line-height: 2rem;
 }

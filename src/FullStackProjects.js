@@ -1,11 +1,11 @@
 import React from "react";
-import sampleProjectData from "./projectData";
+import fullStackProjectData from "./fullStackProjectData";
 
 function FullStackProjects() {
   return (
     <div>
       <div className="projects-container">
-        {sampleProjectData.map((post) => {
+        {fullStackProjectData.map((post) => {
           return (
             <div className="project-container">
               <h3>{post.title}</h3>
