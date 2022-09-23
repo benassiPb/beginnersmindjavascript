@@ -32,11 +32,13 @@ a {
 
 .title {
   font-size: 22px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .cursive {
   font-family: Arizonia;
+  font-size: 2rem;
+  padding-left: 10px;
 }
 
 .nav-top-container {
@@ -191,6 +193,9 @@ a {
 .grid-page-container {
   display: flex;
   justify-content: center;
+}
+
+.grid-subtitle {
 }
 
 .width-max-800 {
