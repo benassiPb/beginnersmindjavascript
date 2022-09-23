@@ -189,10 +189,16 @@ a {
 } */
 
 .grid-page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.width-max-800 {
   max-width: 800px;
+}
+
+.width-min-500 {
   min-width: 500px;
-  /* align-items: center;
-  text-align: center; */
 }
 
 .posts-container {
