@@ -6,7 +6,7 @@ function Nav(props) {
     <div className="header">
       <div className="nav-top-container">
         <h1 className="title">
-          beginner's mind <span className="cursive">javascript</span>
+          beginner's mind <span className="cursive">JavaScript</span>
         </h1>
       </div>
       <div className="nav-bottom-container">
@@ -40,8 +40,6 @@ function Nav(props) {
               )}
             </div>
           </li>
-
-          
         </nav>
       </div>
     </div>

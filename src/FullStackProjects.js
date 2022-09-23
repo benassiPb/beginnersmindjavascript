@@ -1,5 +1,5 @@
 import React from "react";
-import fullStackProjectData from "./fullStackProjectData";
+import fullStackProjectData from "./data/fullStackProjectData";
 
 function FullStackProjects() {
   return (

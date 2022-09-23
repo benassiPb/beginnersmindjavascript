@@ -1,5 +1,5 @@
 import "./App.css";
-import Writing from "./Writing.js";
+import Posts from "./Posts.js";
 import About from "./About.js";
 import Connect from "./Connect.js";
 import Nav from "./Nav.js";
@@ -15,7 +15,7 @@ function App() {
         <Nav view={view} setView={setView} />
       </div>
 
-      {view === "Writing" ? <Writing /> : null}
+      {view === "Writing" ? <Posts /> : null}
       {view === "About" ? <About /> : null}
       {view === "Projects" ? <Projects /> : null}
     </div>

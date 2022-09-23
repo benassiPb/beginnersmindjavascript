@@ -1,5 +1,5 @@
 import React from "react";
-import frontEndProjectData from "./frontEndProjectData";
+import frontEndProjectData from "./data/frontEndProjectData";
 
 function FrontEndProjects() {
   return (

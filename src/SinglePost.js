@@ -1,5 +1,5 @@
 import React from "react";
-import samplePostsData from "./postData";
+import samplePostsData from "./data/postData";
 
 function SinglePost() {
   return (

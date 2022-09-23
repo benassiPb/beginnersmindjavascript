@@ -2,8 +2,13 @@ import React, { useState } from "react";
 import SinglePost from "./SinglePost.js";
 import PostsList from "./PostsList.js";
 import PostsGrid from "./PostsGrid.js";
+import {
+  AiFillAppstore,
+  AiOutlineBars,
+  AiOutlineAlignLeft,
+} from "react-icons/ai";
 
-function Writing() {
+function Posts() {
   const [postView, setPostView] = useState("grid");
   return (
     <div className="Writing-page-container">
@@ -11,27 +16,37 @@ function Writing() {
         <div className="writing-toggle-view">
           <div className="pointer" onClick={() => setPostView("grid")}>
             {postView === "grid" ? (
-              <span className="padding-10 bold">Grid View</span>
+              <span className="padding-30 bold">
+                <AiFillAppstore fontSize="1.1em" />
+              </span>
             ) : (
-              <span className={["padding-10"]}>Grid View</span>
+              <span className={["padding-30"]}>
+                <AiFillAppstore color="gray" />
+              </span>
             )}
           </div>
-          <span className="padding-10">|</span>
 
           <div className="pointer" onClick={() => setPostView("list")}>
             {postView === "list" ? (
-              <span className="padding-10 bold">List View</span>
+              <span className="padding-30 bold">
+                <AiOutlineBars fontSize="1.1em" />
+              </span>
             ) : (
-              <span className={["padding-10"]}>List View</span>
+              <span className={["padding-30"]}>
+                <AiOutlineBars color="gray" />
+              </span>
             )}
           </div>
-          <span className="padding-10">|</span>
 
           <div className="pointer" onClick={() => setPostView("single")}>
             {postView === "single" ? (
-              <span className="padding-10 bold">Single Post View</span>
+              <span className="padding-30 bold">
+                <AiOutlineAlignLeft fontSize="1.1em" />
+              </span>
             ) : (
-              <span className={["padding-10"]}>Single Post View</span>
+              <span className={["padding-30"]}>
+                <AiOutlineAlignLeft color="gray" />
+              </span>
             )}
           </div>
         </div>
@@ -44,4 +59,4 @@ function Writing() {
   );
 }
 
-export default Writing;
+export default Posts;

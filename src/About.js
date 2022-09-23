@@ -43,19 +43,20 @@ function About() {
         <div className="about-name-photo-container">
           <div>
             <p className="about-p bold">Peter Benassi</p>
+            <div className="connect-box">
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/pb-benassi/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img className="connect-image" src={linkedIn} alt="logo" />
+                </a>
+              </div>
+            </div>
           </div>
           <img className="pb-image" src={bitmoji} alt="author" />
         </div>
-      </div>
-      <span>Connect on LinkedIn</span>
-      <div className="connect-box">
-        <a
-          href="https://www.linkedin.com/in/pb-benassi/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="connect-image" src={linkedIn} alt="logo" />
-        </a>
       </div>
     </div>
   );
