@@ -33,7 +33,7 @@ function SingleProject(props) {
                 <p>{project.image}</p>
               </div>
 
-              <div className="project-link-container">
+              <div className="project-description-container">
                 <FaGithub size="2rem" />
                 <p className="bold  uppercase ">Repo</p>
                 <p>{project.repo}</p>

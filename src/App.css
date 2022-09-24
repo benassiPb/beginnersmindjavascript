@@ -358,16 +358,18 @@ a {
 }
 
 .previous-next-text:hover {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .project-page-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100vw;
+  flex-wrap: wrap-reverse;
+}
+
+.project-sidebar-spacing-container {
+  /* border: 1px solid black; */
 }
 
 .project-container {
@@ -375,15 +377,14 @@ a {
 }
 
 .project-sidebar-container {
-  background-color: rgba(234, 243, 255, 0.6);
-  position: fixed;
-  margin-left: -20px;
-  max-width: 250px;
+  /* background-color: rgba(234, 243, 255, 0.6); */
+  max-width: 300px;
 }
 .project-sidebar-header {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 800;
+  padding-top: 20px;
 }
 
 .project-sidebar-title {
@@ -391,6 +392,8 @@ a {
   cursor: pointer;
   font-size: 0.9rem;
   padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
 }
 
 .project-sidebar-title:hover {
@@ -411,7 +414,7 @@ a {
 }
 
 .project-title-container {
-  background-color: #eaf3ff;
+  /* background-color: #eaf3ff; */
   padding-left: 100px;
   padding-right: 100px;
   margin-right: -100px;
