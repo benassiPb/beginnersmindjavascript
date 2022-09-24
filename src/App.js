@@ -1,7 +1,6 @@
 import "./App.css";
 import Posts from "./Posts.js";
 import About from "./About.js";
-import Connect from "./Connect.js";
 import Nav from "./Nav.js";
 import Projects from "./Projects.js";
 import React, { useState } from "react";

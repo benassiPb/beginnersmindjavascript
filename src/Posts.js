@@ -18,11 +18,11 @@ function Posts() {
         <div className="writing-toggle-view">
           <div className="pointer" onClick={() => setPostView("grid")}>
             {postView === "grid" ? (
-              <span className="padding-30 bold">
-                <AiFillAppstore fontSize="1.1em" />
+              <span className="margin-30 bold">
+                <AiFillAppstore fontSize="1.1em" color="rgb(66, 132, 255)" />
               </span>
             ) : (
-              <span className={["padding-30"]}>
+              <span className="padding-30">
                 <AiFillAppstore color="gray" />
               </span>
             )}
@@ -30,11 +30,11 @@ function Posts() {
 
           <div className="pointer" onClick={() => setPostView("list")}>
             {postView === "list" ? (
-              <span className="padding-30 bold">
-                <AiOutlineBars fontSize="1.1em" />
+              <span className="margin-30 bold">
+                <AiOutlineBars fontSize="1.1em" color="rgb(66, 132, 255)" />
               </span>
             ) : (
-              <span className={["padding-30"]}>
+              <span className="margin-30">
                 <AiOutlineBars color="gray" />
               </span>
             )}
@@ -42,8 +42,11 @@ function Posts() {
 
           <div className="pointer" onClick={() => setPostView("single")}>
             {postView === "single" ? (
-              <span className="padding-30 bold">
-                <AiOutlineAlignLeft fontSize="1.1em" />
+              <span className="margin-30 bold">
+                <AiOutlineAlignLeft
+                  fontSize="1.1em"
+                  color="rgb(66, 132, 255)"
+                />
               </span>
             ) : (
               <span className="padding-30">

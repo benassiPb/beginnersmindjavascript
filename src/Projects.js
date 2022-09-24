@@ -1,33 +1,23 @@
 import React, { useState } from "react";
-import FrontEndProjects from "./FrontEndProjects";
-import FullStackProjects from "./FullStackProjects";
+import SingleProject from "./SingleProject";
+import ProjectsSidebar from "./ProjectsSidebar";
 
 function Projects() {
   const [projectView, setProjectView] = useState("front");
+  const [currentProject, setCurrentProject] = useState(1);
+
   return (
-    <div className="Project-page-container">
-      <div>
-        <div className="project-toggle-view">
-          <div className="pointer" onClick={() => setProjectView("front")}>
-            {projectView === "front" ? (
-              <span className="padding-10 bold">front end</span>
-            ) : (
-              <span className={["padding-10"]}>front end</span>
-            )}
-          </div>
-          <span className="padding-10">|</span>
+    <div className="project-page-container">
+      <div className="project-sidebar-container">
+        <h2 className="project-sidebar-header">Projects</h2>
+        <ProjectsSidebar setCurrentProject={setCurrentProject} />
+      </div>
 
-          <div className="pointer" onClick={() => setProjectView("full")}>
-            {projectView === "full" ? (
-              <span className="padding-10 bold">full stack</span>
-            ) : (
-              <span className={["padding-10"]}>full stack</span>
-            )}
-          </div>
-        </div>
-
-        {projectView === "front" ? <FrontEndProjects /> : null}
-        {projectView === "full" ? <FullStackProjects /> : null}
+      <div className="project-container">
+        <SingleProject
+          setCurrentProject={setCurrentProject}
+          currentProject={currentProject}
+        />
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import postData from "./data/postData";
-// import {useEffect} from React
 
 function SinglePost(props) {
   const { currentPost, setCurrentPost } = props;
@@ -17,9 +16,6 @@ function SinglePost(props) {
       : setCurrentPost(postData.length);
   };
 
-  // useEffect(() => {
-  //   , [currentPost]
-  // })
   return (
     <div className="single-post-page-container">
       <div className="single-post-container center">
@@ -28,7 +24,7 @@ function SinglePost(props) {
             post.postNumber !== currentPost ? null : (
               <div key={post.id}>
                 <h2>{post.title}</h2>
-                <div className="align-center">
+                <div className=" title-subject-container">
                   <p className="subject-tag align-center">{post.subject}</p>
                 </div>
 

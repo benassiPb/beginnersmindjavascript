@@ -86,7 +86,7 @@ function PostsGrid(props) {
 
         <div className="posts-container reverse-wrap">
           <div className="posts-content-container">
-            <p className="posts-list">
+            <div className="posts-list">
               {postData.map((post) =>
                 post.subject === "Cloud" ? (
                   <div key={post.id}>
@@ -100,7 +100,7 @@ function PostsGrid(props) {
                   </div>
                 ) : null
               )}
-            </p>
+            </div>
           </div>
           <div className="posts-title-container">
             <p className=" posts-title"> Cloud Skills</p>
@@ -131,7 +131,7 @@ function PostsGrid(props) {
 
         <div className="posts-container reverse-wrap">
           <div className="posts-content-container">
-            <p className="posts-list">
+            <div className="posts-list">
               {postData.map((post) =>
                 post.subject === "Books" ? (
                   <div key={post.id}>
@@ -145,7 +145,7 @@ function PostsGrid(props) {
                   </div>
                 ) : null
               )}
-            </p>
+            </div>
           </div>
           <div className="posts-title-container">
             <p className=" posts-title"> Books</p>

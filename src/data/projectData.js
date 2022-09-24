@@ -1,4 +1,4 @@
-let fullStackProjectData = [
+let projectData = [
   {
     id: 1,
     projectNumber: 1,
@@ -23,4 +23,4 @@ let fullStackProjectData = [
   },
 ];
 
-export default fullStackProjectData;
+export default projectData;

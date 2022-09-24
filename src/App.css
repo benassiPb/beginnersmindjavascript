@@ -48,6 +48,10 @@ a {
   margin-top: -20px;
 }
 
+.margin-30 {
+  margin: 30px;
+}
+
 .title {
   font-size: 18px;
   padding-left: 10px;
@@ -107,12 +111,13 @@ a {
 }
 
 .project-container {
-  max-width: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
   border-radius: 5px;
-  margin: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
   align-content: center;
-  min-width: 200px;
+  flex-grow: 2;
 }
 
 .projects-container {
@@ -268,14 +273,33 @@ a {
   max-width: 500px;
 }
 
+.title-subject-container {
+  display: flex;
+  justify-content: center;
+}
+
 .subject-tag {
   color: white;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   background-color: rgb(66, 132, 255);
   max-width: 120px;
   text-transform: uppercase;
+  border-radius: 3px;
+  padding: 2px;
 }
+
+.subject-list {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline;
+  padding-left: 15px;
+}
+
+/* .border-bottom {
+  border-bottom: 3px solid rgba(66, 132, 255, 0.2);
+} */
 
 .align-center {
   text-align: center;
@@ -315,4 +339,39 @@ a {
   font-weight: 700;
   font-size: 1.1rem;
   cursor: pointer;
+}
+
+.project-page-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.project-sidebar-container {
+  width: 30%;
+  min-width: 200px;
+}
+
+.project-sidebar-header {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.project-sidebar-title {
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.project-sidebar-tags {
+  font-size: 0.7rem;
+}
+
+.point-8-rem {
+  font-size: 0.8rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
