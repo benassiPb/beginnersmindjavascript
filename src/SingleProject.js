@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "./data/projectData";
-
+import { FaToolbox, FaLightbulb } from "react-icons/fa";
 function SingleProject(props) {
   const { setCurrentProject, currentProject } = props;
   return (
@@ -9,17 +9,23 @@ function SingleProject(props) {
         {projectData.map((project) =>
           project.id === currentProject ? (
             <div>
-              <h3>{project.title}</h3>
-              <p className="">
-                <span className="bold point-8-rem uppercase">Tech Stack: </span>
-                {project.stack}
-              </p>
-              <p>
-                <span className="bold point-8-rem uppercase">
-                  Description:{" "}
-                </span>
-                {project.description}
-              </p>
+              <div className="project-title-container font-size-3rem uppercase">
+                <h3>{project.title}</h3>
+              </div>
+
+              <div className="project-stack-container">
+                <FaToolbox size="2rem" />
+                <p className="bold uppercase "> Tech Stack </p>
+                <p className="font-size-2rem font-weight-200">
+                  {project.stack}
+                </p>
+              </div>
+
+              <div className="project-description-container">
+                <FaLightbulb size="2rem" />
+                <p className="bold  uppercase ">Description</p>
+                <p>{project.description}</p>
+              </div>
             </div>
           ) : null
         )}

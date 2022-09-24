@@ -30,6 +30,9 @@ a {
   color: black;
 }
 
+.font-size-4rem {
+  font-size: 4rem;
+}
 .font-size-3rem {
   font-size: 3rem;
 }
@@ -38,6 +41,14 @@ a {
 }
 .font-size-1-5rem {
   font-size: 1.5rem;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.blue {
+  color: darkblue;
 }
 
 .padding-left-10 {
@@ -114,7 +125,7 @@ a {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 2px;
   margin-right: 100px;
   align-content: center;
   flex-grow: 2;
@@ -211,15 +222,6 @@ a {
   text-transform: uppercase;
   font-weight: 900;
 }
-
-/* .grid-post-box {
-  border: 1px solid black;
-  min-width: 300px;
-  max-width: 300px;
-  min-height: 300px;
-  max-height: 300px;
-  margin: 2px;
-} */
 
 .grid-page-container {
   display: flex;
@@ -345,13 +347,15 @@ a {
   display: flex;
   flex-direction: row;
   width: 100vw;
+  align-content: stretch;
 }
 
 .project-sidebar-container {
-  width: 30%;
-  min-width: 200px;
+  width: 300px;
+  background-color: rgba(234, 243, 255, 0.6);
+  position: static;
+  margin-left: -20px;
 }
-
 .project-sidebar-header {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -359,13 +363,19 @@ a {
 }
 
 .project-sidebar-title {
-  text-align: center;
-  font-weight: 200;
+  text-align: left;
   cursor: pointer;
+  font-size: 0.9rem;
+  padding-right: 10px;
+}
+
+.project-sidebar-title:hover {
+  font-weight: 800;
 }
 
 .project-sidebar-tags {
   font-size: 0.7rem;
+  font-weight: 200;
 }
 
 .point-8-rem {
@@ -374,4 +384,23 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.project-title-container {
+  background-color: #eaf3ff;
+  padding: 100px;
+  margin-right: -100px;
+  max-width: 600px;
+}
+.project-stack-container {
+  background-color: rgba(234, 243, 255, 0.5);
+  padding: 100px;
+  margin-right: -100px;
+  max-width: 600px;
+}
+.project-description-container {
+  background-color: #eaf3ff;
+  padding: 100px;
+  margin-right: -100px;
+  max-width: 600px;
 }
