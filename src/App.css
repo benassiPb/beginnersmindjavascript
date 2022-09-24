@@ -30,6 +30,10 @@ a {
   color: black;
 }
 
+.darkblue {
+  color: darkblue;
+}
+
 .font-size-4rem {
   font-size: 4rem;
 }
@@ -42,8 +46,15 @@ a {
 .font-size-1-5rem {
   font-size: 1.5rem;
 }
+.font-size-1rem {
+  font-size: 1rem;
+}
 
 .font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-100 {
   font-weight: 200;
 }
 
@@ -202,7 +213,7 @@ a {
 }
 
 .posts-container {
-  margin-top: 5px;
+  margin-top: 1px;
   max-height: 300px;
   display: flex;
   flex-direction: row;
@@ -211,16 +222,18 @@ a {
 
 .posts-title-container,
 .posts-content-container {
-  border: 1px solid white;
-  margin: 2px;
+  margin: 1px;
   max-width: 49%;
   min-width: 49%;
+  background-color: #eaf3ff;
+  padding-left: 5px;
 }
 
 .posts-title-container {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 900;
+  background-color: #eaf3ff;
 }
 
 .grid-page-container {
@@ -231,6 +244,10 @@ a {
 .grid-subtitle {
   text-align: left;
   cursor: pointer;
+}
+
+.grid-subtitle:hover {
+  font-style: italic;
 }
 
 .width-max-800 {
@@ -326,7 +343,10 @@ a {
   font-weight: 300;
   cursor: pointer;
 }
-/* test */
+
+.postslist-title:hover {
+  font-style: italic;
+}
 
 .previous-next-container {
   display: flex;
@@ -346,15 +366,19 @@ a {
 .project-page-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100vw;
+}
+
+.project-container {
   align-content: stretch;
 }
 
 .project-sidebar-container {
-  width: 300px;
   background-color: rgba(234, 243, 255, 0.6);
-  position: static;
+  position: fixed;
   margin-left: -20px;
+  max-width: 250px;
 }
 .project-sidebar-header {
   font-size: 0.8rem;
@@ -388,9 +412,11 @@ a {
 
 .project-title-container {
   background-color: #eaf3ff;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-right: -100px;
   max-width: 600px;
+  line-height: 0px;
 }
 .project-stack-container {
   background-color: rgba(234, 243, 255, 0.5);
@@ -400,6 +426,13 @@ a {
 }
 .project-description-container {
   background-color: #eaf3ff;
+  padding: 100px;
+  margin-right: -100px;
+  max-width: 600px;
+}
+
+.project-link-container {
+  background-color: rgba(234, 243, 255, 0.5);
   padding: 100px;
   margin-right: -100px;
   max-width: 600px;

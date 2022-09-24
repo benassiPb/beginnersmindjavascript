@@ -16,7 +16,7 @@ function ProjectsSidebar(props) {
             onClick={() => handleClick(project.id)}
           >
             {" "}
-            {project.title}{" "}
+            {project.subtitle}{" "}
             <span className="project-sidebar-tags">({project.stack})</span>
           </p>
         </div>

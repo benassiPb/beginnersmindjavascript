@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "./data/projectData";
-import { FaToolbox, FaLightbulb } from "react-icons/fa";
+import { FaToolbox, FaLightbulb, FaGithub } from "react-icons/fa";
 function SingleProject(props) {
   const { setCurrentProject, currentProject } = props;
   return (
@@ -11,6 +11,7 @@ function SingleProject(props) {
             <div>
               <div className="project-title-container font-size-3rem uppercase">
                 <h3>{project.title}</h3>
+                <h4 className="font-weight-100">{project.subtitle}</h4>
               </div>
 
               <div className="project-stack-container">
@@ -25,6 +26,17 @@ function SingleProject(props) {
                 <FaLightbulb size="2rem" />
                 <p className="bold  uppercase ">Description</p>
                 <p>{project.description}</p>
+              </div>
+
+              <div className="project-link-container">
+                <p className="bold  uppercase ">Gallery</p>
+                <p>{project.image}</p>
+              </div>
+
+              <div className="project-link-container">
+                <FaGithub size="2rem" />
+                <p className="bold  uppercase ">Repo</p>
+                <p>{project.repo}</p>
               </div>
             </div>
           ) : null

@@ -19,11 +19,11 @@ function Posts() {
           <div className="pointer" onClick={() => setPostView("grid")}>
             {postView === "grid" ? (
               <span className="margin-30 bold">
-                <AiFillAppstore fontSize="1.1em" color="rgb(66, 132, 255)" />
+                <AiFillAppstore fontSize="1em" color="darkblue" />
               </span>
             ) : (
               <span className="padding-30">
-                <AiFillAppstore color="gray" />
+                <AiFillAppstore fontSize="1em" color="gray" />
               </span>
             )}
           </div>
@@ -31,14 +31,11 @@ function Posts() {
           <div className="pointer" onClick={() => setPostView("single")}>
             {postView === "single" ? (
               <span className="margin-30 bold">
-                <AiOutlineAlignLeft
-                  fontSize="1.1em"
-                  color="rgb(66, 132, 255)"
-                />
+                <AiOutlineAlignLeft fontSize="1em" color="darkblue" />
               </span>
             ) : (
               <span className="padding-30">
-                <AiOutlineAlignLeft color="gray" />
+                <AiOutlineAlignLeft fontSize="1em" color="gray" />
               </span>
             )}
           </div>
@@ -46,11 +43,11 @@ function Posts() {
           <div className="pointer" onClick={() => setPostView("list")}>
             {postView === "list" ? (
               <span className="margin-30 bold">
-                <AiOutlineBars fontSize="1.1em" color="rgb(66, 132, 255)" />
+                <AiOutlineBars fontSize="1em" color="darkblue" />
               </span>
             ) : (
               <span className="margin-30">
-                <AiOutlineBars color="gray" />
+                <AiOutlineBars color="gray" fontSize="1em" />
               </span>
             )}
           </div>
