@@ -14,22 +14,32 @@ let projectData = [
     projectNumber: 2,
     title: "Grace's Greens",
     subtitle: "PERN e-commerce",
-    stack: "React, Express, Node, Redux, REST API, JWT, postgreSQL",
-    description: "e-commerce app for online plant sales",
+    stack:
+      "PostgreSQL, Express, React, Node, Redux, REST API, JWT, Sequelize, Figma",
+    description:
+      "An e-commerce app for online plant sales. Includes sign in, authentication, responsive shopping cart and checkout pages. Built with 3 peers in Fullstack Academy bootcamp.",
     repo: "link",
   },
   {
     id: 3,
     projectNumber: 3,
     title: "CSS projects",
-    subtitle: "Advanced CSS",
+    subtitle: "Design w/ Figma",
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
   },
-
   {
     id: 4,
+    projectNumber: 4,
+    title: "CSS projects",
+    subtitle: "Advanced CSS w/ Animation",
+    stack: "HTML, CSS, JavaScript",
+    description: "css projects",
+    repo: "link",
+  },
+  {
+    id: 5,
     projectNumber: 5,
     title: "TypeScript project",
     subtitle: "TypeScript project",
@@ -38,7 +48,7 @@ let projectData = [
     repo: "link",
   },
   {
-    id: 5,
+    id: 6,
     projectNumber: 6,
     title: "Python project",
     subtitle: "Python project",
