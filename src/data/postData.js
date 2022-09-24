@@ -4,64 +4,106 @@ let postsData = [
     postNumber: 1,
     subject: "Healthy Habits",
     title: "Patience, patterns, and long term purpose",
-    content:
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 2,
     postNumber: 2,
     subject: "Healthy Habits",
     title: "Takeaways from a 500+ hour software engineering bootcamp",
-    content:
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 3,
     postNumber: 3,
-    subject: "Getting the Interview",
-    title: "Front End fun with Figma and CSS",
-    content:
+    subject: "Books",
+    title: "Expanding the mind with O'Reilly",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 4,
     postNumber: 4,
-    subject: "Getting the Interview",
-    title: "Cloud Skills",
-    content:
+    subject: "Front End",
+    title: "Front End with Figma and CSS",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
+
   {
     id: 5,
     postNumber: 5,
-    subject: "Passing Technical Interviews",
-    title: "Data Structures and Algorithms",
-    content:
+    subject: "Cloud",
+    title:
+      "Getting comfortable with the cloud and the AWS Solutions Architect Associate cert",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 6,
     postNumber: 6,
-    subject: "Passing Technical Interviews",
-    title: "System Design",
-    content:
+    subject: "Interviews",
+    title: "Data Structures and Algorithms",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 7,
     postNumber: 7,
-    subject: "Connect and Expand",
-    title: "Books",
-    content:
+    subject: "Interviews",
+    title: "System Design",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
   {
     id: 8,
     postNumber: 8,
-    subject: "Connect and Expand",
-    title: "LinkedIn",
-    content:
+    subject: "Connection and Community",
+    title: "Connecting and learning from others on LinkedIn",
+    content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
+      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
   },
 ];
 

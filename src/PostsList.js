@@ -8,9 +8,9 @@ function PostsList() {
         {samplePostsData.map((post) => {
           return (
             <div key={post.id}>
-              <h4 className="postslist-title">
+              <h2 className="postslist-title">
                 {post.postNumber}. {post.title}
-              </h4>
+              </h2>
             </div>
           );
         })}

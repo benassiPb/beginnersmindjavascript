@@ -46,13 +46,14 @@ function Posts() {
                 <AiOutlineAlignLeft fontSize="1.1em" />
               </span>
             ) : (
-              <span className={["padding-30"]}>
+              <span className="padding-30">
                 <AiOutlineAlignLeft color="gray" />
               </span>
             )}
           </div>
         </div>
 
+      
         {postView === "list" ? <PostsList /> : null}
         {postView === "single" ? (
           <SinglePost

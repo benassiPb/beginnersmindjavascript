@@ -49,14 +49,22 @@ a {
 }
 
 .title {
-  font-size: 22px;
+  font-size: 18px;
   padding-left: 10px;
+}
+
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
 }
 
 .cursive {
   font-family: Arizonia;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 10px;
+  padding-right: 3px;
 }
 
 .nav-top-container {
@@ -214,6 +222,7 @@ a {
 }
 
 .grid-subtitle {
+  text-align: left;
 }
 
 .width-max-800 {
@@ -222,6 +231,10 @@ a {
 
 .width-min-500 {
   min-width: 500px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
 }
 
 .posts-container {
@@ -245,6 +258,19 @@ a {
   font-size: 1.3rem;
 }
 
+.single-post-page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.single-post-container {
+  max-width: 500px;
+}
+
+.align-center {
+  text-align: center;
+}
+
 .reverse-wrap {
   flex-wrap: wrap-reverse;
 }
@@ -260,6 +286,9 @@ a {
 
 .postslist-title {
   line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
 }
 /* test */
 

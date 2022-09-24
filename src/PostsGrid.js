@@ -5,7 +5,12 @@ function PostsGrid() {
   return (
     <div className="grid-page-container">
       <div></div>
+
       <div className="width-max-800 width-min-500">
+        <div>
+          <h2 className="margin-top-50">writing</h2>
+          <p>reflections on programming and more</p>
+        </div>
         <div className="posts-container">
           <div className="posts-title-container">
             <p className=" posts-title"> Healthy Habits</p>
@@ -27,7 +32,7 @@ function PostsGrid() {
           <div className="posts-content-container">
             <div className=" posts-list">
               {postData.map((post) =>
-                post.subject === "Connect and Expand" ? (
+                post.subject === "Connection and Community" ? (
                   <div key={post.id}>
                     <p className="grid-subtitle">{post.title}</p>
                   </div>
@@ -36,20 +41,20 @@ function PostsGrid() {
             </div>
           </div>
           <div className="posts-title-container">
-            <p className=" posts-title"> Connect and Expand</p>
+            <p className=" posts-title"> Connection and Community</p>
           </div>
         </div>
 
         <div className="posts-container">
           <div className="posts-title-container">
-            <p className=" posts-title">Getting the Interview</p>
+            <p className=" posts-title">Front End</p>
           </div>
           <div className="posts-content-container">
             <div className=" posts-list">
               {postData.map((post) =>
-                post.subject === "Getting the Interview" ? (
+                post.subject === "Front End" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle">{post.title}</p>
+                    <p className="grid-subtitle"> {post.title}</p>
                   </div>
                 ) : null
               )}
@@ -61,16 +66,49 @@ function PostsGrid() {
           <div className="posts-content-container">
             <p className="posts-list">
               {postData.map((post) =>
-                post.subject === "Passing Technical Interviews" ? (
+                post.subject === "Cloud" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle">{post.title}</p>
+                    <p className="grid-subtitle"> {post.title}</p>
                   </div>
                 ) : null
               )}
             </p>
           </div>
           <div className="posts-title-container">
-            <p className=" posts-title"> Passing Technical Interviews</p>
+            <p className=" posts-title"> Cloud Skills</p>
+          </div>
+        </div>
+        <div className="posts-container">
+          <div className="posts-title-container">
+            <p className=" posts-title">Interview Prep</p>
+          </div>
+          <div className="posts-content-container">
+            <div className=" posts-list">
+              {postData.map((post) =>
+                post.subject === "Interviews" ? (
+                  <div key={post.id}>
+                    <p className="grid-subtitle"> {post.title}</p>
+                  </div>
+                ) : null
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className="posts-container reverse-wrap">
+          <div className="posts-content-container">
+            <p className="posts-list">
+              {postData.map((post) =>
+                post.subject === "Books" ? (
+                  <div key={post.id}>
+                    <p className="grid-subtitle"> {post.title}</p>
+                  </div>
+                ) : null
+              )}
+            </p>
+          </div>
+          <div className="posts-title-container">
+            <p className=" posts-title"> Books</p>
           </div>
         </div>
         {/* <div className="grid-post-container">
