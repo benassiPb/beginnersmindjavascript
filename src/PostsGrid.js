@@ -1,7 +1,13 @@
 import React from "react";
 import postData from "./data/postData";
 
-function PostsGrid() {
+function PostsGrid(props) {
+  const { setCurrentPost, setPostView } = props;
+
+  const handleClick = (postId) => {
+    setCurrentPost(postId);
+    setPostView("single");
+  };
   return (
     <div className="grid-page-container">
       <div></div>
@@ -20,7 +26,12 @@ function PostsGrid() {
               {postData.map((post) =>
                 post.subject === "Healthy Habits" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle">{post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}
@@ -34,7 +45,12 @@ function PostsGrid() {
               {postData.map((post) =>
                 post.subject === "Connection and Community" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle">{post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}
@@ -54,7 +70,13 @@ function PostsGrid() {
               {postData.map((post) =>
                 post.subject === "Front End" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle"> {post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {" "}
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}
@@ -68,7 +90,13 @@ function PostsGrid() {
               {postData.map((post) =>
                 post.subject === "Cloud" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle"> {post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {" "}
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}
@@ -85,9 +113,15 @@ function PostsGrid() {
           <div className="posts-content-container">
             <div className=" posts-list">
               {postData.map((post) =>
-                post.subject === "Interviews" ? (
+                post.subject === "Interview Prep" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle"> {post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {" "}
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}
@@ -101,7 +135,13 @@ function PostsGrid() {
               {postData.map((post) =>
                 post.subject === "Books" ? (
                   <div key={post.id}>
-                    <p className="grid-subtitle"> {post.title}</p>
+                    <p
+                      className="grid-subtitle"
+                      onClick={() => handleClick(post.id)}
+                    >
+                      {" "}
+                      {post.title}
+                    </p>
                   </div>
                 ) : null
               )}

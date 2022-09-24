@@ -53,15 +53,24 @@ function Posts() {
           </div>
         </div>
 
-      
-        {postView === "list" ? <PostsList /> : null}
+        {postView === "list" ? (
+          <PostsList
+            setCurrentPost={setCurrentPost}
+            setPostView={setPostView}
+          />
+        ) : null}
         {postView === "single" ? (
           <SinglePost
             currentPost={currentPost}
             setCurrentPost={setCurrentPost}
           />
         ) : null}
-        {postView === "grid" ? <PostsGrid /> : null}
+        {postView === "grid" ? (
+          <PostsGrid
+            setCurrentPost={setCurrentPost}
+            setPostView={setPostView}
+          />
+        ) : null}
       </div>
     </div>
   );

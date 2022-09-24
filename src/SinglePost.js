@@ -27,9 +27,10 @@ function SinglePost(props) {
           {postData.map((post) =>
             post.postNumber !== currentPost ? null : (
               <div key={post.id}>
-                <h2>
-                  {post.subject}: {post.title}
-                </h2>
+                <h2>{post.title}</h2>
+                <div className="align-center">
+                  <p className="subject-tag align-center">{post.subject}</p>
+                </div>
 
                 {post["content"].map((paragraph) => (
                   <div>

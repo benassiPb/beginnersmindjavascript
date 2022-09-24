@@ -69,7 +69,7 @@ let postsData = [
   {
     id: 6,
     postNumber: 6,
-    subject: "Interviews",
+    subject: "Interview Prep",
     title: "Data Structures and Algorithms",
     content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",
@@ -82,7 +82,7 @@ let postsData = [
   {
     id: 7,
     postNumber: 7,
-    subject: "Interviews",
+    subject: "Interview Prep",
     title: "System Design",
     content: [
       "sample post content sample post content sample post content sample post content sample post content sample post content",

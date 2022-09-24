@@ -223,6 +223,7 @@ a {
 
 .grid-subtitle {
   text-align: left;
+  cursor: pointer;
 }
 
 .width-max-800 {
@@ -265,6 +266,15 @@ a {
 
 .single-post-container {
   max-width: 500px;
+}
+
+.subject-tag {
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background-color: rgb(66, 132, 255);
+  max-width: 120px;
+  text-transform: uppercase;
 }
 
 .align-center {
