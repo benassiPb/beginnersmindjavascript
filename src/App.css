@@ -228,10 +228,9 @@ a {
 }
 
 .posts-title-container {
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 900;
-  /* background-color: #eaf3ff; */
 }
 
 .grid-page-container {
@@ -328,6 +327,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.background-circle {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
 }
 
 .postslist-container {

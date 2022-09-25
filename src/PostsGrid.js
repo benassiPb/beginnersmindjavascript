@@ -1,5 +1,8 @@
 import React from "react";
 import postData from "./data/postData";
+import circle from "./images/circle.png";
+import blueshape1 from "./images/blueshape1.png";
+import blueshape2 from "./images/blueshape2.png";
 
 function PostsGrid(props) {
   const { setCurrentPost, setPostView } = props;
@@ -19,9 +22,12 @@ function PostsGrid(props) {
         </div> */}
         <div className="posts-container">
           <div className="posts-title-container">
-            <p className=" posts-title"> Healthy Habits</p>
+            {/* <img src={blueshape1} alt="circle" className="background-circle" /> */}
+            <p className="posts-title"> Healthy Habits</p>
           </div>
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
+
             <div className=" posts-list">
               {postData.map((post) =>
                 post.subject === "Healthy Habits" ? (
@@ -41,6 +47,8 @@ function PostsGrid(props) {
 
         <div className="posts-container reverse-wrap">
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
+
             <div className=" posts-list">
               {postData.map((post) =>
                 post.subject === "Connection and Community" ? (
@@ -57,15 +65,19 @@ function PostsGrid(props) {
             </div>
           </div>
           <div className="posts-title-container">
+            {/* <img src={blueshape2} alt="circle" className="background-circle" /> */}
             <p className=" posts-title"> Connection and Community</p>
           </div>
         </div>
 
         <div className="posts-container">
           <div className="posts-title-container">
+            {/* <img src={blueshape1} alt="circle" className="background-circle" /> */}
             <p className=" posts-title">Front End</p>
           </div>
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
+
             <div className=" posts-list">
               {postData.map((post) =>
                 post.subject === "Front End" ? (
@@ -86,6 +98,8 @@ function PostsGrid(props) {
 
         <div className="posts-container reverse-wrap">
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
+
             <div className="posts-list">
               {postData.map((post) =>
                 post.subject === "Cloud" ? (
@@ -103,14 +117,19 @@ function PostsGrid(props) {
             </div>
           </div>
           <div className="posts-title-container">
+            {/* <img src={blueshape1} alt="circle" className="background-circle" /> */}
             <p className=" posts-title"> Cloud Skills</p>
           </div>
         </div>
+
         <div className="posts-container">
           <div className="posts-title-container">
+            {/* <img src={blueshape2} alt="circle" className="background-circle" /> */}
             <p className=" posts-title">Interview Prep</p>
           </div>
+
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
             <div className=" posts-list">
               {postData.map((post) =>
                 post.subject === "Interview Prep" ? (
@@ -131,6 +150,7 @@ function PostsGrid(props) {
 
         <div className="posts-container reverse-wrap">
           <div className="posts-content-container">
+            <img src={circle} alt="circle" className="background-circle" />
             <div className="posts-list">
               {postData.map((post) =>
                 post.subject === "Books" ? (
@@ -148,6 +168,7 @@ function PostsGrid(props) {
             </div>
           </div>
           <div className="posts-title-container">
+            {/* <img src={blueshape2} alt="circle" className="background-circle" /> */}
             <p className=" posts-title"> Books</p>
           </div>
         </div>

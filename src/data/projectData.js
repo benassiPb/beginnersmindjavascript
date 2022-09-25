@@ -31,7 +31,7 @@ let projectData = [
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
-    takeaways: ["one", "two", "three"],
+    takeaways: ["one"],
   },
   {
     id: 4,
@@ -62,6 +62,29 @@ let projectData = [
     description: "Python project",
     repo: "link",
     takeaways: ["one", "two", "three"],
+  },
+  {
+    id: 7,
+    projectNumber: 7,
+    title: "Fullstack-retrospect-a-thon",
+    subtitle: "React blog",
+    stack: "React, Node, CSS",
+    description:
+      "A weeklong solo project for open-ended 'stackathon' assignment. I created a React blog with a trivia game based on my peers, a comical email rejection inspired mad-libs, a blog template, and a resources page.",
+    repo: "link",
+    takeaways: [
+      "first project built using  React functional components and React hooks including UseState and UseEffect",
+    ],
+  },
+  {
+    id: 8,
+    projectNumber: 8,
+    title: "PB Professional Style site",
+    subtitle: "Developer Portfolio site ",
+    stack: "React, Node, TailwindCSS",
+    description: "A professional style portfolio site",
+    repo: "link",
+    takeaways: ["first project built using  TailwindCSS"],
   },
 ];
 
