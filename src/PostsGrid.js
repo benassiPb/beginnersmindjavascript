@@ -15,7 +15,7 @@ function PostsGrid(props) {
     <div className="grid-page-container">
       <div></div>
 
-      <div className="width-max-800 width-min-500">
+      <div className="">
         {/* <div>
           <h2 className="margin-top-50">writing</h2>
           <p>reflections on programming and more</p>

@@ -30,7 +30,7 @@ function SinglePost(props) {
 
                 {post["content"].map((paragraph) => (
                   <div>
-                    <p className="align-left">{paragraph}</p>
+                    <p className="align-left justify">{paragraph}</p>
                   </div>
                 ))}
               </div>

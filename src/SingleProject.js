@@ -28,17 +28,17 @@ function SingleProject(props) {
             <div className="project-link-container">
               <p className="bold  uppercase ">Gallery</p>
               <p>{project.image}</p>
-              {project.videoLink ? (
+              {/* {project.videoLink ? (
                 <iframe
-                  width="560"
-                  height="315"
+                  width="392"
+                  height="220"
                   src={project.videoLink}
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-              ) : null}
+              ) : null} */}
             </div>
 
             <div className="project-description-container">
