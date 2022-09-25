@@ -7,11 +7,11 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-page">
-        <img
-          className="stones-image"
+        {/* <img
+           className="stones-image"
           src={bmjlogo}
           alt="pile of stacked stones"
-        />
+        /> */}
         <h2 className="font-size-3rem">Welcome</h2>
         <p className="font-size-1-5rem font-weight-200">
           a blog on learning JavaScript, building healthy habits, and

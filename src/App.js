@@ -4,6 +4,7 @@ import About from "./About.js";
 import Nav from "./Nav.js";
 import Projects from "./Projects.js";
 import React, { useState } from "react";
+import Footer from "./Footer";
 
 function App() {
   const [view, setView] = useState("Writing");
@@ -18,6 +19,8 @@ function App() {
       {view === "Writing" ? <Posts /> : null}
       {view === "About" ? <About /> : null}
       {view === "Projects" ? <Projects /> : null}
+
+      <Footer />
     </div>
   );
 }

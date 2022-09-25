@@ -8,12 +8,14 @@ function SinglePost(props) {
     currentPost !== postData.length
       ? setCurrentPost(currentPost + 1)
       : setCurrentPost(1);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handlePrevious = () => {
     currentPost !== 1
       ? setCurrentPost(currentPost - 1)
       : setCurrentPost(postData.length);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -27,12 +29,97 @@ function SinglePost(props) {
                 <div className=" title-subject-container">
                   <p className="subject-tag align-center">{post.subject}</p>
                 </div>
-
-                {post["content"].map((paragraph) => (
+                {post["tagline"].map((paragraph) => (
+                  <div>
+                    <p className="post-tagline font-size-1-5rem font-weight-200 ">
+                      {paragraph}
+                    </p>
+                  </div>
+                ))}
+                {post["sectionOneHeading"].map((paragraph) => (
+                  <div>
+                    <p className="align-left justify bold uppercase">
+                      {paragraph}
+                    </p>
+                  </div>
+                ))}
+                {post["sectionOneContent"].map((paragraph) => (
                   <div>
                     <p className="align-left justify">{paragraph}</p>
                   </div>
                 ))}
+
+                {post.sectionTwoHeading
+                  ? post["sectionTwoHeading"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify bold uppercase">
+                          {paragraph}
+                        </p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionTwoContent
+                  ? post["sectionTwoContent"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify">{paragraph}</p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionThreeHeading
+                  ? post["sectionTwoHeading"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify bold uppercase">
+                          {paragraph}
+                        </p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionThreeContent
+                  ? post["sectionTwoContent"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify">{paragraph}</p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionFourHeading
+                  ? post["sectionTwoHeading"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify bold uppercase">
+                          {paragraph}
+                        </p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionFourContent
+                  ? post["sectionTwoContent"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify">{paragraph}</p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionFiveHeading
+                  ? post["sectionTwoHeading"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify bold uppercase">
+                          {paragraph}
+                        </p>
+                      </div>
+                    ))
+                  : null}
+
+                {post.sectionFiveContent
+                  ? post["sectionTwoContent"].map((paragraph) => (
+                      <div>
+                        <p className="align-left justify">{paragraph}</p>
+                      </div>
+                    ))
+                  : null}
               </div>
             )
           )}
