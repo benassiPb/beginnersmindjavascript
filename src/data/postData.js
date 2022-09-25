@@ -28,19 +28,6 @@ let postsData = [
   {
     id: 3,
     postNumber: 3,
-    subject: "Books",
-    title: "Expanding the mind with O'Reilly",
-    content: [
-      "sample post content sample post content sample post content sample post content sample post content sample post content",
-      "second paragraph post content sample post content sample post content sample post content sample post content sample post content",
-      "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
-      "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
-      "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
-    ],
-  },
-  {
-    id: 4,
-    postNumber: 4,
     subject: "Front End",
     title: "Front End with Figma and CSS",
     content: [
@@ -53,8 +40,8 @@ let postsData = [
   },
 
   {
-    id: 5,
-    postNumber: 5,
+    id: 4,
+    postNumber: 4,
     subject: "Cloud",
     title:
       "Getting comfortable with the cloud and the AWS Solutions Architect Associate cert",
@@ -67,8 +54,8 @@ let postsData = [
     ],
   },
   {
-    id: 6,
-    postNumber: 6,
+    id: 5,
+    postNumber: 5,
     subject: "Interview Prep",
     title: "Data Structures and Algorithms",
     content: [
@@ -80,8 +67,8 @@ let postsData = [
     ],
   },
   {
-    id: 7,
-    postNumber: 7,
+    id: 6,
+    postNumber: 6,
     subject: "Interview Prep",
     title: "System Design",
     content: [
@@ -93,8 +80,8 @@ let postsData = [
     ],
   },
   {
-    id: 8,
-    postNumber: 8,
+    id: 7,
+    postNumber: 7,
     subject: "Connection and Community",
     title: "Connecting and learning from others on LinkedIn",
     content: [
@@ -103,6 +90,18 @@ let postsData = [
       "third paragraph post content sample post content sample post content sample post content sample post content sample post content",
       "fourth paragraph post content sample post content sample post content sample post content sample post content sample post content",
       "fifth paragraph post content sample post content sample post content sample post content sample post content sample post content",
+    ],
+  },
+  {
+    id: 8,
+    postNumber: 8,
+    subject: "Books",
+    title: "Five Books",
+    content: [
+      "Clean Coder",
+      "Code Simplicity",
+      "The Pragmatic Programmer",
+      "Eloquent JavaScript",
     ],
   },
 ];

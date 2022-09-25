@@ -13,10 +13,10 @@ function PostsGrid(props) {
       <div></div>
 
       <div className="width-max-800 width-min-500">
-        <div>
+        {/* <div>
           <h2 className="margin-top-50">writing</h2>
           <p>reflections on programming and more</p>
-        </div>
+        </div> */}
         <div className="posts-container">
           <div className="posts-title-container">
             <p className=" posts-title"> Healthy Habits</p>

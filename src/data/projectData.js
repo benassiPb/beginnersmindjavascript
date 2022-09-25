@@ -8,6 +8,8 @@ let projectData = [
     description:
       "HappiList is a social media mobile app project designed for iOS and Android devices, built with two peers as capstone for fullstack Academy. The app allows users to chat with friends, accomplish positive tasks, and view friends' posts and list items. Includes: sign up page with authentication, sign in page, add friends functionality, image upload, like, comment, live chat, image, create list, create task, delete or edit task.",
     repo: "link",
+    takeaways: ["one", "two", "three"],
+    videoLink: "https://www.youtube.com/watch?v=nMU2eROaP4s",
   },
   {
     id: 2,
@@ -19,6 +21,7 @@ let projectData = [
     description:
       "An e-commerce app for online plant sales. Includes sign in, authentication, responsive shopping cart and checkout pages. Built with 3 peers in Fullstack Academy bootcamp.",
     repo: "link",
+    takeaways: ["one", "two", "three"],
   },
   {
     id: 3,
@@ -28,6 +31,7 @@ let projectData = [
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
+    takeaways: ["one", "two", "three"],
   },
   {
     id: 4,
@@ -37,6 +41,7 @@ let projectData = [
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
+    takeaways: ["one", "two", "three"],
   },
   {
     id: 5,
@@ -46,6 +51,7 @@ let projectData = [
     stack: "TypeScript",
     description: "TypeScript project",
     repo: "link",
+    takeaways: ["one", "two", "three"],
   },
   {
     id: 6,
@@ -55,6 +61,7 @@ let projectData = [
     stack: "Python, Django",
     description: "Python project",
     repo: "link",
+    takeaways: ["one", "two", "three"],
   },
 ];
 

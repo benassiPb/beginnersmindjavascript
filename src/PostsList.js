@@ -20,8 +20,8 @@ function PostsList(props) {
                 onClick={() => handleClick(post.id)}
               >
                 {post.title}
-                <span className="subject-list">{post.subject}</span>
               </h2>
+              <span className="subject-list">{post.subject}</span>
             </div>
           );
         })}

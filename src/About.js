@@ -13,16 +13,17 @@ function About() {
           alt="pile of stacked stones"
         />
         <h2 className="font-size-3rem">Welcome</h2>
-
+        <p className="font-size-1-5rem font-weight-200">
+          a blog on learning JavaScript, building healthy habits, and
+          programming with purpose
+        </p>
         <p className="about-p">
           A little background: I spent nearly a decade working for international
           education, environmental, and youth development organizations,
           including spending extended periods of time as an educator in India,
-          East Africa, New Zealand, Italy, Hawaii, and Colorado.
-        </p>
-        <p className="about-p">
-          In 2022, I transitioned out of international education and completed
-          Fullstack Academy's software engineering bootcamp.{" "}
+          East Africa, New Zealand, Italy, Hawaii, and Colorado. In 2022, I
+          transitioned out of international education and completed Fullstack
+          Academy's software engineering bootcamp.{" "}
         </p>
 
         <p className="about-p">
