@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Nav(props) {
   const { view, setView } = props;
+  const [darkMode, setDarkMode] = useState(0);
   return (
     <div className="header">
       <div className="nav-top-container">

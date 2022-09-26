@@ -41,6 +41,14 @@ a {
   color: darkblue;
 }
 
+.blue {
+  color: blue;
+}
+
+.lightblue {
+  color: lightblue;
+}
+
 .font-size-4rem {
   font-size: 4rem;
 }
@@ -295,8 +303,31 @@ a {
   font-size: 1.3rem;
 }
 
+.postslist-page-container {
+  display: flex;
+  justify-content: center;
+}
+
 .postslist-container {
   padding-bottom: 100px;
+  max-width: 600px;
+}
+
+.postslist-single-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-bottom: 20px;
+}
+
+.post-image {
+  background-color: lightgray;
+  max-width: 90%;
+  max-height: 60%;
+
+  text-align: center;
 }
 
 .single-post-page-container {
@@ -368,7 +399,7 @@ a {
   font-weight: 300;
   cursor: pointer;
   /* display: inline; */
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 .postslist-title:hover {

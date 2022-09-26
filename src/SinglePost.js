@@ -25,6 +25,8 @@ function SinglePost(props) {
           {postData.map((post) =>
             post.postNumber !== currentPost ? null : (
               <div key={post.id}>
+                {" "}
+                <img className="post-image" src={post.image} alt={post.title} />
                 <h2>{post.title}</h2>
                 <div className=" title-subject-container">
                   <p className="subject-tag align-center">{post.subject}</p>
@@ -48,7 +50,6 @@ function SinglePost(props) {
                     <p className="align-left justify">{paragraph}</p>
                   </div>
                 ))}
-
                 {post.sectionTwoHeading
                   ? post["sectionTwoHeading"].map((paragraph) => (
                       <div>
@@ -58,7 +59,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionTwoContent
                   ? post["sectionTwoContent"].map((paragraph) => (
                       <div>
@@ -66,7 +66,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionThreeHeading
                   ? post["sectionTwoHeading"].map((paragraph) => (
                       <div>
@@ -76,7 +75,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionThreeContent
                   ? post["sectionTwoContent"].map((paragraph) => (
                       <div>
@@ -84,7 +82,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionFourHeading
                   ? post["sectionTwoHeading"].map((paragraph) => (
                       <div>
@@ -94,7 +91,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionFourContent
                   ? post["sectionTwoContent"].map((paragraph) => (
                       <div>
@@ -102,7 +98,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionFiveHeading
                   ? post["sectionTwoHeading"].map((paragraph) => (
                       <div>
@@ -112,7 +107,6 @@ function SinglePost(props) {
                       </div>
                     ))
                   : null}
-
                 {post.sectionFiveContent
                   ? post["sectionTwoContent"].map((paragraph) => (
                       <div>

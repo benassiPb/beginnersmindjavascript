@@ -7,14 +7,16 @@ function PostsList(props) {
   const handleClick = (postId) => {
     setCurrentPost(postId);
     setPostView("single");
+    window.scrollTo({ top: 0 });
   };
 
   return (
-    <div>
+    <div className="postslist-page-container">
       <div className="postslist-container">
         {samplePostsData.map((post) => {
           return (
-            <div key={post.id}>
+            <div key={post.id} className="postslist-single-post-container">
+              <img className="post-image" src={post.image} alt={post.title} />
               <h2
                 className="postslist-title"
                 onClick={() => handleClick(post.id)}
