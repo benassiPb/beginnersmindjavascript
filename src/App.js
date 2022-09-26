@@ -14,7 +14,7 @@ function App() {
       <div>
         <Nav view={view} setView={setView} />
       </div>
-      <p className="padding-50">*Website currently under construction...</p>
+      {/* <p className="padding-50">*Website currently under construction...</p> */}
 
       {view === "Writing" ? <Posts /> : null}
       {view === "About" ? <About /> : null}
