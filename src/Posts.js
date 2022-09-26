@@ -9,14 +9,14 @@ import {
 } from "react-icons/ai";
 
 function Posts() {
-  const [postView, setPostView] = useState("grid");
+  const [postView, setPostView] = useState("single");
   const [currentPost, setCurrentPost] = useState(1);
 
   return (
     <div className="Writing-page-container">
       <div>
         <div className="writing-toggle-view">
-          <div className="pointer" onClick={() => setPostView("grid")}>
+          {/* <div className="pointer" onClick={() => setPostView("grid")}>
             {postView === "grid" ? (
               <span className="margin-30 bold">
                 <AiFillAppstore fontSize="1em" color="darkblue" />
@@ -26,7 +26,7 @@ function Posts() {
                 <AiFillAppstore fontSize="1em" color="gray" />
               </span>
             )}
-          </div>
+          </div> */}
 
           <div className="pointer" onClick={() => setPostView("single")}>
             {postView === "single" ? (
