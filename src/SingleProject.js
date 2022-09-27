@@ -1,38 +1,23 @@
 import React from "react";
 import projectData from "./data/projectData";
-import { FaToolbox, FaLightbulb, FaGithub } from "react-icons/fa";
+import { FaToolbox, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
 function SingleProject(props) {
   const { setCurrentProject, currentProject } = props;
   return (
-    <div className="max-width-800">
+    <div>
       {projectData.map((project) =>
         project.id === currentProject ? (
-          <div>
-            <div className="project-title-container font-size-3rem uppercase">
-              <h3>{project.title}</h3>
-              <h4 className="font-weight-100">{project.subtitle}</h4>
-            </div>
-
-            <div className="project-stack-container">
-              <FaToolbox size="2rem" />
-              <p className="bold uppercase "> Tech Stack </p>
-              <p className="font-size-2rem font-weight-200">{project.stack}</p>
-            </div>
-
-            <div className="project-description-container">
-              <FaLightbulb size="2rem" />
-              <p className="bold uppercase ">Description</p>
-              <div className="project-description-text-container">
-                <p className="max-width-500 align-center">
-                  {project.description}
-                </p>
-              </div>
+          <div className="stretch">
+            <div className="project-title-container ">
+              <h3 className="project-title font-size-3rem uppercase">
+                {project.title}
+              </h3>
             </div>
 
             <div className="project-link-container">
               <p className="bold uppercase ">Gallery</p>
               <p>{project.image}</p>
-              {/* {project.videoLink ? (
+              {project.videoLink ? (
                 <iframe
                   width="392"
                   height="220"
@@ -42,7 +27,27 @@ function SingleProject(props) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-              ) : null} */}
+              ) : null}
+            </div>
+
+            <div className="project-description-container">
+              <FaMarker size="2rem" />
+              <p className="bold uppercase ">Description</p>
+              <div className="project-description-text-container">
+                <p className="max-width-500 align-center">
+                  {project.description}
+                </p>
+              </div>
+            </div>
+
+            <div className="project-stack-container">
+              <FaToolbox size="2rem" />
+              <p className="bold uppercase "> Tech Stack </p>
+              <div className="project-stack-content-container">
+                <p className="font-size-2rem font-weight-200 project-stack">
+                  {project.stack}
+                </p>
+              </div>
             </div>
 
             <div className="project-description-container">

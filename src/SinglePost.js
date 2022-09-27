@@ -26,11 +26,10 @@ function SinglePost(props) {
             post.postNumber !== currentPost ? null : (
               <div key={post.id}>
                 {" "}
-                <img className="post-image" src={post.image} alt={post.title} />
                 <h2>{post.title}</h2>
-                <div className=" title-subject-container">
-                  <p className="subject-tag align-center">{post.subject}</p>
-                </div>
+                <div className=" title-subject-container"></div>
+                <img className="post-image" src={post.image} alt={post.title} />
+                <p className="uppercase align-center">{post.subject}</p>
                 {post["tagline"].map((paragraph) => (
                   <div>
                     <p className="post-tagline font-size-1-5rem font-weight-200 ">

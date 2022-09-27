@@ -2,13 +2,17 @@ import React from "react";
 import projectData from "./data/projectData";
 
 function ProjectsSidebar(props) {
-  const { setCurrentProject } = props;
+  const { currentProject, setCurrentProject } = props;
 
   const handleClick = (projectId) => {
-    setCurrentProject(projectId);
+    if (projectId !== currentProject) {
+      setCurrentProject(projectId);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
+
   return (
-    <div>
+    <div className="project-sidebar-container-2">
       {projectData.map((project) => (
         <div>
           <p

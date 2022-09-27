@@ -49,7 +49,7 @@ let postsData = [
   {
     id: 2,
     postNumber: 2,
-    subject: "Healthy Habits",
+    subject: "Bootcamp",
     title: "Takeaways from a 500+ hour software engineering bootcamp",
     tagline: ["this is a sample tagline for a sample post "],
     image: "https://i.imgur.com/mWnuBKl.png",

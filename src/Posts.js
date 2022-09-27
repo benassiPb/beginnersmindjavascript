@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 
 function Posts() {
-  const [postView, setPostView] = useState("single");
+  const [postView, setPostView] = useState("list");
   const [currentPost, setCurrentPost] = useState(1);
 
   return (

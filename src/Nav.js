@@ -8,7 +8,7 @@ function Nav(props) {
       <div className="nav-top-container">
         <h1 className="title">
           beginner's mind
-          <span className="cursive darkblue">JavaScript</span>
+          <span className="cursive ">JavaScript</span>
         </h1>
       </div>
       <div className="nav-bottom-container">

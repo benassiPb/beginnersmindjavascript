@@ -6,8 +6,8 @@ let projectData = [
     subtitle: "Social Media app",
     stack: "React Native, Expo, Google Firestore",
     description:
-      "HappiList is a social media mobile app project designed for iOS and Android devices, built with two peers as capstone for fullstack Academy. The app allows users to chat with friends, accomplish positive tasks, and view friends' posts and list items. Includes: sign up page with authentication, sign in page, add friends functionality, image upload, like, comment, live chat, image, create list, create task, delete or edit task.",
-    repo: "link",
+      "HappiList is a social media mobile app designed for iOS and Android devices, built with two peers as capstone project during the Fullstack Academy bootcamp. The app allows users to chat with friends, accomplish tasks, and view friends' posts and list items. Each month, users are given a list of wellness-promoting tasks they can complete and links to recommended apps to help achieve those tasks. Includes: sign up page with user authentication, sign in page, add friends functionality, image upload, like, comment, live chat, create list, create task, delete & edit task.",
+    repo: "https://github.com/2204-cookiemonsters-capstone/amazing-app",
     takeaways: ["one", "two", "three"],
     videoLink: "https://www.youtube.com/watch?v=nMU2eROaP4s",
   },
@@ -37,7 +37,7 @@ let projectData = [
     id: 4,
     projectNumber: 4,
     title: "CSS projects",
-    subtitle: "Advanced CSS w/ Animation",
+    subtitle: "Advanced CSS",
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
@@ -79,7 +79,7 @@ let projectData = [
   {
     id: 8,
     projectNumber: 8,
-    title: "PB Professional Style site",
+    title: "React Developer Site",
     subtitle: "Developer Portfolio site ",
     stack: "React, Node, TailwindCSS",
     description: "A professional style portfolio site",
