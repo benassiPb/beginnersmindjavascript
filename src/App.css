@@ -40,6 +40,10 @@ a {
   color: darkblue;
 }
 
+.playfair {
+  font-family: Playfair Display;
+}
+
 .blue {
   color: blue;
 }
@@ -194,19 +198,25 @@ a {
 
 .about-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .about-page {
   max-width: 400px;
 }
 
+.about-body {
+  margin: 30px;
+}
+
 .about-p {
   margin-top: 10px;
   text-align: left;
   line-height: 2rem;
+  max-width: 400px;
 }
 
 .stones-image {
@@ -322,7 +332,6 @@ a {
 }
 
 .post-image {
-  background-color: lightgray;
   max-width: 100%;
   max-height: 66%;
   text-align: center;
@@ -358,6 +367,7 @@ a {
   padding: 3px;
   margin-top: -5px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .subject-list {
@@ -408,7 +418,7 @@ a {
 }
 
 .postslist-title:hover {
-  font-weight: 800;
+  font-weight: 300;
 }
 
 .previous-next-container {

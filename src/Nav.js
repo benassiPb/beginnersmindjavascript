@@ -1,7 +1,13 @@
 import React, { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+  Link,
+} from "react-router-dom";
 
 function Nav(props) {
-  const { view, setView } = props;
   const [darkMode, setDarkMode] = useState(0);
   return (
     <div className="header">
@@ -14,32 +20,20 @@ function Nav(props) {
       <div className="nav-bottom-container">
         <nav className="nav-links">
           <li className="nav-link">
-            <div className="inline" onClick={() => setView("Writing")}>
-              {view === "Writing" ? (
-                <span className="bold">writing</span>
-              ) : (
-                <span>writing</span>
-              )}
+            <div className="inline">
+              <Link to="/posts">writing</Link>
             </div>
           </li>
 
           <li className="nav-link">
-            <div className="inline" onClick={() => setView("Projects")}>
-              {view === "Projects" ? (
-                <span className="bold">projects</span>
-              ) : (
-                <span>projects</span>
-              )}
+            <div className="inline">
+              <Link to="/projects">projects</Link>
             </div>
           </li>
 
           <li className="nav-link">
-            <div className="inline" onClick={() => setView("About")}>
-              {view === "About" ? (
-                <span className="bold">about</span>
-              ) : (
-                <span>about</span>
-              )}
+            <div className="inline">
+              <Link to="/about">about</Link>
             </div>
           </li>
         </nav>

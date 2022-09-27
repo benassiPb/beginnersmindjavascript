@@ -5,22 +5,23 @@ import Nav from "./Nav.js";
 import Projects from "./Projects.js";
 import React, { useState } from "react";
 import Footer from "./Footer";
+import RoutesComponent from "./RoutesComponent";
+import { BrowserRouter, Router } from "react-router-dom";
 
 function App() {
   const [view, setView] = useState("Writing");
 
   return (
     <div className="App">
-      <div>
-        <Nav view={view} setView={setView} />
-      </div>
-      <p className="padding-50">*Website currently under construction...</p>
+      <BrowserRouter>
+        <div>
+          <Nav view={view} setView={setView} />
+          <RoutesComponent />
+        </div>
+        {/* <p className="padding-50">*Website currently under construction...</p> */}
 
-      {view === "Writing" ? <Posts /> : null}
-      {view === "About" ? <About /> : null}
-      {view === "Projects" ? <Projects /> : null}
-
-      <Footer />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

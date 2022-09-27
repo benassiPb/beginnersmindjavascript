@@ -19,12 +19,17 @@ function PostsList(props) {
               key={post.id}
               className="postslist-single-post-container hover-post"
             >
-              <img
+              <div
+                className="about-image-container"
                 onClick={() => handleClick(post.id)}
-                className="post-image postslist-image"
-                src={post.image}
-                alt={post.title}
-              />
+              >
+                <img
+                  className="post-image postslist-image"
+                  src={post.image}
+                  alt={post.title}
+                />
+              </div>
+
               <h2
                 className="postslist-title"
                 onClick={() => handleClick(post.id)}
@@ -32,6 +37,9 @@ function PostsList(props) {
                 {post.title}
               </h2>
               <span className="subject-list">{post.subject}</span>
+              <p className="point-8-rem">
+                {post.month} {post.year}
+              </p>
             </div>
           );
         })}
