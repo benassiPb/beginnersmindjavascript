@@ -30,28 +30,28 @@ function SinglePost(props) {
                 <div className=" title-subject-container"></div>
                 <img className="post-image" src={post.image} alt={post.title} />
                 <p className="uppercase align-center">{post.subject}</p>
-                {post["tagline"].map((paragraph) => (
-                  <div>
+                {post["tagline"].map((paragraph, index) => (
+                  <div key={index}>
                     <p className="post-tagline font-size-1-5rem font-weight-200 ">
                       {paragraph}
                     </p>
                   </div>
                 ))}
-                {post["sectionOneHeading"].map((paragraph) => (
-                  <div>
+                {post["sectionOneHeading"].map((paragraph, index) => (
+                  <div key={index}>
                     <p className="align-left justify bold uppercase">
                       {paragraph}
                     </p>
                   </div>
                 ))}
-                {post["sectionOneContent"].map((paragraph) => (
-                  <div>
+                {post["sectionOneContent"].map((paragraph, index) => (
+                  <div key={index}>
                     <p className="align-left justify">{paragraph}</p>
                   </div>
                 ))}
                 {post.sectionTwoHeading
-                  ? post["sectionTwoHeading"].map((paragraph) => (
-                      <div>
+                  ? post["sectionTwoHeading"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify bold uppercase">
                           {paragraph}
                         </p>
@@ -59,15 +59,15 @@ function SinglePost(props) {
                     ))
                   : null}
                 {post.sectionTwoContent
-                  ? post["sectionTwoContent"].map((paragraph) => (
-                      <div>
+                  ? post["sectionTwoContent"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify">{paragraph}</p>
                       </div>
                     ))
                   : null}
                 {post.sectionThreeHeading
-                  ? post["sectionTwoHeading"].map((paragraph) => (
-                      <div>
+                  ? post["sectionThreeHeading"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify bold uppercase">
                           {paragraph}
                         </p>
@@ -75,15 +75,15 @@ function SinglePost(props) {
                     ))
                   : null}
                 {post.sectionThreeContent
-                  ? post["sectionTwoContent"].map((paragraph) => (
-                      <div>
+                  ? post["sectionThreeContent"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify">{paragraph}</p>
                       </div>
                     ))
                   : null}
                 {post.sectionFourHeading
-                  ? post["sectionTwoHeading"].map((paragraph) => (
-                      <div>
+                  ? post["sectionFourHeading"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify bold uppercase">
                           {paragraph}
                         </p>
@@ -91,15 +91,15 @@ function SinglePost(props) {
                     ))
                   : null}
                 {post.sectionFourContent
-                  ? post["sectionTwoContent"].map((paragraph) => (
-                      <div>
+                  ? post["sectionFourContent"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify">{paragraph}</p>
                       </div>
                     ))
                   : null}
                 {post.sectionFiveHeading
-                  ? post["sectionTwoHeading"].map((paragraph) => (
-                      <div>
+                  ? post["sectionFiveHeading"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify bold uppercase">
                           {paragraph}
                         </p>
@@ -107,8 +107,8 @@ function SinglePost(props) {
                     ))
                   : null}
                 {post.sectionFiveContent
-                  ? post["sectionTwoContent"].map((paragraph) => (
-                      <div>
+                  ? post["sectionFiveContent"].map((paragraph, index) => (
+                      <div key={index}>
                         <p className="align-left justify">{paragraph}</p>
                       </div>
                     ))

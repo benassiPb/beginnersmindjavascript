@@ -7,26 +7,26 @@ function SingleProject(props) {
     <div>
       {projectData.map((project) =>
         project.id === currentProject ? (
-          <div className="stretch">
+          <div key={project.id} className="stretch">
             <div className="project-title-container ">
               <h3 className="project-title font-size-3rem uppercase">
                 {project.title}
               </h3>
             </div>
 
-            <div className="project-link-container">
-              <p className="bold uppercase ">Gallery</p>
-              <p>{project.image}</p>
+            <div className="project-gallery-container">
               {project.videoLink ? (
-                <iframe
-                  width="392"
-                  height="220"
-                  src={project.videoLink}
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                <div className="project-video-container">
+                  <iframe
+                    width="560"
+                    height="349"
+                    src={project.videoLink}
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               ) : null}
             </div>
 
@@ -50,17 +50,19 @@ function SingleProject(props) {
               </div>
             </div>
 
-            <div className="project-description-container">
+            <div className="project-repo-container">
               <FaGithub size="2rem" />
               <p className="bold  uppercase ">Repo</p>
               <p>{project.repo}</p>
             </div>
 
-            <div className="project-link-container">
+            <div className="project-takeaways-container">
               <FaLightbulb size="2rem" />
               <p className="bold uppercase ">Key Takeaways</p>
-              {project.takeaways.map((item) => (
-                <li>{item}</li>
+              {project.takeaways.map((item, index) => (
+                <div key={index}>
+                  <p>{item}</p>
+                </div>
               ))}
             </div>
           </div>
