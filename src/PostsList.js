@@ -12,6 +12,7 @@ function PostsList(props) {
 
   return (
     <div className="postslist-page-container">
+      <h2 className="all-posts">All Posts</h2>
       <div className="postslist-container">
         {samplePostsData.map((post) => {
           return (

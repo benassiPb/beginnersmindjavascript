@@ -14,7 +14,7 @@ function Nav(props) {
       <div className="nav-top-container">
         <h1 className="title">
           beginner's mind
-          <span className="cursive ">JavaScript</span>
+          <span className="cursive javascript-title">JavaScript</span>
         </h1>
       </div>
       <div className="nav-bottom-container">

@@ -16,38 +16,26 @@ function Posts() {
     <div className="Writing-page-container">
       <div>
         <div className="writing-toggle-view">
-          {/* <div className="pointer" onClick={() => setPostView("grid")}>
-            {postView === "grid" ? (
-              <span className="margin-30 bold">
-                <AiFillAppstore fontSize="1em" color="darkblue" />
-              </span>
-            ) : (
-              <span className="padding-30">
-                <AiFillAppstore fontSize="1em" color="gray" />
-              </span>
-            )}
-          </div> */}
-
-          <div className="pointer" onClick={() => setPostView("single")}>
-            {postView === "single" ? (
-              <span className="margin-30 bold">
-                <AiOutlineAlignLeft fontSize="1em" color="darkblue" />
-              </span>
-            ) : (
-              <span className="padding-30">
-                <AiOutlineAlignLeft fontSize="1em" color="gray" />
-              </span>
-            )}
-          </div>
-
           <div className="pointer" onClick={() => setPostView("list")}>
             {postView === "list" ? (
               <span className="margin-30 bold">
-                <AiOutlineBars fontSize="1em" color="darkblue" />
+                <AiOutlineBars fontSize="1.5em" />
               </span>
             ) : (
               <span className="margin-30">
                 <AiOutlineBars color="gray" fontSize="1em" />
+              </span>
+            )}
+          </div>
+
+          <div className="pointer" onClick={() => setPostView("single")}>
+            {postView === "single" ? (
+              <span className="margin-30 bold">
+                <AiOutlineAlignLeft fontSize="1.5em" />
+              </span>
+            ) : (
+              <span className="padding-30">
+                <AiOutlineAlignLeft fontSize="1em" color="gray" />
               </span>
             )}
           </div>

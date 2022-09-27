@@ -105,6 +105,10 @@ a {
   padding-left: 10px;
 }
 
+.javascript-title {
+  border-bottom: 2px solid hsl(42, 36%, 74%);
+}
+
 .align-left {
   text-align: left;
 }
@@ -258,6 +262,18 @@ a {
   flex-wrap: wrap;
 }
 
+.single-post-title {
+  font-family: Playfair Display;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.all-posts {
+  font-family: Playfair Display;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
 .posts-title-container,
 .posts-content-container {
   margin: 1px;
@@ -314,7 +330,9 @@ a {
 
 .postslist-page-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .postslist-container {
