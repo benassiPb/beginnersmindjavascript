@@ -1,7 +1,27 @@
 let projectData = [
   {
     id: 1,
-    projecttNumber: 1,
+    projectNumber: 1,
+    title: "CSS projects",
+    subtitle: "Advanced CSS",
+    stack: "HTML, CSS, JavaScript",
+    description: "css projects",
+    repo: "link",
+    takeaways: ["» one", "» two", "» three"],
+  },
+  {
+    id: 2,
+    projectNumber: 2,
+    title: "CSS projects",
+    subtitle: "Design w/ Figma",
+    stack: "Figma",
+    description: "css projects",
+    repo: "link",
+    takeaways: ["one"],
+  },
+  {
+    id: 3,
+    projecttNumber: 3,
     title: "HappiList",
     subtitle: "Social Media Mobile App",
     stack: "React Native, Expo, Google Firestore, Node, Figma",
@@ -12,8 +32,8 @@ let projectData = [
     videoLink: "https://www.youtube.com/watch?v=nMU2eROaP4s",
   },
   {
-    id: 2,
-    projectNumber: 2,
+    id: 4,
+    projectNumber: 4,
     title: "Grace's Greens",
     subtitle: "PERN E-commerce Site",
     stack:
@@ -23,26 +43,7 @@ let projectData = [
     repo: "link",
     takeaways: ["» one", "» two", "» three"],
   },
-  {
-    id: 3,
-    projectNumber: 3,
-    title: "CSS projects",
-    subtitle: "Design w/ Figma",
-    stack: "Figma",
-    description: "css projects",
-    repo: "link",
-    takeaways: ["one"],
-  },
-  {
-    id: 4,
-    projectNumber: 4,
-    title: "CSS projects",
-    subtitle: "Advanced CSS",
-    stack: "HTML, CSS, JavaScript",
-    description: "css projects",
-    repo: "link",
-    takeaways: ["» one", "» two", "» three"],
-  },
+
   {
     id: 5,
     projectNumber: 5,
