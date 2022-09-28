@@ -215,7 +215,9 @@ a {
 
 .about-body {
   margin: 50px;
-  margin-top: 30px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-p {

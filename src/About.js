@@ -30,20 +30,12 @@ function About() {
 
       <div className="about-body">
         <p className="about-p">
-          I spent nearly a decade working for international education,
-          environmental, and youth development organizations, including spending
-          extended periods of time as an educator in India, East Africa, New
-          Zealand, Italy, Hawaii, and Colorado. In 2022, I transitioned out of
-          international education and completed Fullstack Academy's software
-          engineering bootcamp.
-        </p>
-
-        <p className="about-p">
-          The purpose of this site is to share what I am learning, and provide
-          some inspiration for other developers seeking ideas for projects. The
-          main technical focus is on JavaScript and adjacent tools and
-          technologies, but I also reflect on growth, challenges, change, and
-          purpose.
+          A year ago, I began learning to code, after working for ten years in
+          environmental education, international education, and youth
+          development. The purpose of this site is to share some of the concepts
+          and projects I've been working on. The main technical focus is on
+          JavaScript and related tools and technologies, but I also reflect on
+          growth, challenges, change, and purpose.
         </p>
 
         <p className="about-p">Thanks for stopping by,</p>
