@@ -12,10 +12,12 @@ function Nav(props) {
   return (
     <div className="header">
       <div className="nav-top-container">
-        <h1 className="title">
-          beginner's mind
-          <span className="cursive javascript-title">JavaScript</span>
-        </h1>
+        <Link to="/about">
+          <h1 className="title">
+            beginner's mind
+            <span className="cursive javascript-title">JavaScript</span>
+          </h1>
+        </Link>
       </div>
       <div className="nav-bottom-container">
         <nav className="nav-links">
@@ -28,12 +30,6 @@ function Nav(props) {
           <li className="nav-link">
             <div className="inline">
               <Link to="/projects">projects</Link>
-            </div>
-          </li>
-
-          <li className="nav-link">
-            <div className="inline">
-              <Link to="/about">about</Link>
             </div>
           </li>
         </nav>

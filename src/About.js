@@ -3,7 +3,6 @@ import bmjlogo from "./images/bmjlogo.jpg";
 import bitmoji from "./images/bitmoji.png";
 import linkedIn from "./images/linkedin.png";
 
-
 function About() {
   return (
     <div className="about-container">
@@ -31,18 +30,12 @@ function About() {
 
       <div className="about-body">
         <p className="about-p">
-          A little background: I spent nearly a decade working for international
-          education, environmental, and youth development organizations,
-          including spending extended periods of time as an educator in India,
-          East Africa, New Zealand, Italy, Hawaii, and Colorado. In 2022, I
-          transitioned out of international education and completed Fullstack
-          Academy's software engineering bootcamp.{" "}
-        </p>
-
-        <p className="about-p">
-          What drew me into tech was the vision of a career that was creative,
-          collaborative, intellectually engaging, impactful, and full of new and
-          evolving opportunities.
+          I spent nearly a decade working for international education,
+          environmental, and youth development organizations, including spending
+          extended periods of time as an educator in India, East Africa, New
+          Zealand, Italy, Hawaii, and Colorado. In 2022, I transitioned out of
+          international education and completed Fullstack Academy's software
+          engineering bootcamp.
         </p>
 
         <p className="about-p">

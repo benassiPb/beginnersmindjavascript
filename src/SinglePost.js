@@ -8,14 +8,14 @@ function SinglePost(props) {
     currentPost !== postData.length
       ? setCurrentPost(currentPost + 1)
       : setCurrentPost(1);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0 });
   };
 
   const handlePrevious = () => {
     currentPost !== 1
       ? setCurrentPost(currentPost - 1)
       : setCurrentPost(postData.length);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0 });
   };
 
   return (
@@ -39,7 +39,7 @@ function SinglePost(props) {
                 ))}
                 {post["sectionOneHeading"].map((paragraph, index) => (
                   <div key={index}>
-                    <p className="align-left justify bold uppercase playfair font-size-1-5rem">
+                    <p className="align-left  bold uppercase playfair font-size-1-5rem">
                       {paragraph}
                     </p>
                   </div>
@@ -52,7 +52,7 @@ function SinglePost(props) {
                 {post.sectionTwoHeading
                   ? post["sectionTwoHeading"].map((paragraph, index) => (
                       <div key={index}>
-                        <p className="align-left justify bold uppercase playfair font-size-1-5rem">
+                        <p className="align-left  bold uppercase playfair font-size-1-5rem">
                           {paragraph}
                         </p>
                       </div>
@@ -68,7 +68,7 @@ function SinglePost(props) {
                 {post.sectionThreeHeading
                   ? post["sectionThreeHeading"].map((paragraph, index) => (
                       <div key={index}>
-                        <p className="align-left justify bold uppercase playfair font-size-1-5rem">
+                        <p className="align-left  bold uppercase playfair font-size-1-5rem">
                           {paragraph}
                         </p>
                       </div>
@@ -84,7 +84,7 @@ function SinglePost(props) {
                 {post.sectionFourHeading
                   ? post["sectionFourHeading"].map((paragraph, index) => (
                       <div key={index}>
-                        <p className="align-left justify bold uppercase playfair font-size-1-5rem">
+                        <p className="align-left  bold uppercase playfair font-size-1-5rem">
                           {paragraph}
                         </p>
                       </div>
@@ -100,7 +100,7 @@ function SinglePost(props) {
                 {post.sectionFiveHeading
                   ? post["sectionFiveHeading"].map((paragraph, index) => (
                       <div key={index}>
-                        <p className="align-left justify bold uppercase playfair font-size-1-5rem">
+                        <p className="align-left  bold uppercase playfair font-size-1-5rem">
                           {paragraph}
                         </p>
                       </div>

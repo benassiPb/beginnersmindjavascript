@@ -7,7 +7,7 @@ function ProjectsSidebar(props) {
   const handleClick = (projectId) => {
     if (projectId !== currentProject) {
       setCurrentProject(projectId);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0 });
     }
   };
 
