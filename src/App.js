@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div>
-          <p>* site currently under construction</p>
+          {/* <p>* site currently under construction</p> */}
           <Nav view={view} setView={setView} />
           <RoutesComponent />
         </div>

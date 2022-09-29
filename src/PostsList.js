@@ -16,12 +16,9 @@ function PostsList(props) {
       <div className="postslist-container">
         {samplePostsData.map((post) => {
           return (
-            <div
-              key={post.id}
-              className="postslist-single-post-container hover-post"
-            >
+            <div key={post.id} className="postslist-single-post-container">
               <div
-                className="about-image-container"
+                className="postslist-single-post-container-2"
                 onClick={() => handleClick(post.id)}
               >
                 <img

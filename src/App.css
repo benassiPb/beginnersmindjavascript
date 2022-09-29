@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  padding: 10px;
   max-width: 1800px;
 }
 
@@ -26,14 +25,10 @@ a {
 }
 
 .header {
-  background-color: white;
-  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: black;
 }
 
 .darkblue {
@@ -136,7 +131,7 @@ a {
 .nav-bottom-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .nav-link {
@@ -342,21 +337,18 @@ a {
 
 .postslist-container {
   padding-bottom: 100px;
-  max-width: 600px;
 }
 
 .postslist-single-post-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
   border-bottom: 1px solid rgb(230, 230, 230);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .post-image {
   max-width: 100%;
-  max-height: 66%;
   text-align: center;
 }
 
@@ -479,26 +471,9 @@ a {
   align-items: stretch;
 }
 
-.project-sidebar-container {
-  max-width: 300px;
-  position: relative;
-  overflow: scroll;
-  padding-top: 110px;
-}
-
-.colors {
-  color: #83c9ff;
-  color: #ff9983;
-  color: #faecca;
-  color: #f6f6f6;
-  color: #bddbb2;
-  color: #dbcfb3;
-  color: #b3c7db;
-}
-
 .project-sidebar-container-2 {
   max-width: 300px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .project-sidebar-header {
@@ -513,7 +488,7 @@ a {
   cursor: pointer;
   padding-right: 10px;
   padding-bottom: 30px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .project-sidebar-title:hover {
@@ -535,25 +510,19 @@ a {
 
 .project-title-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.project-title {
-  font-family: Playfair Display;
-  font-size: 3rem;
-  border-bottom: 3px solid hsl(42, 36%, 74%);
+.project-cover {
+  width: 100%;
 }
 
-.project-title,
 .project-stack {
   max-width: 600px;
 }
 
 .project-description-container {
   padding: 10%;
-  background-color: hsl(42, 36%, 74%);
+  background-color: #d5c6a5;
 }
 
 .project-stack-container {
@@ -600,4 +569,113 @@ a {
 
 .project-link-container {
   padding: 10%;
+}
+
+/* wide screen media queries */
+
+@media only screen and (min-width: 768px) {
+  /* nav wide view */
+  .header-container {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    z-index: 1;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid lightgray;
+  }
+  .nav-top-container {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 30px;
+  }
+  .nav-bottom-container {
+    padding: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-right: 50px;
+  }
+
+  /* about wide view */
+
+  .about-container {
+    padding-top: 50px;
+  }
+
+  /* projects wide view */
+  .project-container {
+    max-width: calc(100% - 301px);
+    margin-top: 55px;
+  }
+  .project-title-container {
+    max-width: 100%;
+  }
+  .project-cover {
+    max-width: (400px);
+  }
+
+  .project-sidebar-container {
+    max-width: 300px;
+    overflow: scroll;
+    padding-top: 50px;
+  }
+
+  .project-sidebar-container-2 {
+    padding-left: 0%;
+    background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  /* posts wide view */
+  .posts-page-container {
+    padding-top: 55px;
+  }
+  .postslist-page-container {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .postslist-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .postslist-single-post-container {
+    max-width: 49%;
+    border-bottom: none;
+  }
+
+  .postslist-single-post-container-2 {
+    width: 100%;
+  }
+
+  .post-image,
+  .postslist-image {
+    padding: 0px;
+    margin: 1px;
+  }
+
+  .postslist-title {
+    padding: 10px;
+    margin: 0px;
+    line-height: normal;
+  }
+  .single-post-page-container {
+    padding-top: 55px;
+  }
+}
+
+/* very wide screens */
+@media only screen and (min-width: 1068px) {
+  .postslist-single-post-container {
+    max-width: 32%;
+  }
 }

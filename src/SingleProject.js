@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "./data/projectData";
 import { FaToolbox, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
+
 function SingleProject(props) {
   const { setCurrentProject, currentProject } = props;
   return (
@@ -9,9 +10,11 @@ function SingleProject(props) {
         project.id === currentProject ? (
           <div key={project.id} className="stretch">
             <div className="project-title-container ">
-              <h3 className="project-title font-size-3rem uppercase">
-                {project.title}
-              </h3>
+              <img
+                src={project.cover}
+                alt={project.title}
+                className="project-cover"
+              />
             </div>
 
             <div className="project-gallery-container">
