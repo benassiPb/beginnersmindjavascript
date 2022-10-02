@@ -7,15 +7,10 @@ function Projects() {
 
   return (
     <div className="project-page-container">
-      <div className="project-sidebar-spacing-container">
-        <div className="project-sidebar-container">
-          <h2 className="project-sidebar-header">Projects</h2>
-          <ProjectsSidebar
-            setCurrentProject={setCurrentProject}
-            currentProject={currentProject}
-          />
-        </div>
-      </div>
+      <ProjectsSidebar
+        setCurrentProject={setCurrentProject}
+        currentProject={currentProject}
+      />
       <div className="project-container">
         <SingleProject
           setCurrentProject={setCurrentProject}

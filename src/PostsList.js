@@ -16,17 +16,16 @@ function PostsList(props) {
       <div className="postslist-container">
         {samplePostsData.map((post) => {
           return (
-            <div key={post.id} className="postslist-single-post-container">
-              <div
-                className="postslist-single-post-container-2"
-                onClick={() => handleClick(post.id)}
-              >
-                <img
-                  className="post-image postslist-image"
-                  src={post.image}
-                  alt={post.title}
-                />
-              </div>
+            <div
+              key={post.id}
+              className="postslist-single-post-container"
+              onClick={() => handleClick(post.id)}
+            >
+              <img
+                className="post-image postslist-image"
+                src={post.image}
+                alt={post.title}
+              />
 
               <h2
                 className="postslist-title"
@@ -34,7 +33,7 @@ function PostsList(props) {
               >
                 {post.title}
               </h2>
-              <span className="subject-list">{post.subject}</span>
+              <span className="postslist-subject">{post.subject}</span>
               <p className="point-8-rem">
                 {post.month} {post.year}
               </p>

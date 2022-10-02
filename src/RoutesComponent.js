@@ -10,6 +10,7 @@ import {
 import Projects from "./Projects";
 import Posts from "./Posts";
 import About from "./About";
+import Home from "./Home";
 
 function RoutesComponent() {
   return (
@@ -19,7 +20,7 @@ function RoutesComponent() {
       <Route path="/projects/:id" element={<Projects />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
-      <Route path="/" element={<Posts />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }

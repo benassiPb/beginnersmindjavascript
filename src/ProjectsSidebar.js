@@ -12,16 +12,17 @@ function ProjectsSidebar(props) {
   };
 
   return (
-    <div className="project-sidebar-container-2">
+    <div className="project-sidebar-container">
+      <h2 className="project-sidebar-header">Projects</h2>
       {projectData.map((project) => (
-        <div key={project.id}>
+        <div key={project.id} className="project-sidebar-list">
           <p
             className="project-sidebar-title"
             onClick={() => handleClick(project.id)}
           >
             {" "}
             » {project.subtitle}{" "}
-            <span className="project-sidebar-tags">({project.stack})</span>
+            <span className="project-sidebar-tags">{project.stack}</span>
           </p>
         </div>
       ))}

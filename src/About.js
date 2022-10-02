@@ -9,7 +9,7 @@ function About() {
       <div className="about-page">
         <h2 className="font-size-4rem playfair">Welcome</h2>
         <p className="font-size-1-5rem font-weight-200">
-          a blog on learning JavaScript, building healthy habits, and
+          a blog on learning JavaScript, building meaningful projects, and
           programming with purpose
         </p>
         <img className="pb-image" src={bitmoji} alt="author" />
@@ -30,12 +30,21 @@ function About() {
 
       <div className="about-body">
         <p className="about-p">
-          A year ago, I began learning to code, after working for ten years in
-          environmental education, international education, and youth
-          development. The purpose of this site is to share some of the concepts
-          and projects I've been working on. The main technical focus is on
-          JavaScript and related tools and technologies, but I also reflect on
-          growth, challenges, change, and purpose.
+          "The beginner's mind is the mind of compassion. When our mind is
+          compassionate, it is boundless."
+        </p>
+        <p className="about-p bold">Shunryu Suzuki</p>
+        <p className="about-p">
+          After working for ten years in environmental education, international
+          education, and youth development, I began learning to code.
+        </p>
+
+        <p className="about-p">
+          I now work on websites, apps, front-end design, and cloud development.
+        </p>
+        <p className="about-p">
+          Everyday, there is something to begin or revisit with beginner's eyes.
+          Never stop beginning.
         </p>
 
         <p className="about-p">Thanks for stopping by,</p>

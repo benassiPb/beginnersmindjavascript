@@ -13,7 +13,7 @@ function Nav(props) {
     <div className="header-container">
       <div className="header">
         <div className="nav-top-container">
-          <Link to="/about">
+          <Link to="/">
             <h1 className="title">
               beginner's mind
               <span className="cursive javascript-title">JavaScript</span>
