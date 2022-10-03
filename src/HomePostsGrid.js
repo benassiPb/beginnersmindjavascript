@@ -20,7 +20,9 @@ function HomePostsGrid() {
               alt={post.title}
             />
             <div>
-              <p className="home-post-title">{post.title}</p>
+              <div className="home-post-title">
+                <p>{post.title}</p>
+              </div>
             </div>
           </div>
         ) : null

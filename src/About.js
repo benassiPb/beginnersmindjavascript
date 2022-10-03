@@ -7,8 +7,8 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-page">
-        <h2 className="font-size-4rem playfair">Welcome</h2>
-        <p className="font-size-1-5rem font-weight-200">
+        <h2 className="about-welcome">Welcome</h2>
+        <p className="about-tagline ">
           a blog on learning JavaScript, building meaningful projects, and
           programming with purpose
         </p>
@@ -27,20 +27,13 @@ function About() {
         <p className="about-p">Thanks for stopping by,</p>
 
         <div className="about-name-photo-container">
-          <div>
-            <p className="about-p bold font-size-1-5rem cursive">
-              Peter Benassi
-            </p>
-          </div>
-        </div>
-
-        <div>
+          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
           <a
             href="https://www.linkedin.com/in/pb-benassi/"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="connect-image  " src={linkedIn} alt="logo" />
+            <img className="about-link" src={linkedIn} alt="logo" />
           </a>
         </div>
       </div>

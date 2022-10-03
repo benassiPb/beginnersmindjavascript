@@ -18,6 +18,16 @@ function SingleProject() {
               />
             </div>
 
+            <div className="project-description-container">
+              <FaMarker size="2rem" />
+              <p className="bold uppercase ">Description</p>
+              <div className="project-description-text-container">
+                <p className="max-width-500 align-center">
+                  {project.description}
+                </p>
+              </div>
+            </div>
+
             <div className="project-gallery-container">
               {project.videoLink ? (
                 <div className="project-video-container">
@@ -32,16 +42,6 @@ function SingleProject() {
                   />
                 </div>
               ) : null}
-            </div>
-
-            <div className="project-description-container">
-              <FaMarker size="2rem" />
-              <p className="bold uppercase ">Description</p>
-              <div className="project-description-text-container">
-                <p className="max-width-500 align-center">
-                  {project.description}
-                </p>
-              </div>
             </div>
 
             <div className="project-stack-container">
