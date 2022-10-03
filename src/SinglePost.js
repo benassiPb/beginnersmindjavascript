@@ -1,29 +1,16 @@
 import React from "react";
 import postData from "./data/postData";
+import { useParams } from "react-router-dom";
 
-function SinglePost(props) {
-  const { currentPost, setCurrentPost } = props;
-
-  const handleNext = () => {
-    currentPost !== postData.length
-      ? setCurrentPost(currentPost + 1)
-      : setCurrentPost(1);
-    window.scrollTo({ top: 0 });
-  };
-
-  const handlePrevious = () => {
-    currentPost !== 1
-      ? setCurrentPost(currentPost - 1)
-      : setCurrentPost(postData.length);
-    window.scrollTo({ top: 0 });
-  };
+function SinglePost() {
+  let { postId } = useParams();
 
   return (
     <div className="single-post-page-container">
       <div className="single-post-container center">
         <div className="margin-top-50">
           {postData.map((post) =>
-            post.postNumber !== currentPost ? null : (
+            post.postNumber !== parseInt(postId) ? null : (
               <div key={post.id}>
                 {" "}
                 <h2 className="single-post-title">{post.title}</h2>
@@ -120,14 +107,6 @@ function SinglePost(props) {
               </div>
             )
           )}
-        </div>
-        <div className="previous-next-container">
-          <p className="previous-next-text" onClick={handlePrevious}>
-            prev
-          </p>
-          <p className="previous-next-text" onClick={handleNext}>
-            next
-          </p>
         </div>
       </div>
     </div>

@@ -1,14 +1,19 @@
 import React from "react";
 import projectData from "./data/projectData";
+import { useNavigate } from "react-router-dom";
 
-function HomeProjectsScroll() {
+function ProjectsScroll() {
+  let navigate = useNavigate();
   return (
     <div>
       {" "}
       <div className="home-projects-container">
         {projectData.map((project) =>
           project.id >= projectData.length - 9 ? (
-            <div key={project.id}>
+            <div
+              onClick={() => navigate(`/projects/${project.id}`)}
+              key={project.id}
+            >
               <img
                 className="home-project-cover"
                 src={project.cover}
@@ -22,4 +27,4 @@ function HomeProjectsScroll() {
   );
 }
 
-export default HomeProjectsScroll;
+export default ProjectsScroll;

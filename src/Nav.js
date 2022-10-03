@@ -29,13 +29,13 @@ function Nav(props) {
             </li>
             <li className="nav-link">
               <div className="inline">
-                <Link to="/posts">writing</Link>
+                <Link to="/posts/1">writing</Link>
               </div>
             </li>
 
             <li className="nav-link">
               <div className="inline">
-                <Link to="/projects">projects</Link>
+                <Link to="/projects/1">projects</Link>
               </div>
             </li>
           </nav>

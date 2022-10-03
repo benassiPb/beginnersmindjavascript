@@ -1,24 +1,16 @@
 import React, { useState } from "react";
 import SingleProject from "./SingleProject";
 import ProjectsSidebar from "./ProjectsSidebar";
-import HomeProjectsScroll from "./HomeProjectsScroll";
+import ProjectsScroll from "./ProjectsScroll";
 
 function Projects() {
-  const [currentProject, setCurrentProject] = useState(1);
-
   return (
     <div className="project-page-container">
-      <ProjectsSidebar
-        setCurrentProject={setCurrentProject}
-        currentProject={currentProject}
-      />
+      <ProjectsSidebar />
       <div className="project-container">
-        <SingleProject
-          setCurrentProject={setCurrentProject}
-          currentProject={currentProject}
-        />
+        <SingleProject />
         <div className="single-project-scroll">
-          <HomeProjectsScroll />
+          <ProjectsScroll />
         </div>
       </div>
     </div>

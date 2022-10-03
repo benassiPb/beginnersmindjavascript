@@ -215,6 +215,7 @@ a {
   grid-auto-flow: column;
   grid-auto-columns: 85%;
   overflow-x: auto;
+  overflow-y: hidden;
   gap: 30px;
   overscroll-behavior-inline: contain;
   padding-left: 10px;

@@ -1,13 +1,14 @@
 import React from "react";
 import projectData from "./data/projectData";
 import { FaToolbox, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
+import { useParams } from "react-router-dom";
 
-function SingleProject(props) {
-  const { setCurrentProject, currentProject } = props;
+function SingleProject() {
+  let { projectId } = useParams();
   return (
     <div>
       {projectData.map((project) =>
-        project.id === currentProject ? (
+        project.id === parseInt(projectId) ? (
           <div key={project.id} className="stretch">
             <div className="project-title-container ">
               <img
