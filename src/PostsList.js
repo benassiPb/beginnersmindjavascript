@@ -1,8 +1,9 @@
 import React from "react";
 import samplePostsData from "./data/postData";
+import SinglePost from "./SinglePost";
 
 function PostsList(props) {
-  const { setCurrentPost, setPostView } = props;
+  const { setCurrentPost, setPostView, currentPost } = props;
 
   const handleClick = (postId) => {
     setCurrentPost(postId);
@@ -12,6 +13,7 @@ function PostsList(props) {
 
   return (
     <div className="postslist-page-container">
+      <SinglePost currentPost={currentPost} setCurrentPost={setCurrentPost} />
       <h2 className="all-posts">All Posts</h2>
       <div className="postslist-container">
         {samplePostsData.map((post) => {

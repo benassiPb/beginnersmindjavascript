@@ -20,8 +20,6 @@ function App() {
           <RoutesComponent />
         </div>
         {/* <p className="padding-50">*Website currently under construction...</p> */}
-
-        <Footer />
       </BrowserRouter>
     </div>
   );

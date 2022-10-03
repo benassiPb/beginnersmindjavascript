@@ -4,7 +4,7 @@ let projectData = [
     projectNumber: 1,
     title: "CSS projects",
     subtitle: "Advanced CSS",
-    cover: "https://i.imgur.com/gTDdpfE.png",
+    cover: "https://i.imgur.com/vs8isIw.png",
     stack: "HTML, CSS, JavaScript",
     description: "css projects",
     repo: "link",
@@ -15,7 +15,7 @@ let projectData = [
     projectNumber: 2,
     title: "CSS projects",
     subtitle: "Design w/ Figma",
-    cover: "https://i.imgur.com/a86Clgc.png",
+    cover: "https://i.imgur.com/3emPXht.png",
     stack: "Figma",
     description: "css projects",
     repo: "link",
@@ -27,7 +27,7 @@ let projectData = [
     title: "HappiList",
     subtitle: "Social Media Mobile App",
     stack: "React Native, Expo, Google Firestore, Node, Figma",
-    cover: "https://i.imgur.com/wxXT1QJ.png",
+    cover: "https://i.imgur.com/gOIAPQx.png",
     description:
       "HappiList is a social media mobile app designed for iOS and Android devices, built with two peers as capstone project during the Fullstack Academy bootcamp. The app allows users to chat with friends, accomplish tasks, and view friends' posts and list items. Each month, users are given a list of wellness-promoting tasks they can complete and links to recommended apps to help achieve those tasks. Includes: sign up page with user authentication, sign in page, add friends functionality, image upload, like, comment, live chat, create list, create task, delete & edit task.",
     repo: "https://github.com/2204-cookiemonsters-capstone/amazing-app",
@@ -39,7 +39,7 @@ let projectData = [
     projectNumber: 4,
     title: "Grace's Greens",
     subtitle: "PERN E-commerce Site",
-    cover: "https://i.imgur.com/j4wiP2V.png",
+    cover: "https://i.imgur.com/oujZaFN.png",
     stack:
       "PostgreSQL, Express, React, Node, Redux, REST API, JWT, Sequelize, Figma",
     description:
@@ -53,7 +53,7 @@ let projectData = [
     title: "Fullstack-retrospect-a-thon",
     subtitle: "React blog",
     stack: "React, Node, CSS",
-    cover: "https://i.imgur.com/eD5e6ej.png",
+    cover: "https://i.imgur.com/wVFpA0p.png",
     description:
       "A weeklong solo project for open-ended 'stackathon' assignment. I created a React blog with a trivia game based on my peers, a comical email rejection inspired mad-libs, a blog template, and a resources page.",
     repo: "link",
@@ -68,7 +68,7 @@ let projectData = [
     subtitle: "Developer Portfolio site ",
     stack: "React, Node, TailwindCSS",
     description: "A professional style portfolio site",
-    cover: "https://i.imgur.com/uLD1Now.png",
+    cover: "https://i.imgur.com/YC7CRwe.png",
     repo: "link",
     takeaways: ["» first project built using TailwindCSS"],
   },

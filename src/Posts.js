@@ -19,6 +19,7 @@ function Posts() {
           <PostsList
             setCurrentPost={setCurrentPost}
             setPostView={setPostView}
+            currentPost={currentPost}
           />
         ) : null}
         {postView === "single" ? (
