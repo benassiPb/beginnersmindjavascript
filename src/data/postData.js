@@ -5,7 +5,7 @@ let postsData = [
     month: "July",
     year: 2022,
     subject: "Healthy Habits",
-    title: "Patience, Patterns, and Long Term Purpose",
+    title: "Patterns, Purpose, and Patience",
     tagline: ["it takes more time than you want it to"],
     image: "https://i.imgur.com/P98Gvwl.png",
     imageTwo: "",

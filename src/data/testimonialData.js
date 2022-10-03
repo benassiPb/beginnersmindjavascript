@@ -3,8 +3,7 @@ let testimonialData = [
     id: 1,
     author: "Mike V.",
     bio: "Programmer",
-    quote:
-      "I worked with Peter on two projects. He is a great programmer and teammate.",
+    quote: "I worked with Peter on two projects. He is an excellent teammate.",
   },
   {
     id: 2,

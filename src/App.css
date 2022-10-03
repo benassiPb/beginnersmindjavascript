@@ -173,14 +173,13 @@ a {
   font-weight: 400;
   background-color: rgba(219, 197, 140, 0.2);
   text-align: start;
-  border: 5px solid rgba(219, 197, 140);
   padding: 20px;
   max-width: 100vw;
 }
 
 .home-quote-large-quotation {
   font-size: 6rem;
-  margin-top: 0px;
+  margin-top: -15px;
   color: #dbc58c;
 }
 .gold {
@@ -201,11 +200,9 @@ a {
   padding-top: 0px;
 }
 
-.home-subheader-left,
-.home-subheader-center {
+.home-subheader {
   font-family: Playfair Display;
-  text-align: left;
-  padding-left: 10px;
+  text-align: center;
   border-bottom: 1px solid hsl(42, 36%, 74%);
 }
 
@@ -246,19 +243,23 @@ a {
   flex-wrap: wrap;
   width: 100vw;
   justify-content: left;
-  align-content: flex-start;
-  row-gap: none;
+  line-height: 0px;
 }
 .home-post-image {
-  width: 100vw;
+  width: 32vw;
+  margin: 1px;
 }
 
 .home-post-image:hover {
   cursor: pointer;
 }
 
+.testimonials-header {
+  margin-bottom: 0px;
+}
+
 .home-post-title {
-  width: 99vw;
+  display: none;
   text-align: center;
   font-family: Playfair Display;
   cursor: pointer;
@@ -268,7 +269,7 @@ a {
   padding: 10px;
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 70%;
+  grid-auto-columns: 90%;
   overflow-x: auto;
   gap: 10px;
   overscroll-behavior-inline: contain;
@@ -276,10 +277,12 @@ a {
   margin-right: 20px;
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 10px;
+  background-color: #f7f4e8;
+  margin: 0px;
 }
 
 .home-testimonial-container {
-  max-width: 85vw;
+  max-width: 90vw;
   padding: 20px;
   margin: 2px;
   background-color: white;
@@ -299,17 +302,17 @@ a {
 
 .home-testimonial-large-quotation {
   font-family: Playfair Display;
-  font-size: 6rem;
-  margin-top: -20px;
+  font-size: 4rem;
+  margin-top: -10px;
   padding-left: -10px;
   color: #dac58c;
 }
 
 .home-testimonial-quote {
-  font-size: 2rem;
-  padding-left: 25px;
-  padding-right: 40px;
-  padding-top: 20px;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
   font-family: Playfair Display;
 }
 
@@ -356,16 +359,18 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
 }
 
 /* about mobile view */
 .about-page {
   max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-body {
-  margin: 50px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -380,30 +385,20 @@ a {
 .about-name-photo-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .pb-image {
   width: 250px;
 }
 
-.connect-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .connect-image {
   width: 25px;
-  align-items: left;
+  display: block;
+  text-align: center;
 }
 
-.connect-text {
-  text-align: left;
-  padding-right: 10px;
-  font-size: 0.8rem;
-}
-
-/* posts aka writing mobile view */
+/* posts (aka writing) mobile view */
 
 .posts-container {
   margin-top: 1px;
@@ -416,6 +411,21 @@ a {
   font-family: Playfair Display;
   font-size: 3rem;
   text-transform: capitalize;
+}
+
+.single-post-body {
+  line-height: 2rem;
+  padding: 10px;
+}
+
+.single-post-image {
+  max-width: 100%;
+}
+
+.single-post-tagline {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 .all-posts {
@@ -475,9 +485,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 32%;
-  padding: 5px;
-  border-bottom: none;
+  width: 70vw;
   margin: 5px;
 }
 
@@ -490,7 +498,7 @@ a {
 }
 
 .post-image {
-  max-width: 32vw;
+  max-width: 70vw;
 }
 
 .postslist-image:hover {
@@ -505,24 +513,12 @@ a {
 
 .single-post-container {
   max-width: 500px;
+  padding: 15px;
 }
 
 .title-subject-container {
   display: flex;
   justify-content: center;
-}
-
-.subject-tag {
-  color: white;
-  font-weight: 700;
-  font-size: 0.7rem;
-  max-width: 120px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  padding: 3px;
-  margin-top: -5px;
-  margin-bottom: 20px;
-  cursor: pointer;
 }
 
 .postslist-subject {
@@ -531,10 +527,6 @@ a {
   font-weight: 600;
   display: inline;
 }
-
-/* .border-bottom {
-  border-bottom: 3px solid rgba(66, 132, 255, 0.2);
-} */
 
 .align-center {
   text-align: center;
@@ -566,6 +558,7 @@ a {
   cursor: pointer;
   /* display: inline; */
   padding-top: 10px;
+  text-align: center;
 }
 
 .postslist-title:hover {
@@ -608,6 +601,7 @@ a {
 }
 
 .project-sidebar-container {
+  display: none;
   max-width: 300px;
   padding-top: 10px;
 }
@@ -617,14 +611,15 @@ a {
   text-transform: uppercase;
   font-weight: 800;
   padding-top: 20px;
+  text-align: center;
 }
 
 .project-sidebar-title {
   text-align: left;
   cursor: pointer;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-bottom: 10px;
-  padding-left: 5px;
+  padding-left: 20px;
 }
 
 .project-sidebar-title:hover {
@@ -714,6 +709,11 @@ a {
   padding: 10%;
 }
 
+.single-project-scroll {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* wide screen media queries */
 
 @media only screen and (min-width: 768px) {
@@ -723,7 +723,6 @@ a {
     width: 100vw;
     z-index: 1;
     background-color: white;
-    background-color: #fffefa;
   }
   .header {
     display: flex;
@@ -747,7 +746,7 @@ a {
 
   /* home wide view */
   .home-page {
-    padding-top: 60px;
+    padding-top: 58px;
     max-width: 1400px;
   }
 
@@ -768,6 +767,13 @@ a {
     padding-left: 2vw;
   }
 
+  .home-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
   .home-post-image {
     width: 32vw;
   }
@@ -776,6 +782,21 @@ a {
     width: 32vw;
     padding: 2px;
   }
+
+  .home-testimonials-container {
+    grid-auto-columns: 70%;
+    background-color: #f7f4e8;
+    margin: 0px;
+  }
+
+  .home-testimonial-large-quotation {
+    font-size: 6rem;
+  }
+
+  .home-testimonial-quote {
+    font-size: 2rem;
+  }
+
   /* about wide view */
 
   .about-container {
@@ -803,6 +824,7 @@ a {
   }
 
   .project-sidebar-container {
+    display: block;
     max-width: 290px;
     position: absolute;
     padding-top: 50px;
@@ -815,6 +837,10 @@ a {
   .project-sidebar-list {
     height: 100%;
     overflow-y: scroll;
+  }
+
+  .single-project-scroll {
+    display: none;
   }
 
   /* posts wide view */
@@ -830,6 +856,7 @@ a {
   .postslist-image {
     padding: 0px;
     margin: 2px;
+    max-width: 25vw;
   }
 
   .postslist-title {
@@ -839,5 +866,9 @@ a {
   }
   .single-post-page-container {
     padding-top: 55px;
+  }
+  .postslist-single-post-container {
+    width: 25vw;
+    margin: 5px;
   }
 }

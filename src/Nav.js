@@ -24,6 +24,11 @@ function Nav(props) {
           <nav className="nav-links">
             <li className="nav-link">
               <div className="inline">
+                <Link to="/about">about</Link>
+              </div>
+            </li>
+            <li className="nav-link">
+              <div className="inline">
                 <Link to="/posts">writing</Link>
               </div>
             </li>

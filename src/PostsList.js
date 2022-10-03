@@ -3,17 +3,15 @@ import samplePostsData from "./data/postData";
 import SinglePost from "./SinglePost";
 
 function PostsList(props) {
-  const { setCurrentPost, setPostView, currentPost } = props;
+  const { setCurrentPost, currentPost } = props;
 
   const handleClick = (postId) => {
     setCurrentPost(postId);
-    setPostView("single");
     window.scrollTo({ top: 0 });
   };
 
   return (
     <div className="postslist-page-container">
-      <SinglePost currentPost={currentPost} setCurrentPost={setCurrentPost} />
       <h2 className="all-posts">All Posts</h2>
       <div className="postslist-container">
         {samplePostsData.map((post) => {
