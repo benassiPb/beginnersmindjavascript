@@ -37,29 +37,6 @@ function About() {
 
         <div className="about-welcome-section about-section " id="welcome">
           <h2 className="about-headline">Welcome</h2>
-          <p className="about-tagline ">
-            a blog on learning JavaScript, building meaningful projects, and
-            programming with purpose
-          </p>
-        </div>
-
-        <p>
-          After working for ten years in environmental education, international
-          education, and youth development, I began learning to code.
-        </p>
-        <p>
-          I now work on websites, apps, front-end design, and cloud development.
-        </p>
-
-        <div className="about-name-photo-container">
-          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
-          <a
-            href="https://www.linkedin.com/in/pb-benassi/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="about-link" src={linkedIn} alt="logo" />
-          </a>
         </div>
       </div>
 
@@ -73,6 +50,16 @@ function About() {
 
       <div className="about-backstory-section about-section" id="backstory">
         <h2 className="about-headline">Backstory</h2>
+        <div className="about-name-photo-container">
+          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
+          <a
+            href="https://www.linkedin.com/in/pb-benassi/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="about-link" src={linkedIn} alt="logo" />
+          </a>
+        </div>
       </div>
 
       <div className="about-philosophy-section about-section" id="philosophy">

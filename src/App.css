@@ -18,10 +18,13 @@ a {
 }
 
 .footer {
-  font-size: 0.6rem;
-  color: gray;
-  margin-bottom: -20px;
+  font-size: 0.7rem;
+  color: white;
   text-align: center;
+  background-color: black;
+  padding-top: 20px;
+  font-family: Playfair Display;
+  padding-bottom: 10px;
 }
 
 .center {
@@ -327,6 +330,7 @@ a {
   background-color: #f7f4e8;
   margin: 0px;
   max-height: 100vh;
+  border-bottom: 1px solid hsl(42, 36%, 74%);
 }
 
 .home-testimonial-container {
@@ -426,7 +430,7 @@ a {
 }
 
 .about-section {
-  margin-bottom: 500px;
+  margin-bottom: 100px;
 }
 
 .about-word-title:hover {
@@ -437,9 +441,10 @@ a {
 .about-headline {
   font-size: 2.5rem;
   font-family: Playfair Display;
-  padding-top: 20px;
   padding-left: 50px;
+  padding-top: -10px;
   border-bottom: 1px solid hsl(42, 36%, 74%);
+  border-top: 1px solid hsl(42, 36%, 74%);
 }
 
 .about-tagline {
@@ -476,18 +481,21 @@ a {
   cursor: pointer;
 }
 
-.about-form-container {
+.about-contact-form-container {
   display: flex;
-  width: 100vw;
   flex-direction: row;
   justify-content: center;
 }
 .about-contact-form {
-  margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
+  padding: 10px;
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: #f7f4e8;
+  width: 100%;
 }
 
 .about-contact-label {
@@ -500,18 +508,17 @@ a {
   padding: 5px;
 }
 
-.about-contact-message {
-  padding: 50px;
+.about-contact-submit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .about-contact-submit {
   margin-top: 20px;
-  margin-left: 25px;
-  margin-right: 25px;
   width: 30%;
   font-family: Playfair Display;
   text-align: center;
-  background-color: #d5c6a5;
+  background-color: #ffffff;
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
@@ -930,7 +937,15 @@ a {
   .about-headline {
     font-size: 3rem;
     font-family: Playfair Display;
-    padding-top: 60px;
+    margin-top: 60px;
+  }
+
+  .about-word-title {
+    font-size: 3.5rem;
+  }
+
+  .about-contact-form {
+    width: 600px;
   }
 
   /* projects wide view */

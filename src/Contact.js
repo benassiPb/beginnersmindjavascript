@@ -25,7 +25,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="about-form-container">
+    <div className="about-contact-form-container">
       <form ref={form} onSubmit={sendEmail} className="about-contact-form">
         <label className="about-contact-label">Name</label>
         <input type="text" name="user_name" className="about-contact-input" />
@@ -36,7 +36,9 @@ const ContactUs = () => {
           name="message"
           className="about-contact-input about-contact-message"
         />
-        <input type="submit" value="Send" className="about-contact-submit" />
+        <div className="about-contact-submit-container">
+          <input type="submit" value="Send" className="about-contact-submit" />
+        </div>
       </form>
     </div>
   );

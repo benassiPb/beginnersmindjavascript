@@ -4,12 +4,13 @@ import testimonialData from "./data/testimonialData";
 import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
 import HomeQuote from "./HomeQuote";
+import Footer from "./Footer";
 
 function Home() {
   return (
     <div className="home-page">
       <HomeQuote />
-      
+
       <h2 className="home-subheader">RECENT PROJECTS</h2>
       <HomeProjectsScroll />
       <h2 className="home-subheader">RECENT WRITING</h2>

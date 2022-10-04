@@ -25,6 +25,12 @@ let testimonialData = [
     bio: "Coworker",
     quote: "Working with Peter was a joy.",
   },
+  {
+    id: 5,
+    author: "Rachel",
+    bio: "Coworker",
+    quote: "Peter is a thoughtful, creative, and overall great collaborator.",
+  },
 ];
 
 export default testimonialData;
