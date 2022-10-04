@@ -19,10 +19,8 @@ function HomePostsGrid() {
               src={post.image}
               alt={post.title}
             />
-            <div>
-              <div className="home-post-title">
-                <p>{post.title}</p>
-              </div>
+            <div className="home-post-title">
+              <p>{post.title}</p>
             </div>
           </div>
         ) : null
