@@ -6,41 +6,24 @@ import {
   Redirect,
   Link,
 } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import NavTopbar from "./NavTopbar";
+import NavSidebar from "./NavSidebar";
 
 function Nav(props) {
-  const [darkMode, setDarkMode] = useState(0);
-  return (
-    <div className="header-container">
-      <div className="header">
-        <div className="nav-top-container">
-          <Link to="/">
-            <h1 className="title">
-              beginner's mind
-              <span className="cursive javascript-title">JavaScript</span>
-            </h1>
-          </Link>
-        </div>
-        <div className="nav-bottom-container">
-          <nav className="nav-links">
-            <li className="nav-link">
-              <div className="inline">
-                <Link to="/about">about</Link>
-              </div>
-            </li>
-            <li className="nav-link">
-              <div className="inline">
-                <Link to="/posts/1">writing</Link>
-              </div>
-            </li>
+  const [nav, setNav] = useState(false);
 
-            <li className="nav-link">
-              <div className="inline">
-                <Link to="/projects/1">projects</Link>
-              </div>
-            </li>
-          </nav>
+  const handleClick = () => setNav(!nav);
+  return (
+    <div>
+      {nav === false ? (
+        <NavTopbar handleClick={handleClick} nav={nav} setNav={setNav} />
+      ) : (
+        <div>
+          <NavTopbar handleClick={handleClick} nav={nav} setNav={setNav} />
+          <NavSidebar handleClick={handleClick} nav={nav} setNav={setNav} />
         </div>
-      </div>
+      )}
     </div>
   );
 }

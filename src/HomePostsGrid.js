@@ -14,13 +14,15 @@ function HomePostsGrid() {
             className="home-post-container"
             onClick={() => navigate(`/posts/${post.id}`)}
           >
-            <img
-              className="home-post-image"
-              src={post.image}
-              alt={post.title}
-            />
-            <div className="home-post-title">
-              <p>{post.subject}</p>
+            <div className="home-post-grid-item">
+              <img
+                className="home-post-image"
+                src={post.image}
+                alt={post.title}
+              />
+              <div className="home-post-title">
+                <p>{post.subject}</p>
+              </div>
             </div>
           </div>
         ) : null

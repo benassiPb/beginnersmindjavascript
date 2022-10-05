@@ -5,10 +5,16 @@ import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
 import HomeQuote from "./HomeQuote";
 import Footer from "./Footer";
+import video from "./images/video.mp4";
 
 function Home() {
   return (
     <div className="home-page">
+      <div className="home-video-container">
+        {/* <video autoPlay loop muted className="home-video">
+          <source src={} type="video/mp4"></source>
+        </video> */}
+      </div>
       <HomeQuote />
 
       <h2 className="home-subheader">RECENT PROJECTS</h2>
