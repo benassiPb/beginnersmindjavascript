@@ -18,12 +18,10 @@ function About() {
           <a className="about-word-title" href="#values">
             values
           </a>
-          <a className="about-word-title" href="#backstory">
+          <a className="about-word-title bold" href="#backstory">
             backstory
           </a>
-          <a className="about-word-title bold" href="#philosophy">
-            philosophy{" "}
-          </a>
+
           <a className="about-word-title" href="#resources">
             resources
           </a>
@@ -49,21 +47,7 @@ function About() {
       </div>
 
       <div className="about-backstory-section about-section" id="backstory">
-        <h2 className="about-headline">Backstory</h2>
-        <div className="about-name-photo-container">
-          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
-          <a
-            href="https://www.linkedin.com/in/pb-benassi/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="about-link" src={linkedIn} alt="logo" />
-          </a>
-        </div>
-      </div>
-
-      <div className="about-philosophy-section about-section" id="philosophy">
-        <h2 className="about-headline">Philosophy</h2>
+        <h2 className="about-headline ">Backstory</h2>
       </div>
 
       <div className="about-resources-section about-section" id="resources">
@@ -77,6 +61,16 @@ function About() {
 
       <div className="about-thanks-section about-section" id="thanks">
         <h2 className="about-headline">Thanks</h2>
+        <div className="about-name-photo-container">
+          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
+          <a
+            href="https://www.linkedin.com/in/pb-benassi/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="about-link" src={linkedIn} alt="logo" />
+          </a>
+        </div>
       </div>
     </div>
   );
