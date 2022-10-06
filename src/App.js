@@ -6,12 +6,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./Footer";
 
 function App() {
-  const [view, setView] = useState("Writing");
+  const [nav, setNav] = useState(false);
 
   return (
     <div className="App">
       <div>
-        <Nav view={view} setView={setView} />
+        <Nav nav={nav} setNav={setNav} />
         <RoutesComponent />
         <Footer />
       </div>

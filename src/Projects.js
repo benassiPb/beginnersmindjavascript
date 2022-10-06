@@ -3,16 +3,23 @@ import SingleProject from "./SingleProject";
 import ProjectsSidebar from "./ProjectsSidebar";
 import ProjectsScroll from "./ProjectsScroll";
 
-function Projects() {
+function Projects(props) {
+  let { nav } = props;
   return (
-    <div className="project-page-container">
-      <ProjectsSidebar />
-      <div className="project-container">
-        <SingleProject />
-        <div className="single-project-scroll">
-          <ProjectsScroll />
+    <div>
+      {nav ? null : (
+        <div className="project-meta-container">
+          <div className="project-page-container">
+            <ProjectsSidebar />
+            <div className="project-container">
+              <SingleProject />
+              <div className="single-project-scroll">
+                <ProjectsScroll />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

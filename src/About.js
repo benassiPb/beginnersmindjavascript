@@ -6,11 +6,13 @@ import Contact from "./Contact";
 import AboutWelcome from "./AboutWelcome";
 import AboutBackstory from "./AboutBackstory";
 import HomeQuote from "./HomeQuote";
+import AboutHero from "./AboutHero";
 
 function About() {
   return (
     <div className="about-container">
       <div className="about-page">
+        <AboutHero />
         <nav className="about-word-titles">
           <a className="about-word-title" href="#welcome">
             welcome
@@ -25,12 +27,12 @@ function About() {
           </a>
         </nav>
 
-        <div>
-          <HomeQuote />
-        </div>
+        <div></div>
 
         <div className="about-welcome-section about-section " id="welcome">
           <h2 className="about-headline">Welcome</h2>
+          <HomeQuote />
+
           <AboutWelcome />
         </div>
       </div>

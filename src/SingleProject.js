@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "./data/projectData";
-import { FaToolbox, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
+import { FaTools, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 
 function SingleProject() {
@@ -20,7 +20,7 @@ function SingleProject() {
               </div>
 
               <div className="project-description-container">
-                <FaMarker size="2rem" />
+                <FaMarker size="2rem" className="flip" />
                 <p className="bold uppercase ">Description</p>
                 <div className="project-description-text-container">
                   <p className="max-width-500 align-center">
@@ -46,7 +46,7 @@ function SingleProject() {
               </div>
 
               <div className="project-stack-container">
-                <FaToolbox size="2rem" />
+                <FaTools size="2rem" className="flip" />
                 <p className="bold uppercase "> Tech Stack </p>
                 <div className="project-stack-content-container">
                   <p className="font-size-2rem font-weight-200 project-stack">
@@ -56,13 +56,13 @@ function SingleProject() {
               </div>
 
               <div className="project-repo-container">
-                <FaGithub size="2rem" />
+                <FaGithub size="2rem" className="flip" />
                 <p className="bold  uppercase ">Repo</p>
                 <p>{project.repo}</p>
               </div>
 
               <div className="project-takeaways-container">
-                <FaLightbulb size="2rem" />
+                <FaLightbulb size="2rem" className="flip" />
                 <p className="bold uppercase ">Key Takeaways</p>
                 {project.takeaways.map((item, index) => (
                   <div key={index}>

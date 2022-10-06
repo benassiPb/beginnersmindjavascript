@@ -1,35 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NavSidebar() {
+function NavSidebar(props) {
+  const { handleClick } = props;
   return (
     <div className="nav-sidebar">
       <nav className="nav-links">
         <li className="nav-link">
-          <div className="inline">
-            <Link to="/about">about</Link>
-          </div>
+          <Link to="/about" onClick={handleClick}>
+            <span className="underline-effect">about</span>
+          </Link>
         </li>
         <li className="nav-link">
-          <div className="inline">
-            <Link to="/posts/1">writing</Link>
-          </div>
+          <Link to="/posts/1" onClick={handleClick}>
+            <span className="underline-effect">writing</span>
+          </Link>
         </li>
 
         <li className="nav-link">
-          <div className="inline">
-            <Link to="/projects/1">projects</Link>
-          </div>
+          <Link to="/projects/1" onClick={handleClick}>
+            <span className="underline-effect">projects</span>
+          </Link>
         </li>
         <li className="nav-link">
-          <div className="inline">
-            <Link to="/services">services</Link>
-          </div>
+          <Link to="/services" onClick={handleClick}>
+            <span className="underline-effect">services</span>
+          </Link>
         </li>
         <li className="nav-link">
-          <div className="inline">
-            <Link to="/shop">shop</Link>
-          </div>
+          <Link to="/shop" onClick={handleClick}>
+            <span className="underline-effect">shop</span>
+          </Link>
         </li>
       </nav>
     </div>

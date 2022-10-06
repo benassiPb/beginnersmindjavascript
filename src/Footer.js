@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <p className="footer-text" onClick={() => navigate("/")}>
-        beginner's mind <span className="cursive">Javascript </span>
+        beginner's mind <span className="cursive">JavaScript </span>
         <span>{new Date().getFullYear()}</span>
       </p>
     </div>
