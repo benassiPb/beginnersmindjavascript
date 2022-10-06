@@ -31,7 +31,6 @@ function About() {
 
         <div className="about-welcome-section about-section " id="welcome">
           <h2 className="about-headline">Welcome</h2>
-          <HomeQuote />
 
           <AboutWelcome />
         </div>
@@ -47,18 +46,15 @@ function About() {
         <Contact />
       </div>
 
-      <div className="about-thanks-section about-section" id="thanks">
-        <h2 className="about-headline">Thanks</h2>
-        <div className="about-name-photo-container">
-          <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
-          <a
-            href="https://www.linkedin.com/in/pb-benassi/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="about-link" src={linkedIn} alt="logo" />
-          </a>
-        </div>
+      <div className="about-name-photo-container">
+        <p className="about-p bold font-size-1-5rem cursive">Peter Benassi</p>
+        <a
+          href="https://www.linkedin.com/in/pb-benassi/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="about-link" src={linkedIn} alt="logo" />
+        </a>
       </div>
     </div>
   );

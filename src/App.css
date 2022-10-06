@@ -265,6 +265,7 @@ a {
   background-color: rgba(219, 197, 140, 0.2);
   text-align: start;
   padding: 20px;
+  margin-top: -35px;
 }
 
 .home-quote-large-quotation {
@@ -641,6 +642,47 @@ a {
   cursor: pointer;
 }
 
+.about-subheader {
+  font-family: Playfair Display;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+.about-work-image-container {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.about-work-image {
+  width: 90vw;
+  max-width: 600px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.about-paragraphs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+.about-paragraphs {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.about-paragraph {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 2rem;
+}
+
 /* posts (aka writing) mobile view */
 
 .posts-container {
@@ -1001,7 +1043,7 @@ a {
   }
 
   .home-quote-body {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .home-quote-author {
@@ -1031,6 +1073,10 @@ a {
   .home-testimonial-container {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  .home-quote-container {
+    margin-top: -40px;
   }
 
   /* about wide view */
@@ -1141,3 +1187,8 @@ a {
     font-size: 2.5rem;
   }
 }
+
+/* Project colors:
+#D4C5A5
+#F1E0BB
+#F9ECD2 */
