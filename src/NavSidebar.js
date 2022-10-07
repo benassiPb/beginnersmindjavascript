@@ -23,6 +23,10 @@ function NavSidebar(props) {
           </Link>
         </li>
       </nav>
+      <div className="nav-contact">
+        <p>QUESTIONS?</p>
+        <p className="nav-email">benassipb@gmail.com</p>
+      </div>
     </div>
   );
 }

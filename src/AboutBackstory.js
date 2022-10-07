@@ -5,18 +5,21 @@ function AboutBackstory() {
   return (
     <div>
       <div className="about-backstory-bio">
-        <h2 className="about-subheader">bio</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>bio
+          <span className="about-dash">-</span>
+        </h2>
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
             <p className="about-paragraph">
-              From the Chicago suburbs, my work has taken me all around the
-              world. Prior to entering the world of web and software
-              development, I worked for nearly a decade in environmental
-              education, youth development, and international education. This
-              path led me to meet and learn from incredible communities in
-              India, Italy, New Zealand, Tanzania, Hawaii, Colorado and beyond.
-              I am inspired by people who work to support the health of their
-              communities and environments.{" "}
+              From the Chicago suburbs, now based in Los Angeles, my work has
+              taken me all around the world. Prior to entering the world of web
+              and software development, I worked for nearly a decade in
+              environmental education, youth development, and international
+              education. This path led me to meet and learn from incredible
+              communities in India, Italy, New Zealand, Tanzania, Hawaii,
+              Colorado and beyond. I am inspired by people who work to support
+              the health of their communities and environments.{" "}
             </p>
             <p className="about-paragraph">
               In 2022, I committed to a career change to pursue web development
@@ -31,7 +34,10 @@ function AboutBackstory() {
         </div>
       </div>
       <div className="about-backstory-work">
-        <h2 className="about-subheader">work experiences</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>work experiences
+          <span className="about-dash">-</span>
+        </h2>
         {backstoryData.map((item) =>
           item.type === "work" ? (
             <div className="about-work-image-container" key={item.id}>
@@ -45,7 +51,10 @@ function AboutBackstory() {
         )}
       </div>
       <div className="about-backstory-volunteer">
-        <h2 className="about-subheader">volunteer experiences</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>volunteer experiences
+          <span className="about-dash">-</span>
+        </h2>
 
         {backstoryData.map((item) =>
           item.type === "volunteer" ? (

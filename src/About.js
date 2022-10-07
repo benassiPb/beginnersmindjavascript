@@ -14,8 +14,8 @@ function About() {
       <div className="about-page">
         <AboutHero />
         <nav className="about-word-titles">
-          <a className="about-word-title" href="#welcome">
-            welcome
+          <a className="about-word-title" href="#mission">
+            mission
           </a>
 
           <a className="about-word-title " href="#backstory">
@@ -29,25 +29,27 @@ function About() {
 
         <div></div>
 
-        <div className="about-welcome-section about-section " id="welcome">
-          <h2 className="about-headline">Welcome</h2>
+        <div className="about-welcome-section about-section " id="mission">
+          {/* <h2 className="about-headline">Welcome</h2> */}
 
           <AboutWelcome />
         </div>
       </div>
 
       <div className="about-backstory-section about-section" id="backstory">
-        <h2 className="about-headline ">Backstory</h2>
+        {/* <h2 className="about-headline ">Backstory</h2> */}
         <AboutBackstory />
       </div>
 
       <div className="about-contact-section about-section" id="contact">
-        <h2 className="about-headline">Contact</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>contact
+          <span className="about-dash">-</span>
+        </h2>
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
             <p className="about-paragraph about-connect-p">Want to connect?</p>
             <p className="about-connect-p">
-              {" "}
               Send an email to benassipb@gmail.com, submit an email using the
               form below, or click on the icon after my name below to connect on
               LinkedIn.

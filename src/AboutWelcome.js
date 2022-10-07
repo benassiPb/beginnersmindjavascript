@@ -4,13 +4,29 @@ function AboutWelcome() {
   return (
     <div>
       <div className="about-welcome-mission">
-        <h2 className="about-subheader">mission</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>mission
+          <span className="about-dash">-</span>
+        </h2>
+        <div className="about-paragraphs">
+          <p className="about-paragraph">my mission</p>
+        </div>
       </div>
       <div className="about-welcome-values">
-        <h2 className="about-subheader">values</h2>
+        <h2 className="about-subheader">
+          <span className="about-dash">-</span>values
+          <span className="about-dash">-</span>
+        </h2>
+        <div className="about-paragraphs">
+          <p className="about-paragraph">my values</p>
+        </div>
       </div>
-      <div className="about-welcome-values">
-        <h2 className="about-subheader">skills</h2>
+      <div className="about-welcome-skills">
+        <h2 className="about-subheader about-skills">
+          <span className="about-dash">-</span>skills
+          <span className="about-dash">-</span>
+        </h2>
+        <div className="squiggle"></div>
         <div className="about-skills-container">
           <div>
             <p>HTML</p>
@@ -37,7 +53,7 @@ function AboutWelcome() {
             <p>AWS</p>
           </div>
           <div>
-            <p>PostgresQL</p>
+            <p>PostgreSQL</p>
           </div>
           <div>
             <p>React Native</p>

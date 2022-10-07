@@ -9,16 +9,16 @@ function NavTopbar(props) {
   return (
     <div className="header-container">
       <div className="nav-title-container">
-        <Link to="/">
-          {nav ? (
-            <img src={logo} alt="logo" className="logo" onClick={handleClick} />
-          ) : (
+        {nav ? (
+          <img src={logo} alt="logo" className="logo" onClick={handleClick} />
+        ) : (
+          <Link to="/">
             <h1 className="title">
               beginner's mind
               <span className="cursive javascript-title">JavaScript</span>
             </h1>
-          )}
-        </Link>
+          </Link>
+        )}
       </div>
       {nav ? (
         <p className="nav-x" onClick={handleClick}>

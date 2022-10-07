@@ -23,13 +23,14 @@ let testimonialData = [
     id: 4,
     author: "Rebecca",
     bio: "Coworker",
-    quote: "Working with Peter was a joy.",
+    quote: "Working with Peter was wonderful. He connected with everyone we met.",
   },
   {
     id: 5,
     author: "Rachel",
     bio: "Coworker",
-    quote: "Peter is a thoughtful, creative, and overall great collaborator.",
+    quote:
+      "Peter is a creative and original thinker and a true joy to collaborate with.",
   },
 ];
 
