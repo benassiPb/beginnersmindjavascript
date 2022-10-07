@@ -23,7 +23,7 @@ let testimonialData = [
     id: 4,
     author: "Rebecca",
     bio: "Coworker",
-    quote: "Working with Peter was wonderful. He connected with everyone we met.",
+    quote: "Working with Peter was wonderful.",
   },
   {
     id: 5,

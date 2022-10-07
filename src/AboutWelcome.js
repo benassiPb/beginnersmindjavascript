@@ -8,8 +8,13 @@ function AboutWelcome() {
           <span className="about-dash">-</span>mission
           <span className="about-dash">-</span>
         </h2>
+
         <div className="about-paragraphs">
-          <p className="about-paragraph">my mission</p>
+          <p className="about-paragraph about-mission-p">
+            To design and develop well-crafted interactive web and software
+            applications using the best current practices in reliability,
+            security, and design.
+          </p>
         </div>
       </div>
       <div className="about-welcome-values">
@@ -18,7 +23,10 @@ function AboutWelcome() {
           <span className="about-dash">-</span>
         </h2>
         <div className="about-paragraphs">
-          <p className="about-paragraph">my values</p>
+          <p className="about-paragraph about-values-p">
+            open mindful communication. sustainability. reliability. compassion.
+            transparency. reflection.
+          </p>
         </div>
       </div>
       <div className="about-welcome-skills">
@@ -26,7 +34,6 @@ function AboutWelcome() {
           <span className="about-dash">-</span>skills
           <span className="about-dash">-</span>
         </h2>
-        <div className="squiggle"></div>
         <div className="about-skills-container">
           <div>
             <p>HTML</p>
