@@ -25,7 +25,7 @@ function AboutWelcome() {
         <div className="about-paragraphs">
           <p className="about-paragraph about-values-p">
             open mindful communication. sustainability. reliability. compassion.
-            transparency. reflection.
+            collaboration. transparency.
           </p>
         </div>
       </div>
