@@ -13,13 +13,13 @@ function AboutBackstory() {
               world. Prior to entering the world of web and software
               development, I worked for nearly a decade in environmental
               education, youth development, and international education. This
-              path enabled me to meet and learn from incredible communities in
+              path led me to meet and learn from incredible communities in
               India, Italy, New Zealand, Tanzania, Hawaii, Colorado and beyond.
               I am inspired by people who work to support the health of their
               communities and environments.{" "}
             </p>
             <p className="about-paragraph">
-              In 2022, I committed to a career change to enter web development
+              In 2022, I committed to a career change to pursue web development
               and software engineering. Motivated by the creative and
               intellectual aspect of the work, and by the opportunity to make a
               positive impact through this new career path, I completed
