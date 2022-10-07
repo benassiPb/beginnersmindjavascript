@@ -22,16 +22,6 @@ function NavSidebar(props) {
             <span className="underline-effect">projects</span>
           </Link>
         </li>
-        <li className="nav-link">
-          <Link to="/services" onClick={handleClick}>
-            <span className="underline-effect">services</span>
-          </Link>
-        </li>
-        <li className="nav-link">
-          <Link to="/shop" onClick={handleClick}>
-            <span className="underline-effect">shop</span>
-          </Link>
-        </li>
       </nav>
     </div>
   );

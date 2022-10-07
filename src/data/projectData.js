@@ -10,8 +10,8 @@ let projectData = [
       "HappiList is a social media mobile app developed for iOS and Android devices, built with two peers as a capstone project at Fullstack Academy. The app allows users to sign up, connect with friends, chat with friends, create to-do lists, accomplish a list of positive tasks, and view friends' posts and list items. Each month, users are given a list of wellness-promoting tasks they can complete and links to recommended apps to help achieve those tasks. Includes: sign up page with user authentication, sign in page, add friends functionality, image upload, like, comment, live chat, create list, create task, delete & edit task.",
     repo: "https://github.com/2204-cookiemonsters-capstone/amazing-app",
     takeaways: [
-      "This is my largest project to date in terms of scope and time. Having a clear purpose for why the app should exist and who it would benefit was essential when prioritizing different features.",
-      "React Native makes mobile design intuitive and fun to work with. Using a NoSQL database worked well for social media user data",
+      "This was my largest project to date in terms of scope and time. Having a clear vision of how the app would benefit users was essential when prioritizing various feature ideas.",
+      "React Native was intuitive and fun to work with. Using a NoSQL database worked well for storing social media user data.",
     ],
     videoLink: "https://www.youtube.com/embed/nMU2eROaP4s",
   },

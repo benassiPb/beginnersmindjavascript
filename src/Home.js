@@ -4,15 +4,15 @@ import testimonialData from "./data/testimonialData";
 import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
 import Footer from "./Footer";
-import video from "./images/video.mp4";
+import video from "./images/about.mp4";
 
 function Home() {
   return (
     <div className="home-page">
       <div className="home-video-container">
-        {/* <video autoPlay loop muted className="home-video">
-          <source src={} type="video/mp4"></source>
-        </video> */}
+        <video autoPlay loop muted playsInline className="home-video">
+          <source src={video} type="video/mp4"></source>
+        </video>
       </div>
 
       <h2 className="home-subheader">RECENT PROJECTS</h2>

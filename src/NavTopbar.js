@@ -11,7 +11,7 @@ function NavTopbar(props) {
       <div className="nav-title-container">
         <Link to="/">
           {nav ? (
-            <img src={logo} alt="logo" className="logo" />
+            <img src={logo} alt="logo" className="logo" onClick={handleClick} />
           ) : (
             <h1 className="title">
               beginner's mind

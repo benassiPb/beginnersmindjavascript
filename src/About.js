@@ -43,6 +43,15 @@ function About() {
 
       <div className="about-contact-section about-section" id="contact">
         <h2 className="about-headline">Contact</h2>
+        <div className="about-paragraphs-container">
+          <div className="about-paragraphs">
+            <p className="about-paragraph">
+              Want to connect? Send an email to benassipb@gmail.com, submit an
+              email using the form below, or click on the icon after my name
+              below to connect on LinkedIn.
+            </p>
+          </div>
+        </div>
         <Contact />
       </div>
 

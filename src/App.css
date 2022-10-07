@@ -165,6 +165,7 @@ a {
   list-style: none;
   margin-left: 100px;
   z-index: 10;
+  padding-top: 80px;
 }
 
 .nav-link {
@@ -553,6 +554,20 @@ a {
   padding-top: 50px;
 }
 
+.about-skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  font-family: Playfair Display;
+}
+
+.about-skills-container div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .about-p {
   margin-top: 10px;
   text-align: left;
@@ -676,6 +691,7 @@ a {
   max-width: 500px;
   display: flex;
   flex-direction: column;
+  font-family: Playfair Display;
 }
 .about-paragraph {
   padding-left: 20px;

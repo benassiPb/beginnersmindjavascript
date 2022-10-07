@@ -14,18 +14,18 @@ function AboutBackstory() {
               development, I worked for nearly a decade in environmental
               education, youth development, and international education. This
               path enabled me to meet and learn from incredible communities in
-              India, Italy, New Zealand, Tanzania, Hawaii, Colorado and more. I
-              am inspired by people who work to support the health of their
+              India, Italy, New Zealand, Tanzania, Hawaii, Colorado and beyond.
+              I am inspired by people who work to support the health of their
               communities and environments.{" "}
             </p>
             <p className="about-paragraph">
               In 2022, I committed to a career change to enter web development
               and software engineering. Motivated by the creative and
-              intellectual challenge and by the opportunitiy to make a positive
-              impact through this new career path, I completed Fullstack
-              Academy's 17-week web development bootcamp in July 2022. I am
-              excited to explore this new chapter and forge new meaningful
-              connections.
+              intellectual aspect of the work, and by the opportunity to make a
+              positive impact through this new career path, I completed
+              Fullstack Academy's 17-week web development bootcamp in July 2022.
+              I am excited to explore this new chapter and forge new meaningful
+              connections. Let's connect!
             </p>
           </div>
         </div>
