@@ -11,7 +11,7 @@ function AboutBackstory() {
         </h2>
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
-            <p className="about-paragraph">
+            <p className="about-paragraph about-bio-p">
               From the Chicago suburbs, now based in Los Angeles, my work has
               taken me all around the world. Prior to entering the world of web
               and software development, I worked for nearly a decade in
@@ -21,7 +21,7 @@ function AboutBackstory() {
               Colorado and beyond. I am inspired by people who work to support
               the health of their communities and environments.{" "}
             </p>
-            <p className="about-paragraph">
+            <p className="about-paragraph about-bio-p">
               In 2022, I committed to a career change to pursue web development
               and software engineering. Motivated by the creative and
               intellectual aspect of the work, and by the opportunity to make a

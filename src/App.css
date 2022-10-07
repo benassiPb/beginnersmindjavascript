@@ -785,6 +785,10 @@ a {
   line-height: 2rem;
 }
 
+.about-bio-p {
+  text-align: justify;
+}
+
 .about-values-p,
 .about-mission-p,
 .about-skills-container {
