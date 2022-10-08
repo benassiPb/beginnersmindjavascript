@@ -10,7 +10,7 @@ function Nav(props) {
   };
 
   return (
-    <div>
+    <div className="nav-container">
       <NavTopbar handleClick={handleClick} nav={nav} setNav={setNav} />
 
       {nav === false ? null : (

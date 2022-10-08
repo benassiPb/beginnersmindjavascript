@@ -6,7 +6,8 @@ function AboutBackstory() {
     <div className="about-backstory-container">
       <div className="about-backstory-bio">
         <h2 className="about-subheader">
-          <span className="about-dash">-</span>bio
+          <span className="about-dash">-</span>
+          <span>bio</span>
           <span className="about-dash">-</span>
         </h2>
         <div className="about-paragraphs-container">
@@ -34,39 +35,39 @@ function AboutBackstory() {
         </div>
       </div>
       <div className="about-backstory-work">
-        <h2 className="about-subheader">
-          <span className="about-dash">-</span>work experiences
-          <span className="about-dash">-</span>
-        </h2>
-        {backstoryData.map((item) =>
-          item.type === "work" ? (
-            <div className="about-work-image-container" key={item.id}>
-              <img
-                src={item.imgUrl}
-                alt={item.name}
-                className="about-work-image"
-              />
-            </div>
-          ) : null
-        )}
+        <div className="about-work-container">
+          <h2 className="about-subheader">
+            <span className="about-dash">-</span>
+            <span>work experiences</span>
+            <span className="about-dash">-</span>
+          </h2>
+          {backstoryData.map((item) =>
+            item.type === "work" ? (
+              <div key={item.id}>
+                <h3 className="about-work-name">{item.name}</h3>
+                <p>"{item.description}"</p>
+              </div>
+            ) : null
+          )}
+        </div>
       </div>
-      <div className="about-backstory-volunteer">
-        <h2 className="about-subheader">
-          <span className="about-dash">-</span>volunteer experiences
-          <span className="about-dash">-</span>
-        </h2>
 
-        {backstoryData.map((item) =>
-          item.type === "volunteer" ? (
-            <div className="about-work-image-container" key={item.id}>
-              <img
-                src={item.imgUrl}
-                alt={item.name}
-                className="about-work-image"
-              />
-            </div>
-          ) : null
-        )}
+      <div className="about-backstory-work">
+        <div className="about-work-container">
+          <h2 className="about-subheader">
+            <span className="about-dash">-</span>volunteer experiences
+            <span className="about-dash">-</span>
+          </h2>
+
+          {backstoryData.map((item) =>
+            item.type === "volunteer" ? (
+              <div className="about-work-container" key={item.id}>
+                <h3 className="about-work-name">{item.name}</h3>
+                <p>"{item.description}"</p>
+              </div>
+            ) : null
+          )}
+        </div>
       </div>
     </div>
   );

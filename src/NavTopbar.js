@@ -21,7 +21,7 @@ function NavTopbar(props) {
         )}
       </div>
       {nav ? (
-        <p className="nav-x" onClick={handleClick}>
+        <p className="nav-x rotate-up" onClick={handleClick}>
           X
         </p>
       ) : (

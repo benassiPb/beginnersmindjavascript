@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavSidebar(props) {
   const { handleClick } = props;
   return (
-    <div className="nav-sidebar">
+    <div className="nav-sidebar fade-in">
       <nav className="nav-links">
         <li className="nav-link">
           <Link to="/about" onClick={handleClick}>

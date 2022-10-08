@@ -1,6 +1,6 @@
 import React from "react";
 import video from "./images/valuebackpack.mp4";
-import compass from "./images/compass.png";
+import { FaTools, FaLightbulb, FaGithub, FaMarker } from "react-icons/fa";
 
 function AboutWelcome() {
   return (
@@ -33,10 +33,13 @@ function AboutWelcome() {
               <span className="about-dash">-</span>
             </h2>
             <div className="">
-              <p className=" about-paragraphs about-paragraph about-values-p">
-                open mindful communication. sustainability. reliability.
-                collaboration. transparency.
-              </p>
+              <div className="about-paragraphs about-paragraph about-values-p">
+                <p>open mindful communication</p>
+                <p>sustainability</p>
+                <p>reliability</p>
+                <p>collaboration</p>
+                <p>transparency</p>
+              </div>
             </div>
           </div>
         </div>

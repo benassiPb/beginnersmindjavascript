@@ -64,7 +64,7 @@ let backstoryData = [
   },
   {
     id: 8,
-    name: "Mission Wolf",
+    name: "Mission: Wolf",
     imgUrl: "https://i.imgur.com/sMHXQhG.png",
     type: "volunteer",
     description:
