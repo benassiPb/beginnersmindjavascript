@@ -21,7 +21,7 @@ function SingleProject() {
 
               <div className="project-description-container">
                 <FaMarker size="2rem" className="flip" />
-                <p className="bold uppercase ">Description</p>
+                <p className="single-project-header ">Description</p>
                 <div className="project-description-text-container">
                   <p className="max-width-500 align-center">
                     {project.description}
@@ -47,7 +47,7 @@ function SingleProject() {
 
               <div className="project-stack-container">
                 <FaTools size="2rem" className="flip" />
-                <p className="bold uppercase "> Tech Stack </p>
+                <p className="single-project-header "> Tech Stack </p>
                 <div className="project-stack-content-container">
                   <p className="font-size-2rem font-weight-200 project-stack">
                     {project.stack}
@@ -57,13 +57,13 @@ function SingleProject() {
 
               <div className="project-repo-container">
                 <FaGithub size="2rem" className="flip" />
-                <p className="bold  uppercase ">Repo</p>
+                <p className="single-project-header">Repo</p>
                 <p>{project.repo}</p>
               </div>
 
               <div className="project-takeaways-container">
                 <FaLightbulb size="2rem" className="flip" />
-                <p className="bold uppercase ">Key Takeaways</p>
+                <p className="single-project-header">Key Takeaways</p>
                 {project.takeaways.map((item, index) => (
                   <div key={index}>
                     <p>{item}</p>

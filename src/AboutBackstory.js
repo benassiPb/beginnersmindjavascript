@@ -3,7 +3,7 @@ import backstoryData from "./data/backstoryData";
 
 function AboutBackstory() {
   return (
-    <div>
+    <div className="about-backstory-container">
       <div className="about-backstory-bio">
         <h2 className="about-subheader">
           <span className="about-dash">-</span>bio

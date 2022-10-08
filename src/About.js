@@ -33,6 +33,7 @@ function About() {
           {/* <h2 className="about-headline">Welcome</h2> */}
 
           <AboutWelcome />
+
         </div>
       </div>
 
