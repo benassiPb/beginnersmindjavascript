@@ -2,7 +2,7 @@ import React from "react";
 import testimonialData from "./data/testimonialData";
 import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
-import video from "./images/homehero.mp4";
+import video from "./images/herovideo.mp4";
 import { Link } from "react-router-dom";
 
 function Home() {
