@@ -16,7 +16,7 @@ let postsData = [
     sectionFourHeading: ["Senior Phase"],
     sectionFiveHeading: ["Key Takeaways"],
     sectionOneContent: [
-      "this is a sample first paragraph, this is a sample first paragraph, this is a sample first paragraph, this is a sample first paragraph, this is a sample first paragraph, this is a sample first paragraph, this is a sample first paragraph",
+      "this is a sample first paragraph",
       "second paragraph",
       "third paragraph",
     ],
@@ -57,14 +57,7 @@ let postsData = [
     sectionThreeHeading: ["Role Models"],
     sectionFourHeading: ["Why?"],
     sectionFiveHeading: ["Patience"],
-    sectionOneContent: [
-      "A year ago, I didn't know the difference between HTML, CSS, JavaScript, Python, or anything else related to how websites, apps, software, data, and all that works. I had thought of programming as something too impenetrable to pursue, yet I had spent countless hours making travel blogs on wordpress and squarespace, and wireframes of other blog designs over the years.",
-      "From 19-29, I had the coolest jobs. I led backpacking trips in the Rocky and Appalachian mountains, semester abroad trips in Hawaii, India, Tanzania, New Zealand, Australia, and Fiji, and summer trips in Italy, Thailand, Tanzania, and at a wolf sanctuary in Colorado. I led kayaking tours in the heart of downtown Chicago, tutored students in underresourced schools in Chicago, and analyzed bugs in rural rivers and caves of West Virginia.",
-      "After nearly a decade working in environmental education, outdoor leadership, international education, and youth development, however, I was ready for new opportunities.",
-      "In the first three months, learning to code was a side project, after work, learning Python for about 5-10 hours a week.",
-      "I began to focus on JavaScript after hearing about #100Devs on Twitter. While I didn't follow the full 30-week free  bootcamp, I consumed about 100 hours worth of Leon Noel's old lectures on HTML, CSS, and JavaScript. Between those videos, FreeCodeCamp, and Colt Steele's courses on Udemy, things started clicking.",
-      "In March, around six months after first starting to learn, I quit my job to begin a full-time online bootcamp with Fullstack Academy.",
-    ],
+    sectionOneContent: [""],
     sectionTwoContent: [
       "Throughout the past year, I have come to believe in the power of repetition and routine over inspiration.",
       "second paragraph",

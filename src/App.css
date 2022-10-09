@@ -627,6 +627,17 @@ a {
   border-bottom: 1px solid hsl(42, 36%, 74%);
 }
 
+.card {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 150ms;
+}
+
+.card.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .about-tagline {
   font-size: 1.5rem;
   font-weight: 200;

@@ -2,6 +2,23 @@ import React from "react";
 import backstoryData from "./data/backstoryData";
 
 function AboutBackstory() {
+  const cards = document.querySelectorAll(".card");
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle("show", entry.isIntersecting);
+        // if (entry.isIntersecting) observer.unobserve(entry.target);
+      });
+    },
+    {
+      threshold: 1,
+    }
+  );
+
+  cards.forEach((card) => {
+    observer.observe(card);
+  });
+
   return (
     <div className="about-backstory-container">
       <div className="about-backstory-bio">
@@ -12,7 +29,7 @@ function AboutBackstory() {
         </h2>
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
-            <p className="about-paragraph about-bio-p">
+            <p className="about-paragraph about-bio-p ">
               From the Chicago suburbs, now based in Los Angeles, my work has
               taken me all around the world. Prior to entering the world of web
               and software development, I worked for nearly a decade in
@@ -22,7 +39,7 @@ function AboutBackstory() {
               Colorado and beyond. I am inspired by people who work to support
               the health of their communities and environments.{" "}
             </p>
-            <p className="about-paragraph about-bio-p">
+            <p className="about-paragraph about-bio-p ">
               In 2022, I committed to a career change to pursue web development
               and software engineering. Motivated by the creative and
               intellectual aspect of the work, and by the opportunity to make a
@@ -43,7 +60,7 @@ function AboutBackstory() {
           </h2>
           {backstoryData.map((item) =>
             item.type === "work" ? (
-              <div key={item.id}>
+              <div key={item.id} className="card">
                 <h3 className="about-work-name">{item.name}</h3>
                 <p>"{item.description}"</p>
               </div>
@@ -61,7 +78,7 @@ function AboutBackstory() {
 
           {backstoryData.map((item) =>
             item.type === "volunteer" ? (
-              <div className="about-work-container" key={item.id}>
+              <div className="about-work-container card" key={item.id}>
                 <h3 className="about-work-name">{item.name}</h3>
                 <p>"{item.description}"</p>
               </div>
