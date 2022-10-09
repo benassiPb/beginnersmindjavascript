@@ -7,11 +7,10 @@ function AboutBackstory() {
     (entries) => {
       entries.forEach((entry) => {
         entry.target.classList.toggle("show", entry.isIntersecting);
-        // if (entry.isIntersecting) observer.unobserve(entry.target);
       });
     },
     {
-      threshold: 1,
+      threshold: 0.3,
     }
   );
 
@@ -53,7 +52,7 @@ function AboutBackstory() {
       </div>
       <div className="about-backstory-work">
         <div className="about-work-container">
-          <h2 className="about-subheader">
+          <h2 className="about-subheader ">
             <span className="about-dash">-</span>
             <span>work experiences</span>
             <span className="about-dash">-</span>

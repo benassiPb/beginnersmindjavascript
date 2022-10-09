@@ -33,7 +33,6 @@ function About() {
           {/* <h2 className="about-headline">Welcome</h2> */}
 
           <AboutWelcome />
-
         </div>
       </div>
 
@@ -49,7 +48,6 @@ function About() {
         </h2>
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
-            <p className="about-paragraph about-connect-p">Want to connect?</p>
             <p className="about-connect-p">
               Send an email to benassipb@gmail.com, submit an email using the
               form below, or click on the icon after my name below to connect on
