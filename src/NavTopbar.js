@@ -19,8 +19,8 @@ function NavTopbar(props) {
         ) : (
           <Link to="/">
             <h1 className="title">
-              beginner's mind
-              <span className="cursive javascript-title">JavaScript</span>
+              pb benassi
+              <span className="cursive javascript-title">developer</span>
             </h1>
           </Link>
         )}

@@ -797,6 +797,31 @@ a {
 
 /* Sample sites eco mobile */
 
+.eco-page {
+  font-family: Raleway;
+}
+
+.eco-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eco-nav-right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.eco-nav-item:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
 /* Project Mobile View */
 
 .project-container {
