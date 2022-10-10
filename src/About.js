@@ -1,11 +1,8 @@
 import React from "react";
-import bmjlogo from "./images/bmjlogo.jpg";
-import bitmoji from "./images/bitmoji.png";
 import linkedIn from "./images/linkedin.png";
 import Contact from "./Contact";
 import AboutWelcome from "./AboutWelcome";
 import AboutBackstory from "./AboutBackstory";
-import HomeQuote from "./HomeQuote";
 import AboutHero from "./AboutHero";
 
 function About() {

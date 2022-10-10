@@ -11,6 +11,13 @@ function NavSidebar(props) {
             <span className="underline-effect">about</span>
           </Link>
         </li>
+
+        <li className="nav-link">
+          <Link to="/samplesites" onClick={handleClick}>
+            <span className="underline-effect">web design</span>
+          </Link>
+        </li>
+
         <li className="nav-link">
           <Link to="/posts/1" onClick={handleClick}>
             <span className="underline-effect">writing</span>

@@ -2,6 +2,7 @@ import React from "react";
 import testimonialData from "./data/testimonialData";
 import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
+import SampleSites from "./SampleSites";
 import video from "./images/herovideo.mp4";
 import { Link } from "react-router-dom";
 
@@ -24,11 +25,13 @@ function Home() {
           </span>
         </p>
       </div>
+      <h2 className="home-subheader">SAMPLE SITES</h2>
+      <SampleSites />
 
-      <h2 className="home-subheader">RECENT PROJECTS</h2>
-      <HomeProjectsScroll />
       <h2 className="home-subheader">RECENT WRITING</h2>
       <HomePostsGrid />
+      <h2 className="home-subheader">RECENT PROJECTS</h2>
+      <HomeProjectsScroll />
       <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
       <div className="home-testimonials-container">
         {testimonialData.map((item) => (

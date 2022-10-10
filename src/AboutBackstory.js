@@ -2,21 +2,21 @@ import React from "react";
 import backstoryData from "./data/backstoryData";
 
 function AboutBackstory() {
-  const cards = document.querySelectorAll(".card");
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        entry.target.classList.toggle("show", entry.isIntersecting);
-      });
-    },
-    {
-      threshold: 0.3,
-    }
-  );
+  // const cards = document.querySelectorAll(".card");
+  // const observer = new IntersectionObserver(
+  //   (entries) => {
+  //     entries.forEach((entry) => {
+  //       entry.target.classList.toggle("show", entry.isIntersecting);
+  //     });
+  //   },
+  //   {
+  //     threshold: 0,
+  //   }
+  // );
 
-  cards.forEach((card) => {
-    observer.observe(card);
-  });
+  // cards.forEach((card) => {
+  //   observer.observe(card);
+  // });
 
   return (
     <div className="about-backstory-container">
@@ -59,7 +59,7 @@ function AboutBackstory() {
           </h2>
           {backstoryData.map((item) =>
             item.type === "work" ? (
-              <div key={item.id} className="card">
+              <div key={item.id}>
                 <h3 className="about-work-name">{item.name}</h3>
                 <p>"{item.description}"</p>
               </div>
@@ -77,7 +77,7 @@ function AboutBackstory() {
 
           {backstoryData.map((item) =>
             item.type === "volunteer" ? (
-              <div className="about-work-container card" key={item.id}>
+              <div className="about-work-container " key={item.id}>
                 <h3 className="about-work-name">{item.name}</h3>
                 <p>"{item.description}"</p>
               </div>

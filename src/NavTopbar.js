@@ -10,7 +10,12 @@ function NavTopbar(props) {
     <div className="header-container">
       <div className="nav-title-container">
         {nav ? (
-          <img src={logo} alt="logo" className="logo" onClick={handleClick} />
+          <img
+            src={logo}
+            alt="logo"
+            className="logo rotate-logo"
+            onClick={handleClick}
+          />
         ) : (
           <Link to="/">
             <h1 className="title">
