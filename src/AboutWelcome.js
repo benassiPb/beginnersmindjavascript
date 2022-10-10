@@ -34,7 +34,7 @@ function AboutWelcome() {
             </h2>
             <div className="">
               <div className="about-paragraphs about-paragraph about-values-p">
-                <p>open mindful communication</p>
+                <p>communication</p>
                 <p>sustainability</p>
                 <p>reliability</p>
                 <p>collaboration</p>

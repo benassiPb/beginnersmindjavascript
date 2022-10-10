@@ -24,10 +24,6 @@ function SampleCoffee() {
             <a className="coffee-nav-item" href="#contact">
               contact
             </a>
-            <AiFillInstagram
-              size={28}
-              className="coffee-nav-item coffee-nav-ig"
-            />
           </div>
         </div>
 

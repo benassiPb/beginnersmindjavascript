@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .App {
   min-width: 300px;
   background-color: #ffffff;
@@ -582,6 +587,7 @@ a {
 .coffee-page {
   background-color: #f7f5ed;
   font-family: Playfair Display;
+  width: 100vw;
 }
 
 .coffee-wrapper {
@@ -590,8 +596,8 @@ a {
 }
 
 .coffee-wrapper-inner {
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 .coffee-wrapper-2 {
@@ -788,6 +794,8 @@ a {
   opacity: 50%;
   cursor: pointer;
 }
+
+/* Sample sites eco mobile */
 
 /* Project Mobile View */
 
@@ -1679,6 +1687,16 @@ a {
 
   .single-post-title {
     font-size: 2.5rem;
+  }
+
+  .coffee-menu-section {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .coffee-menu-subsection {
+    width: 34%;
   }
 }
 

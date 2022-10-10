@@ -39,7 +39,7 @@ function RoutesComponent() {
       <Route path="/yoga" element={<SampleYoga />} />
       <Route path="/nonprofit" element={<SampleNonprofit />} />
       <Route path="/creative" element={<SampleCreative />} />
-      <Route path="/creative" element={<SampleProfessional />} />
+      <Route path="/professional" element={<SampleProfessional />} />
       <Route path="/" element={<Home />} />
       <Route path="/*" element={<Error />} />
     </Routes>

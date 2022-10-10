@@ -33,25 +33,10 @@ let projectData = [
     ],
     videoLink: "https://www.youtube.com/embed/ji5PypZfdKo",
   },
+
   {
     id: 3,
     projectNumber: 3,
-    title: "Fullstack-retrospect-a-thon",
-    subtitle: "Simple React Blog",
-    stack: "React, Express, Node, CSS",
-    cover: "https://i.imgur.com/O4ADvdM.png",
-    description:
-      "A week-long solo project for an open-ended 'stackathon' assignment. I created a React blog with a trivia game based on attendance check-in questions from my peers, a humorous email rejection inspired mad-libs, a blog writing template section, and a resources page.",
-    repo: "https://github.com/benassiPb/stackathon",
-    takeaways: [
-      "First project using React functional components and React hooks.",
-      "Creative layering of content and links on top of background images created a fun and interactive feel.",
-    ],
-    videoLink: "https://www.youtube.com/embed/pdbOVoBLeSw",
-  },
-  {
-    id: 4,
-    projectNumber: 4,
     title: "React Developer Site",
     subtitle: "Developer Portfolio site ",
     stack: "React, Node, TailwindCSS",
@@ -68,3 +53,20 @@ let projectData = [
 ];
 
 export default projectData;
+
+// {
+//   id: 3,
+//   projectNumber: 3,
+//   title: "Fullstack-retrospect-a-thon",
+//   subtitle: "Simple React Blog",
+//   stack: "React, Express, Node, CSS",
+//   cover: "https://i.imgur.com/O4ADvdM.png",
+//   description:
+//     "A week-long solo project for an open-ended 'stackathon' assignment. I created a React blog with a trivia game based on attendance check-in questions from my peers, a humorous email rejection inspired mad-libs, a blog writing template section, and a resources page.",
+//   repo: "https://github.com/benassiPb/stackathon",
+//   takeaways: [
+//     "First project using React functional components and React hooks.",
+//     "Creative layering of content and links on top of background images created a fun and interactive feel.",
+//   ],
+//   videoLink: "https://www.youtube.com/embed/pdbOVoBLeSw",
+// },

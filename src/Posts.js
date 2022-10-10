@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SinglePost from "./SinglePost.js";
 import PostsList from "./PostsList.js";
-import { useParams } from "react-router-dom";
 
 function Posts() {
   return (

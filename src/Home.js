@@ -25,8 +25,7 @@ function Home() {
           </span>
         </p>
       </div>
-      <h2 className="home-subheader">SAMPLE SITES</h2>
-      <SampleSites />
+      <h2 className="home-subheader">WEB DESIGN SAMPLES</h2>
 
       <h2 className="home-subheader">RECENT WRITING</h2>
       <HomePostsGrid />
