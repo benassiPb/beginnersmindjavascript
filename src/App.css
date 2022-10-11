@@ -546,6 +546,18 @@ a {
   margin: 0px;
 }
 
+.sample-page-covers-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f5ed;
+  font-family: Playfair Display;
+}
+
 .sample-page-cover-container {
   position: relative;
 }
@@ -2037,23 +2049,13 @@ a {
     }
   }
 
-  .sample-page-covers-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f7f5ed;
-  }
-
   .sample-page-cover-container {
     margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
+    align-items: center;
   }
   .sample-page-cover-image {
     width: 30vw;
@@ -2066,5 +2068,6 @@ a {
     font-family: Playfair Display;
     width: 60vw;
     padding-right: 30px;
+    text-align: left;
   }
 }
