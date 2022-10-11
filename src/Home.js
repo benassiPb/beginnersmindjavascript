@@ -3,7 +3,7 @@ import testimonialData from "./data/testimonialData";
 import HomeProjectsScroll from "./ProjectsScroll";
 import HomePostsGrid from "./HomePostsGrid";
 import SampleSites from "./SampleSites";
-import video from "./images/herovideo.mp4";
+import video from "./images/pbhomevideo.mp4";
 import { Link } from "react-router-dom";
 
 function Home() {

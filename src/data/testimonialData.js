@@ -8,14 +8,14 @@ let testimonialData = [
   {
     id: 2,
     author: "Gus",
-    bio: "Programming mentor",
+    bio: "Programming Mentor",
     quote:
       "I had a great time working with you and seeing your passion for coding made me want to help you all the more.",
   },
   {
     id: 3,
     author: "Zach",
-    bio: "Programming instructor",
+    bio: "Programming Instructor",
     quote:
       "I do want to say, you particularly will go far in this career. Working with you from what I have seen and heard from others has been great.",
   },

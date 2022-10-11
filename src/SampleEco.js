@@ -1,5 +1,10 @@
 import React from "react";
 import ecocover from "./images/ecocover.png";
+import undrawcook from "./images/undrawcook.png";
+import undrawenvironment from "./images/undrawenvironment.png";
+import undrawstars from "./images/undrawstars.png";
+import undrawnature from "./images/undrawnature.png";
+import undrawgarden from "./images/undrawgarden.png";
 
 function SampleEco() {
   return (
@@ -28,11 +33,31 @@ function SampleEco() {
           </div>
         </div>
 
+        {/* hero illustrated */}
+
+        <div className="eco-hero-section-container">
+          <div className="eco-hero-section">
+            <div className="eco-hero-text-container">
+              <h2 className="eco-hero-title">Growing Together</h2>
+              <p>Welcome to Eco Farm.</p>
+              <a href="#about">About</a>
+              <a href="#programs">Programs</a>
+              <a href="#getinvolved">Support Us.</a>
+            </div>
+            <img
+              src={undrawgarden}
+              alt="garden"
+              className="eco-hero-illustration"
+            />
+          </div>
+        </div>
+
+        {/* hero */}
         <div className="eco-hero-container">
           <img src={ecocover} alt="eco" className="eco-hero-image" />
         </div>
 
-        {/* hero / about */}
+        {/* about */}
         <div id="about" className="eco-about-section-container">
           <div className="eco-about-section">
             <h2 className="eco-about-title">FOOD = COMMUNITY</h2>
