@@ -73,6 +73,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100vw;
+  position: relative;
 }
 
 .playfair {
@@ -162,7 +163,7 @@ a {
   position: fixed;
   min-width: 100vw;
   max-width: 100vw;
-  z-index: 15;
+  z-index: 200;
 }
 
 .fade-in {
@@ -213,7 +214,7 @@ a {
   height: 90vh;
   position: fixed;
   overflow-y: hidden;
-  z-index: 10;
+  z-index: 100;
   width: 100vw;
 }
 
@@ -842,12 +843,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap-reverse;
-  height: 100vh;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .eco-hero-illustration {
-  width: 100%;
+  width: 100vw;
 }
 
 .eco-hero-title {
@@ -856,11 +857,48 @@ a {
   text-align: center;
 }
 
+.eco-hero-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.eco-hero-button {
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #eea422;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.eco-hero-button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #eea422;
+  color: #eea422;
+}
+
+.eco-hero-button-inverse {
+  margin: 10px;
+  background-color: white;
+  color: #eea422;
+  border: 1px solid #eea422;
+}
+
+.eco-hero-button-inverse:hover {
+  background-color: #eea422;
+  color: white;
+}
+
 .eco-hero-container {
   position: relative;
 }
 
-.eco-hero-image {
+.eco-mobile-image {
   width: 100vw;
 }
 
@@ -902,8 +940,66 @@ a {
   justify-content: center;
 }
 
-.eco-about-section {
-  max-width: 500px;
+.eco-about-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 10px;
+  margin: 20px;
+}
+
+.eco-illustration-center {
+  text-align: center;
+  max-width: 100vw;
+}
+
+.eco-team-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eco-team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.eco-team-image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.eco-programs-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eco-programs-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+.eco-involved-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eco-involved-card {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
 }
 
 /* Project Mobile View */
@@ -1835,23 +1931,60 @@ a {
   }
 
   /* eco wide */
+  .eco-hero-section-container {
+    position: relative;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+  }
+
   .eco-hero-illustration {
-    width: 40vw;
-    height: auto;
-    z-index: 1;
+    position: relative;
+    width: 700px;
+    z-index: 5;
+    padding-top: 150px;
+  }
+
+  .eco-hero-text-container {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    margin-right: 10vw;
   }
 
   .eco-hero-title {
-    width: 40vw;
-    font-size: 4rem;
-    text-transform: uppercase;
+    max-width: 80vw;
+    font-size: 6rem;
     text-align: left;
-    line-height: 3.5rem;
-    z-index: 2;
+    line-height: 5rem;
+    margin-bottom: 150px;
+    text-align: center;
+    font-family: Oswald;
+    font-weight: bold;
+  }
+
+  .eco-hero-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eco-wrapper {
+    background: url("./images/ecocover.png") repeat fixed 50%;
+    background-size: cover;
+  }
+
+  .eco-wrapper-inner {
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+
+  .eco-illustration-center-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .eco-illustration-center {
+    max-width: 400px;
   }
 }
-
-/* Project colors:
-#D4C5A5
-#F1E0BB
-#F9ECD2 */
