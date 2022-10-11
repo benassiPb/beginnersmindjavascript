@@ -1009,6 +1009,10 @@ a {
   max-width: 100%;
 }
 
+.eco-involved-section {
+  padding-top: 60px;
+}
+
 .eco-involved-cards-container {
   display: flex;
   flex-direction: column;
@@ -1043,6 +1047,20 @@ a {
   border-bottom: 1px solid black;
   padding-bottom: 50px;
   width: 300px;
+}
+
+.eco-contact-section-parent-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eco-contact-section-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* Project Mobile View */

@@ -180,7 +180,7 @@ function SampleEco() {
             className="eco-illustration-center"
           />
         </div>
-        <div id="getinvolved">
+        <div id="getinvolved" className="eco-involved-section">
           <h2 className="eco-about-subtitle">get involved</h2>
           <div className="eco-programs-cards">
             <div className="eco-programs-card">
@@ -194,19 +194,23 @@ function SampleEco() {
           </div>
         </div>
         {/* contact us*/}
-        <div className="eco-illustration-center-container ">
-          <img
-            src={undrawcontact}
-            alt="contact"
-            className="eco-illustration-center"
-          />
-        </div>
-        <div id="contact">
-          <div className="eco-contact-section-container">
-            <h3 className="eco-contact-section-title">contact</h3>
-            <p className="eco-contact-label">name</p>
-            <p className="eco-contact-label">email</p>
-            <p className="eco-contact-label">message</p>
+        <div className="eco-contact-section-parent-container">
+          <div className="eco-illustration-center-container ">
+            <div className="eco-contact-section-image-container">
+              <img
+                src={undrawcontact}
+                alt="contact"
+                className="eco-illustration-center"
+              />
+            </div>
+          </div>
+          <div id="contact">
+            <div className="eco-contact-section-container">
+              <h3 className="eco-contact-section-title">contact</h3>
+              <p className="eco-contact-label">name</p>
+              <p className="eco-contact-label">email</p>
+              <p className="eco-contact-label">message</p>
+            </div>
           </div>
         </div>
         <div className="coffee-footer">
