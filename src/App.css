@@ -1197,32 +1197,6 @@ a {
   padding-top: 50px;
 }
 
-.rotate-up {
-  animation: rotation 1s;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotateX(0deg);
-  }
-  to {
-    transform: rotateX(180deg);
-  }
-}
-
-.rotate-logo {
-  animation: rotation2 1s;
-}
-
-@keyframes rotation2 {
-  from {
-    transform: rotateX(0deg);
-  }
-  to {
-    transform: rotateX(-359deg);
-  }
-}
-
 .squiggle-container {
   margin-top: 100px;
   margin-bottom: -50px;
@@ -2054,5 +2028,31 @@ a {
   }
   .eco-illustration-center {
     max-width: 400px;
+  }
+
+  .rotate-up {
+    animation: rotation 1s;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(180deg);
+    }
+  }
+
+  .rotate-logo {
+    animation: rotation2 1s;
+  }
+
+  @keyframes rotation2 {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(-359deg);
+    }
   }
 }
