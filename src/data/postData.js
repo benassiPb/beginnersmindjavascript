@@ -5,7 +5,7 @@ let postsData = [
     month: "July",
     year: 2022,
     subject: "Bootcamp",
-    title: "Five Things I Learned During a 17-week Coding Bootcamp",
+    title: "Five Things I Learned During Fullstack Academy's Coding Bootcamp",
     tagline: ["this is a sample tagline for a sample post "],
     image: "https://i.imgur.com/noKJzzx.png",
     imageTwo: "https://i.imgur.com/TAxl5IM.png",

@@ -5,6 +5,8 @@ import HomePostsGrid from "./HomePostsGrid";
 import SampleSites from "./SampleSites";
 import video from "./images/pbhomevideo.mp4";
 import { Link } from "react-router-dom";
+import SampleList from "./SampleList.js";
+import ProjectsList from "./ProjectsList";
 
 function Home() {
   return (
@@ -25,12 +27,16 @@ function Home() {
           </span>
         </p>
       </div>
-      <h2 className="home-subheader">WEB DESIGN SAMPLES</h2>
+      <h2 className="home-subheader">WEB DESIGN</h2>
+      <div className="home-sample-container">
+        <SampleList />
+      </div>
 
-      <h2 className="home-subheader">RECENT WRITING</h2>
-      <HomePostsGrid />
-      <h2 className="home-subheader">RECENT PROJECTS</h2>
-      <HomeProjectsScroll />
+      <h2 className="home-subheader"> PROJECTS</h2>
+      <ProjectsList />
+
+      <h2 className="home-subheader"> WRITING</h2>
+
       <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
       <div className="home-testimonials-container">
         {testimonialData.map((item) => (

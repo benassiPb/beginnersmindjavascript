@@ -22,7 +22,7 @@ import ecoperson3 from "./images/ecoperson3.png";
 
 function SampleEco() {
   return (
-    <div className="sample-sites-page">
+    <div>
       <div className="eco-page">
         {/* nav */}
         <div className="eco-nav">
