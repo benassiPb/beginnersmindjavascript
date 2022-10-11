@@ -6,6 +6,8 @@ import {
   AiFillTwitterSquare,
   AiFillGoogleSquare,
 } from "react-icons/ai";
+import coffee2 from "./images/coffee2.png";
+import coffee3 from "./images/coffee3.png";
 
 function SampleCoffee() {
   return (
@@ -61,8 +63,13 @@ function SampleCoffee() {
           </div>
         </div>
 
+        {/* image */}
         <div className="coffee-wrapper">
           <div className="coffee-wrapper-inner"></div>
+        </div>
+
+        <div>
+          <img className="coffee-image-2" src={coffee2} alt="coffee" />
         </div>
 
         {/* menu section*/}
@@ -189,6 +196,10 @@ function SampleCoffee() {
 
         <div className="coffee-wrapper-2">
           <div className="coffee-wrapper-inner"></div>
+        </div>
+
+        <div>
+          <img className="coffee-image-2" src={coffee3} alt="coffee" />
         </div>
 
         <div className="coffee-brands-section">

@@ -11,7 +11,7 @@ let projectData = [
     repo: "https://github.com/2204-cookiemonsters-capstone/amazing-app",
     takeaways: [
       "This was my largest project to date in terms of scope and time. Having a clear vision of how the app would benefit users was essential when prioritizing various feature ideas.",
-      "React Native was intuitive and fun to work with. Using a NoSQL database worked well for storing social media user data.",
+      "React Native was intuitive and simple to work with. Using a NoSQL database worked well for storing social media user data.",
     ],
     videoLink: "https://www.youtube.com/embed/nMU2eROaP4s",
   },
