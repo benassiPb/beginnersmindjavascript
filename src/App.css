@@ -563,28 +563,9 @@ a {
   opacity: 1;
 }
 
-.sample-page-cover-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  font-weight: bold;
-  font-size: 2rem;
-  color: white;
-  font-family: Playfair Display;
-  margin: 0px;
+.sample-page-cover-description {
   text-align: center;
-}
-
-.sample-page-cover-title:hover {
-  font-size: 3rem;
-  opacity: 1;
-  cursor: pointer;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  transition: opacity 1s;
-  transform: scale(1.2) translate(-45%, -45%);
+  padding: 20px;
 }
 
 /* Sample sites coffee mobile */
@@ -2054,5 +2035,36 @@ a {
     to {
       transform: rotateX(-359deg);
     }
+  }
+
+  .sample-page-covers-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f5ed;
+  }
+
+  .sample-page-cover-container {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .sample-page-cover-image {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    padding-left: 20px;
+  }
+
+  .sample-page-cover-description {
+    font-family: Playfair Display;
+    width: 60vw;
+    padding-right: 30px;
   }
 }
