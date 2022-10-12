@@ -88,17 +88,19 @@ function SampleEco() {
           /> */}
         {/* </div> */}
         <div id="about" className="eco-about-section-container">
-          <div className="eco-missions-section">
+          <div>
             <h2 className="eco-about-subtitle">mission</h2>
-            <div className="eco-about-text-container">
-              <p className="eco-about-text">
-                At Eco, we believe community is at the heart of everything we
-                do. Since 2022, we have grown and locally distributed more than
-                10,000 pounds of organic produce while following sustainable
-                farming principles. We supply produce to local restaurants, sell
-                at farmers' markets, and we also offer a wide range of
-                programming for our community.
-              </p>
+            <div className="eco-mission-section">
+              <div className="eco-about-text-container">
+                <p className="eco-about-text">
+                  At Eco, we believe community is at the heart of everything we
+                  do. Since 2022, we have grown and locally distributed more
+                  than 10,000 pounds of organic produce while following
+                  sustainable farming principles. We supply produce to local
+                  restaurants, sell at farmers' markets, and we also offer a
+                  wide range of programming for our community.
+                </p>
+              </div>
             </div>
 
             {/* team */}
@@ -151,7 +153,7 @@ function SampleEco() {
                   alt=""
                   className="eco-programs-card-image"
                 />
-                <h3>community share</h3>
+                <h3 className="eco-programs-card-text">community share</h3>
               </div>
               <div className="eco-programs-card">
                 <img
@@ -159,7 +161,7 @@ function SampleEco() {
                   alt=""
                   className="eco-programs-card-image"
                 />
-                <h3>youth summer camp</h3>
+                <h3 className="eco-programs-card-text">youth summer camp</h3>
               </div>
               <div className="eco-programs-card">
                 <img
@@ -167,7 +169,9 @@ function SampleEco() {
                   alt=""
                   className="eco-programs-card-image"
                 />
-                <h3>farmer apprenticeship</h3>
+                <h3 className="eco-programs-card-text">
+                  farmer apprenticeship
+                </h3>
               </div>
             </div>
           </div>
@@ -181,15 +185,15 @@ function SampleEco() {
           />
         </div>
         <div id="getinvolved" className="eco-involved-section">
-          <h2 className="eco-about-subtitle">get involved</h2>
+          <h2 className="eco-about-subtitle ">get involved</h2>
           <div className="eco-programs-cards">
             <div className="eco-programs-card">
               <img src={ecocover5} alt="" className="eco-programs-card-image" />
-              <h3>volunteer</h3>
+              <h3 className="eco-programs-card-text">volunteer</h3>
             </div>
             <div className="eco-programs-card">
               <img src={ecocover4} alt="" className="eco-programs-card-image" />
-              <h3>work with us</h3>
+              <h3 className="eco-programs-card-text">work with us</h3>
             </div>
           </div>
         </div>
