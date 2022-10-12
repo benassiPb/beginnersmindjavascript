@@ -223,15 +223,15 @@ function SampleCoffee() {
         </div>
 
         <div id="contact">
-          <div className="coffee-icon-wrapper">
-            <img src={coffee} alt="coffee" className="coffee-icon" />
-          </div>
           <h3 className="coffee-contact-section-title">contact</h3>
           <div className="coffee-contact-section">
             <p className="coffee-contact-label">name</p>
             <p className="coffee-contact-label">email</p>
             <p className="coffee-contact-label">message</p>
           </div>
+        </div>
+        <div className="coffee-icon-wrapper">
+          <img src={coffee} alt="coffee" className="coffee-icon" />
         </div>
 
         <div className="coffee-footer">
