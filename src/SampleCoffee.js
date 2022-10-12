@@ -6,6 +6,7 @@ import {
   AiFillTwitterSquare,
   AiFillGoogleSquare,
 } from "react-icons/ai";
+import coffee from "./images/coffee.png";
 import coffee2 from "./images/coffee2.png";
 import coffee3 from "./images/coffee3.png";
 
@@ -201,16 +202,30 @@ function SampleCoffee() {
           <img className="coffee-image-2" src={coffee3} alt="coffee" />
         </div>
 
-        <div className="coffee-brands-section">
-          <h3 className="coffee-brands-section-title">brands we carry</h3>
-          <p className="coffee-brands-item">sample coffee brand</p>
-          <p className="coffee-brands-item">sample coffee brand two</p>
-          <p className="coffee-brands-item">sample tea brand</p>
-          <p className="coffee-brands-item">sample bakery brand</p>
-          <p className="coffee-brands-item">sample bakery brand two</p>
+        <h3 className="coffee-brands-section-title">brands we carry</h3>
+        <div className="coffee-brands-section-container">
+          <div className="coffee-brands-section">
+            <div className="coffee-brands-section-column">
+              <p className="coffee-brands-item">sample coffee brand</p>
+              <p className="coffee-brands-item">sample coffee brand</p>
+              <p className="coffee-brands-item">sample tea brand</p>
+              <p className="coffee-brands-item">sample milk brand</p>
+              <p className="coffee-brands-item">sample bakery brand</p>
+            </div>
+            <div className="coffee-brands-section-column">
+              <p className="coffee-brands-item">sample coffee brand</p>
+              <p className="coffee-brands-item">sample coffee brand</p>
+              <p className="coffee-brands-item">sample tea brand</p>
+              <p className="coffee-brands-item">sample milk brand</p>
+              <p className="coffee-brands-item">sample bakery brand</p>
+            </div>
+          </div>
         </div>
 
         <div id="contact">
+          <div className="coffee-icon-wrapper">
+            <img src={coffee} alt="coffee" className="coffee-icon" />
+          </div>
           <h3 className="coffee-contact-section-title">contact</h3>
           <div className="coffee-contact-section">
             <p className="coffee-contact-label">name</p>

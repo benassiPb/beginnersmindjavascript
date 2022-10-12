@@ -7,8 +7,8 @@ function Posts() {
     <div className="posts-page-container">
       <div>
         <SinglePost />
-        <PostsList />
       </div>
+      <PostsList />
     </div>
   );
 }

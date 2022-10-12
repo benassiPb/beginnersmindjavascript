@@ -15,7 +15,7 @@ function HomePosts() {
           />
         </Link>
         <div className="sample-page-cover-description">
-          <Link>
+          <Link to="posts/1">
             <h3 className="projects-list-name">{postsData[0]["title"]}</h3>
           </Link>
           <p>{postsData[0]["sectionOneContent"][0]}...</p>
