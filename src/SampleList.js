@@ -44,7 +44,7 @@ function SampleList() {
           </p>
         </div>
       </div>
-      <div className="sample-page-cover-container">
+      {/* <div className="sample-page-cover-container">
         <Link to="/professional">
           <img
             src={yogahero}
@@ -61,7 +61,7 @@ function SampleList() {
             design, giving it a sharp, confident, and business-like feel.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

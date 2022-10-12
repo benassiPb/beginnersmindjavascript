@@ -1955,6 +1955,7 @@ a {
     padding-right: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .post-image,
