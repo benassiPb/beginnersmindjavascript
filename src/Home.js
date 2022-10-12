@@ -7,6 +7,10 @@ import video from "./images/pbhomevideo.mp4";
 import { Link } from "react-router-dom";
 import SampleList from "./SampleList.js";
 import ProjectsList from "./ProjectsList";
+import globe from "./images/undrawlearn.png";
+import testimonial from "./images/undrawtestimonial.png";
+import projects from "./images/undrawprojects.png";
+import design from "./images/undrawdesign.png";
 
 function Home() {
   return (
@@ -16,6 +20,7 @@ function Home() {
           <source src={video} type="video/mp4"></source>
         </video>
       </div>
+
       <div className="home-quote">
         <p className="home-quote-p">web & software development with heart</p>
         <p className="home-quote-learn">
@@ -27,17 +32,38 @@ function Home() {
           </span>
         </p>
       </div>
-      <h2 className="home-subheader">WEB DESIGN</h2>
+
+      <div className="home-section-title-container">
+        <div className="home-globe-container">
+          <img src={design} alt="design" className="home-globe" />
+        </div>
+        <h2 className="home-subheader">WEB DESIGN</h2>
+      </div>
       <div className="home-sample-container">
         <SampleList />
       </div>
 
-      <h2 className="home-subheader"> PROJECTS</h2>
+      <div className="home-section-title-container reverse-wrap">
+        <h2 className="home-subheader"> PROJECTS</h2>
+        <div className="home-globe-container">
+          <img src={projects} alt="projects" className="home-globe" />
+        </div>
+      </div>
       <ProjectsList />
 
-      <h2 className="home-subheader"> WRITING</h2>
+      <div className="home-section-title-container">
+        <div className="home-globe-container">
+          <img src={globe} alt="globe" className="home-globe" />
+        </div>
+        <h2 className="home-subheader"> WRITING</h2>
+      </div>
 
-      <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
+      <div className="home-section-title-container reverse-wrap">
+        <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
+        <div className="home-globe-container">
+          <img src={testimonial} alt="design" className="home-globe" />
+        </div>
+      </div>
       <div className="home-testimonials-container">
         {testimonialData.map((item) => (
           <div className="home-testimonial-container" key={item.id}>

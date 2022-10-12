@@ -41,13 +41,12 @@ function SampleCoffee() {
         {/* about/mission section */}
         <div className="coffee-about-section">
           <div className="coffee-about-content-container">
-            <h2 className="coffee-about-title">sample coffeeshop</h2>
+            <h2 className="coffee-about-title">coffee</h2>
             <p className="coffee-about-p">
-              Since 2022, Sample Coffeeshop has been serving our community with
-              only the highest quality sustainably grown coffee and delicious
-              pastries. At Sample Coffee, you are welcome to enjoy your morning
-              cup, meet your online date, or grab your afternoon study or work
-              pick-me-up.
+              Since 2022, Coffee has been serving our community with only the
+              highest quality sustainably grown coffee and delicious pastries.
+              At Coffee, you are welcome to enjoy your morning cup, meet your
+              online date, or grab your afternoon study or work pick-me-up.
             </p>
           </div>
         </div>
@@ -55,8 +54,8 @@ function SampleCoffee() {
         {/* location */}
         <div className="coffee-location-container">
           <div className="coffee-location">
-            <h4>SAMPLE TOWN, USA</h4>
-            <p>1234 Sample Street</p>
+            <h4>COFFEE TOWN, USA</h4>
+            <p>1234 Coffee Street</p>
             <p>Monday-Thursday 6am-4pm</p>
             <p>Friday-Saturday 6am-5pm</p>
             <p>Sunday 7am-4pm</p>

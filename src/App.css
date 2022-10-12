@@ -333,21 +333,46 @@ a {
   font-family: Playfair Display;
   text-align: center;
   font-size: 1.2rem;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border: 1px solid #d4c6a5;
+  margin-top: 30px;
 }
 
 .home-sample-container {
   margin-top: -60px;
 }
 
+.home-section-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.reverse-wrap {
+  flex-wrap: wrap-reverse;
+}
+
 .home-quote-learn * {
-  font-size: 0.9rem;
   cursor: pointer;
 }
 
 .home-quote-learn:hover {
-  opacity: 50%;
+  color: #d4c6a5;
+}
+
+.home-globe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-globe {
+  width: 300px;
 }
 
 .home-subheader {
@@ -458,11 +483,15 @@ a {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .home-testimonial-quotation-quote-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .home-testimonial-large-quotation {
@@ -480,6 +509,9 @@ a {
   padding-top: 10px;
   top: 20%;
   font-family: Playfair Display;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .home-testimonial-author-bio-container {
@@ -505,6 +537,7 @@ a {
   text-align: center;
   font-family: Playfair Display;
   padding: 30px;
+  padding-top: 60px;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 2rem;
@@ -517,18 +550,29 @@ a {
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 20px;
+  margin-top: 20px;
+
   font-family: Playfair Display;
 }
 
 .sample-page-cover-container {
   position: relative;
+  background-color: white;
+  padding: 10px;
+  background-color: hsl(0, 0%, 95%);
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sample-page-cover-image {
-  width: 100vw;
-  height: auto;
+  width: 100%;
 }
 
 .sample-page-cover-filter {
@@ -541,7 +585,15 @@ a {
 
 .sample-page-cover-description {
   text-align: center;
-  padding: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.sample-page-cover-name {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 /* Sample sites coffee mobile */
@@ -894,6 +946,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: -60px;
 }
 
 .eco-mission-section {
@@ -1754,10 +1807,6 @@ a {
     max-width: 1400px;
   }
 
-  .home-quote-large-quotation {
-    font-size: 6rem;
-  }
-
   .home-quote-body {
     font-size: 2rem;
   }
@@ -2035,21 +2084,37 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
+    width: 90vw;
     align-items: center;
   }
   .sample-page-cover-image {
     width: 30vw;
     height: 30vw;
     object-fit: cover;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border: 3px solid white;
   }
 
   .sample-page-cover-description {
     font-family: Playfair Display;
-    width: 60vw;
-    padding-right: 30px;
+    height: 28vw;
+    width: 52vw;
+    padding-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.01);
+  }
+
+  .sample-page-cover-name {
+    font-size: 2.5rem;
+  }
+
+  .sample-page-cover-text {
+    margin-top: -15px;
     text-align: left;
   }
 
