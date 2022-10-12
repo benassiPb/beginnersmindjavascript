@@ -36,29 +36,30 @@ function Home() {
 
       <div className="home-section-title-container">
         <div className="home-globe-container">
-          <img src={design} alt="design" className="home-globe" />
-        </div>
-        <h2 className="home-subheader">WEB DESIGN</h2>
-      </div>
-      <div className="home-sample-container">
-        <SampleList />
-      </div>
-
-      <div className="home-section-title-container reverse-wrap">
-        <h2 className="home-subheader"> PROJECTS</h2>
-        <div className="home-globe-container">
-          <img src={projects} alt="projects" className="home-globe" />
-        </div>
-      </div>
-      <ProjectsList />
-
-      <div className="home-section-title-container">
-        <div className="home-globe-container">
           <img src={globe} alt="globe" className="home-globe" />
         </div>
         <h2 className="home-subheader"> WRITING</h2>
       </div>
       <HomePosts />
+
+      <div className="home-section-title-container reverse-wrap">
+        <h2 className="home-subheader">WEB DESIGN</h2>
+        <div className="home-globe-container">
+          <img src={design} alt="design" className="home-globe" />
+        </div>
+      </div>
+      <div className="home-sample-container">
+        <SampleList />
+      </div>
+
+      <div className="home-section-title-container ">
+        <div className="home-globe-container">
+          <img src={projects} alt="projects" className="home-globe" />
+        </div>
+        <h2 className="home-subheader"> PROJECTS</h2>
+      </div>
+      <ProjectsList />
+
       <div className="home-section-title-container reverse-wrap">
         <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
         <div className="home-globe-container">
