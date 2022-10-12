@@ -19,10 +19,10 @@ function SampleList() {
             <h3>coffee</h3>
           </Link>
           <p>
-            Coffee is a sample site for a small food / bevergage / retail
-            business. The layout includes a 3D scroll effect on larger screens,
-            a hip minimalist menu, and clean display of info with a handful of
-            images and/or a video.
+            Coffee is a sample site for a small food / beverage / retail
+            business. The layout includes a 3-D parallax scroll effect on larger
+            screens, a hip minimalist menu, and clean display of info with a
+            handful of images and/or a video.
           </p>
         </div>
       </div>
