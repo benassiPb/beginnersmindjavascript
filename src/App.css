@@ -350,6 +350,9 @@ a {
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .reverse-wrap {
@@ -524,6 +527,11 @@ a {
 .home-testimonial-author {
   font-family: Playfair Display;
   margin-top: 0px;
+}
+
+.projects-list-name {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 /* Sample Sites Mobile View */
@@ -1554,10 +1562,13 @@ a {
   align-items: center;
   width: 100%;
   margin: 5px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .postslist-container {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   overflow-x: auto;
@@ -2106,7 +2117,6 @@ a {
     flex-direction: column;
     justify-content: center;
     border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.01);
   }
 
   .sample-page-cover-name {

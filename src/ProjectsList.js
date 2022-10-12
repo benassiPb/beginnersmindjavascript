@@ -17,7 +17,7 @@ function ProjectsList() {
         </Link>
         <div className="sample-page-cover-description">
           <Link>
-            <h3>HappiList</h3>
+            <h3 className="projects-list-name">HappiList</h3>
           </Link>
           <p>
             HappiList was a capstone project completed during Fullstack
@@ -38,7 +38,7 @@ function ProjectsList() {
         </Link>
         <div className="sample-page-cover-description">
           <Link to="/projects/2">
-            <h3>Grace's Greens</h3>
+            <h3 className="projects-list-name">Grace's Greens</h3>
           </Link>
           <p>
             Grace's Greens is an e-commerce plant buying website developed from
@@ -57,7 +57,7 @@ function ProjectsList() {
         </Link>
         <div className="sample-page-cover-description">
           <Link to="/projects/3">
-            <h3>Developer Portfolio</h3>
+            <h3 className="projects-list-name">Developer Portfolio</h3>
           </Link>
           <p>
             A professional style portfolio website built with React and

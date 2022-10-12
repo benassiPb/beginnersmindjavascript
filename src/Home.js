@@ -11,6 +11,7 @@ import globe from "./images/undrawlearn.png";
 import testimonial from "./images/undrawtestimonial.png";
 import projects from "./images/undrawprojects.png";
 import design from "./images/undrawdesign.png";
+import HomePosts from "./HomePosts";
 
 function Home() {
   return (
@@ -57,7 +58,7 @@ function Home() {
         </div>
         <h2 className="home-subheader"> WRITING</h2>
       </div>
-
+      <HomePosts />
       <div className="home-section-title-container reverse-wrap">
         <h2 className="home-subheader testimonials-header">TESTIMONIALS</h2>
         <div className="home-globe-container">

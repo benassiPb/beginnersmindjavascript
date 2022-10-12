@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import AboutWelcome from "./AboutWelcome";
 import AboutBackstory from "./AboutBackstory";
 import AboutHero from "./AboutHero";
+import mountains from "./images/undrawmountains.png";
 
 function About() {
   return (
@@ -32,7 +33,9 @@ function About() {
           <AboutWelcome />
         </div>
       </div>
-
+      <div className="home-globe-container">
+        <img src={mountains} alt="camping" className="home-globe" />
+      </div>
       <div className="about-backstory-section about-section" id="backstory">
         {/* <h2 className="about-headline ">Backstory</h2> */}
         <AboutBackstory />
