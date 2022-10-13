@@ -34,7 +34,7 @@ function NavSidebar(props) {
      
       <div className="nav-contact">
         <p>QUESTIONS & INQUIRIES:</p>
-        <p className="nav-email">benassipb@gmail.com</p>
+        <p className="nav-email">peterbenassideveloper@gmail.com</p>
       </div>
     </div>
   );

@@ -21,12 +21,9 @@ function SinglePost() {
                     src={post.image}
                     alt={post.title}
                   />
-                  <p className="uppercase align-center single-post-tagline">
-                    {post.subject}
-                  </p>
                   {post["tagline"].map((paragraph, index) => (
                     <div key={index}>
-                      <p className="single-post-tagline ">{paragraph}</p>
+                      <p className="single-post-tagline ">"{paragraph}"</p>
                     </div>
                   ))}
                   <div className="single-post-body">

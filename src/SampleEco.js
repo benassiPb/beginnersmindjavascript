@@ -9,7 +9,6 @@ import undrawpeople from "./images/undrawpeople.jpg";
 import undrawstars from "./images/undrawstars.png";
 import undrawgarden from "./images/undrawgarden.png";
 import undrawcontact from "./images/undrawcontact.png";
-import undrawmeditation from "./images/undrawmeditation.png";
 import {
   AiFillInstagram,
   AiFillFacebook,
@@ -72,34 +71,22 @@ function SampleEco() {
             </div>
           </div>
         </div>
-        {/* image
-        <div className="eco-mobile-image-container">
-          <img src={ecocover} alt="eco" className="eco-mobile-image" />
-        </div> */}
-        {/* <div className="eco-wrapper">
-          <div className="eco-wrapper-inner"></div>
-        </div> */}
-        {/* about */}
-        {/* <div className="eco-illustration-center-container ">
-          <img
-            src={undrawmeditation}
-            alt="woman meditating"
-            className="eco-illustration-center"
-          /> */}
-        {/* </div> */}
+
         <div id="about" className="eco-about-section-container">
           <div>
-            <h2 className="eco-about-subtitle">mission</h2>
-            <div className="eco-mission-section">
-              <div className="eco-about-text-container">
-                <p className="eco-about-text">
-                  At Eco, we believe community is at the heart of everything we
-                  do. Since 2022, we have grown and locally distributed more
-                  than 10,000 pounds of organic produce while following
-                  sustainable farming principles. We supply produce to local
-                  restaurants, sell at farmers' markets, and we also offer a
-                  wide range of programming for our community.
-                </p>
+            <div className="eco-about-mission-container">
+              <h2 className="eco-about-subtitle">mission</h2>
+              <div className="eco-mission-section">
+                <div className="eco-about-text-container">
+                  <p className="eco-about-text">
+                    At Eco, we believe community is at the heart of everything
+                    we do. Since 2022, we have grown and locally distributed
+                    more than 10,000 pounds of organic produce while following
+                    sustainable farming principles. We supply produce to local
+                    restaurants, sell at farmers' markets, and we also offer a
+                    wide range of programming for our community.
+                  </p>
+                </div>
               </div>
             </div>
 

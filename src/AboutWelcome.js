@@ -72,6 +72,15 @@ function AboutWelcome() {
             <p>Redux</p>
           </div>
           <div>
+            <p>Postman</p>
+          </div>
+          <div>
+            <p>Axios</p>
+          </div>
+          <div>
+            <p>REST API</p>
+          </div>
+          <div>
             <p>AWS</p>
           </div>
           <div>

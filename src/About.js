@@ -49,9 +49,9 @@ function About() {
         <div className="about-paragraphs-container">
           <div className="about-paragraphs">
             <p className="about-connect-p">
-              Send an email to benassipb@gmail.com, submit an email using the
-              form below, or click on the icon after my name below to connect on
-              LinkedIn.
+              Send an email to peterbenassideveloper@gmail.com, submit an email
+              using the form below, or click on the icon after my name below to
+              connect on LinkedIn.
             </p>
           </div>
         </div>

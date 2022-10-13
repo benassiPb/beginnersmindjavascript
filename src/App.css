@@ -1016,7 +1016,7 @@ a {
   align-items: center;
   padding: 10px;
   margin: 10px;
-  background-color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 99%);
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -1038,7 +1038,7 @@ a {
 .eco-programs-card {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 99%);
   padding: 5px;
   margin: 10px;
   align-items: center;
@@ -1236,6 +1236,7 @@ a {
 
 .about-values-text-container {
   max-width: 400px;
+  padding: 50px;
 }
 
 .values-video {
@@ -1517,6 +1518,7 @@ a {
   margin: 10px;
   font-size: 1.2rem;
   font-weight: 200;
+  text-align: left;
 }
 
 .all-posts {
